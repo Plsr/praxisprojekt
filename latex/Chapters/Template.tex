@@ -1,0 +1,149 @@
+\renewcommand{\chaptertitle}{App-Generator}
+
+\chapter{\chaptertitle} % Main chapter title
+
+\label{AppGenerator} % For referencing the chapter elsewhere, use \ref{Aufgabenstellung} 
+
+%----------------------------------------------------------------------------------------
+
+Um den Einstieg in die App-Entwicklung für Firefox-Apps bestmöglichst zu erleichtern, hatte sich das Entwicklungsteam entschieden einen sogenannten Yeoman Generator zu entwickeln, welcher ein Grundgerüst für eine Firefox-App erstellt (auch Scaffolding genannt).
+Darunter zählt das Generieren der Ordnerstruktur innerhalb des Ordners „app“, welche bereits in Abschnitt \ref{ordnerstruktur} beschrieben wurde, das Erstellen einer einfachen bower.json Datei, sowie das Herunterladen der darin beschriebenen Abhängigkeiten mit bower in den Ornder „app/bower\_components“ das Erstellen einer package.json Datei, sowie das Herunterladen der darin beschriebenen Abhängigkeiten mit npm in den Ordner „node\_modules“ und dem Erstellen der in Abschnitt \ref{grunt} beschriebenen Gruntfile.js-Datei.
+Außerdem wird nach der eigentlichen Generierung dieses Grundgerüsts, bereits der „Grunt Default-Job“ (siehe Abschnitt \ref{grunt}) ausgeführt, was zum Erstellen des Ordners „firefox\_debug“ führt.
+
+\section{Yeoman}
+
+Yeoman ist ein "{}SCAFFOLDING TOOL FOR MODERN WEBAPPS"{}\footnote{nach \cite{yeoman}}, also ein Werkzeug zum Erstellen von Grundgerüsten moderner Web-Applikationen.
+Yeoman bietet zahlreiche Generatoren an, welche sehr einfach zu installieren und zu nutzen sind.
+Um einen eigenen Yeoman Generator zu entwickeln, kann man sich eine Anleitung auf \url{http://yeoman.io/authoring/} anschauen.
+
+Um Yeoman nutzen zu können müssen dies, als auch weitere abhängige Tools installiert werden.
+Dies kann mit dem Befehl \texttt{npm install -g yo bower grunt-cli gulp} bewerkstelligt werden.
+
+Mit dem Befehl \texttt{yo <generatorname>} kann nun ein bestimmter Generator eingesetzt werden, welcher jedoch wiederrum zuerst über npm installiert werden muss.
+
+\section{FoxAngJS}
+
+Der vom Entwicklungsteam erstellte Yeoman Generator nennt sich \textbf{FoxAngJS}.
+Der Name wurde aus den Begriffen „Firefox OS“ und „AngularJS“ gebildet.
+
+Möchte man diesen Generator nutzen, muss dieser, wie zuvor beschrieben, über npm heruntergeladen und installiert werden.
+Dazu führt man den Befehl \texttt{npm install -g generator-foxangjs} aus.
+Ist der Generator heruntergeladen und installiert kann dieser mit \texttt{yo foxangjs} genutzt werden.
+
+\subsection{Ablauf des Generierungsprozesses}
+
+Hier soll nun der Ablauf des Generierungsprozesses Schritt für Schritt beschrieben werden.
+
+In Abbildung \ref{fig:foxangjs1} ist dargestellt, wie der Generator gestartet wird.
+Zuerst wird ein neuer Ordner erstellt. 
+In diesem Fall wurde dieser „TestApp“ genannt.
+Als Nächstes wird in diesen Ordner gewechselt.
+Darauffolgend wird mit Hilfe des Befehls \texttt{yo foxangjs} der Generator gestartet.
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_01.PNG}\\
+  \caption{Schritt 1: Starten des Generators und Auswählen des App-Namens}
+  \label{fig:foxangjs1}
+\end{figure}
+
+Der Generator stellt einem nun mehrere Fragen.
+Die erste Frage zielt darauf hin den App-Namen zu ermitteln und in die Dateien, welche im Nachhinein erstellt werden, einzufügen.
+Hinter der Frage steht in Klammern ein Standardwert, dieser ist in diesem Falle der Name des aktuellen Ordners.
+Bestätigt man an dieser Stelle die Frage so wird „TestApp“ als App-Name verwendet.
+Man kann jedoch einen anderen Namen eingeben.
+
+Die zweite Frage (dargestellt in Abbildung \ref{fig:foxangjs2}) zielt darauf hin, der Applikation eine Versionsnummer zu geben.
+Die Versionsnummer wird mit dem Standardwert 0.1.0 angegeben, kann jedoch auch hier geändert werden. \\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_02.PNG}\\
+  \caption{Schritt 2: Vergeben einer Versionsnummer}
+  \label{fig:foxangjs2}
+\end{figure}
+
+Die dritte und letze Frage möchte den Entwicklernamen für die manifest.webapp-Datei ermitteln, welche genutzt wird um eine App im Firefox Marketplace zu veröffentlichen.
+Da für den Entwicklernamen nur eine Person eingetragen werden kann (oder auch eine Organisation), wird wie in Abbildung \ref{fig:foxangjs3} die Person erfragt.
+Als Standardwert wird der Name „John Doe“ angeboten und hier in der Abbildung durch „Someone Else“ ersetzt.
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_03.PNG}\\
+  \caption{Schritt 3: Eingabe Entwicklername}
+  \label{fig:foxangjs3}
+\end{figure}
+
+Nachdem nun der Name bestätigt wurde, beginnt die eigentliche Generierung der App.
+Zuerst werden, wie in Abblidung \ref{fig:foxangjs4} dargestellt, die Ordnerstruktur erstellt und Dateien generiert. \\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_04.PNG}\\
+  \caption{Schritt 4: Generieren der Dateien und starten von npm install}
+  \label{fig:foxangjs4}
+\end{figure}
+
+Daraufhin werden, wie in Abbildung \ref{fig:foxangjs4} bereits angedeutet, nacheinander die Befehle \texttt{npm install} und \texttt{bower install} ausgeführt.
+Dies kann einige Minuten in Anspruch nehmen.
+Es kann hier eventuell zu Fehlern kommen.
+Sollten Fehler auftretten können die beiden Befehle selbst eingegeben werden.
+
+Abbildung \ref{fig:foxangjs5} stellt dar wie die verschiedenen npm-Pakete installiert werden. \\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_05.PNG}\\
+  \caption{Schritt 5: Ausführen von npm install}
+  \label{fig:foxangjs5}
+\end{figure}
+
+Abbildung \ref{fig:foxangjs6} stellt dar wie die bower-Bibliotheken installiert werden. \\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_06.PNG}\\
+  \caption{Schritt 6: Ausführen von bower install}
+  \label{fig:foxangjs6}
+\end{figure}
+
+Sind die beiden vorherrigen Schritte erfolgreich durchgeführt worden, so wird automatisch der „Grunt Default-Job“ gestartet, welcher den firefox\_debug-Ordner erstellt und die App für die Firefox Web-IDE zusammenbaut.
+Ist jedoch zuvor einer der Schritte fehlerhaft gewesen und wurden die beiden Befehle selbst durchgeführt, so muss auch der Befehl \texttt{grunt} manuell eingegeben und gestartet werden.
+Das Ergebnis ist jedoch das selbe, siehe Abbildung \ref{fig:foxangjs7}.
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_07.PNG}\\
+  \caption{Schritt 7: Fertige Installation, starten des Grunt Default-Jobs}
+  \label{fig:foxangjs7}
+\end{figure}
+
+\subsection{Die App in der Firefox Web-IDE}
+
+Wurde nun Schritt 7 durchgeführt kann mittels der Firefox Web-IDE der firefox\_debug-Ordner, welcher durch die Ausführung von Grunt generiert wurde, ausgewählt werden.
+Wie dies in der Firefox Web-IDE aussieht wird in der Abbildung \ref{fig:foxangjs8} dargestellt. \\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth,keepaspectratio]{images/foxangjs_08.PNG}\\
+  \caption{firefox\_debug-Ordner in der Firefox Web-IDE}
+  \label{fig:foxangjs8}
+\end{figure}
+
+Wird die App nun im Simulator gestartet kann man sehen wie sich die App auf einem Gerät verhalten würde (siehe Abbildung \ref{fig:foxangjs9}). \\
+
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.4\textwidth,keepaspectratio]{images/foxangjs_09.PNG}\\
+  \caption{Die generierte App im Firefox OS Simulator (Version 2.2)}
+  \label{fig:foxangjs9}
+\end{figure}
+
+An dieser Stelle soll noch einmal darauf hingewiesen werden, dass der firefox\_debug-Ordner nicht zum Entwickeln bereit gestellt wird, sondern zum statischen Testen der Applikation im Simulator oder auf einem Endgerät.
+Die eigentliche Entwicklung findet im app-Ordner statt.
+Durch die Nutzung von grunt-watch werden somit jegliche Änderungen an den Quelldateien festgestellt und der firefox\_debug-Ordner aktuallisiert.
+Der Simulator muss somit nur neugestartet werden, um die Änderungen sehen zu können.
+
+Möchte man seine später fertig-entwickelte App minifizieren, so befolgt man die Schritte in Abschnitt \ref{grunt}, in dem man den „Grunt Build-Job“ ausführt.
+
+\clearpage
