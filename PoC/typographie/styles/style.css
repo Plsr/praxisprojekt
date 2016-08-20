@@ -3,6 +3,10 @@ body {
   font-size: 14px;
 }
 
+h1, h2, h3 {
+  font-weight: normal;
+}
+
 .max-width {
   display: inline-block;
 }

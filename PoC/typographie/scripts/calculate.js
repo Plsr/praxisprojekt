@@ -18,6 +18,11 @@ function calc() {
 
   var optimalContentWidth = averageWidth * 90;
   console.log(optimalContentWidth);
+
+  var headlines = generateHeadlines(fontSize, 3);
+  console.log(headlines); // DEBUG
+
+  styleText(fontSize, lineHeight, optimalContentWidth, headlines);
 }
 
 
@@ -72,4 +77,84 @@ function getCharWidth(element) {
   var elementWidth = element.offsetWidth;
 
   return elementWidth / elementLength;
+}
+
+
+function generateHeadlines(fontSize, numberHeadlines) {
+  var goldenRatio = 1.62;
+  var typographicScale = [6,7,8,9,10,11,12,14,16,18,21,24,36,48,60];
+
+  var exactH1Size = fontSize * goldenRatio;
+  console.log('Exact Size: ' + exactH1Size); // DEBUG
+
+  var h1Pos = getClosestValuePositionFromArray(exactH1Size, typographicScale);
+  var h2Pos = h1Pos - 1;
+  var h3Pos = h1Pos - 2;
+
+  console.log('H1: ' + typographicScale[h1Pos]);
+  console.log('H2: ' + typographicScale[h2Pos]);
+  console.log('H3: ' + typographicScale[h3Pos]);
+
+  var h1 = {size: typographicScale[h1Pos] + 'px'}
+  var h2 = {size: typographicScale[h2Pos] + 'px'}
+  var h3 = {size: typographicScale[h3Pos] + 'px'}
+
+  return {h1: h1, h2: h2, h3: h3}
+}
+
+
+function getClosestValuePositionFromArray(exactValue, array) {
+  for (var i = 0; i < array.length; i++) {
+    console.log('Current position: ' + array[i]);
+
+    if(array[i] > exactValue) {
+      var upper = array[i];
+      var lower = array[i - 1];
+
+      var upperDiff = upper - exactValue;
+      var lowerDiff = exactValue - lowerDiff;
+
+      if(upperDiff > lowerDiff) {
+        console.log('Closest Value: ' + lower);
+        return i - 1;
+      } else {
+        console.log('Closest Value: ' + upper);
+        return i;
+      }
+    }
+  }
+
+  return null;
+}
+
+
+function styleText(fontSize, lineHeight, contentWidth, headlines) {
+  var textDiv = document.getElementById('styled-text');
+  textDiv.style.fontSize = fontSize + 'px';
+  textDiv.style.lineHeight = lineHeight + 'px';
+  textDiv.style.maxWidth = contentWidth + 'px';
+
+  var ps = textDiv.getElementsByTagName('p');
+
+  for (var i = 0; i < ps.length; i++) {
+    ps[i].style.marginBottom = (lineHeight / 2) + 'px';
+    ps[i].style.marginTop = (lineHeight / 2) + 'px';
+  }
+
+  var h1 = textDiv.getElementsByTagName('h1')[0];
+  var h2 = textDiv.getElementsByTagName('h2')[0];
+  var h3 = textDiv.getElementsByTagName('h3')[0];
+
+  h1.style.fontSize = headlines.h1.size;
+  h1.style.marginTop = (lineHeight * 2.5) + 'px';
+  h1.style.marginBottom = (lineHeight* 0.5) + 'px';
+
+  h2.style.fontSize = headlines.h2.size;
+  h2.style.marginTop = (lineHeight * 2.5) + 'px';
+  h2.style.marginBottom = (lineHeight* 0.5) + 'px';
+
+  h3.style.fontSize = headlines.h3.size;
+  h3.style.marginTop = (lineHeight * 1.5) + 'px';
+  h3.style.marginBottom = (lineHeight* 0.5) + 'px';
+
 }
