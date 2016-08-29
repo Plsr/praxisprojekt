@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/style.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src='node_modules/spectrum-colorpicker/spectrum.js'></script>
+    <link rel='stylesheet' href='node_modules/spectrum-colorpicker/spectrum.css' />
     <title>Typographie PoC</title>
   </head>
   <body>
@@ -12,6 +15,14 @@
       <input type="text" name="font-size" id="font-size" value="12">
       <button type="submit" name="button">Los</button>
     </form>
+
+    <h3>Hintergrundfarbe auswählen:</h2>
+    <input id="bg-color" />
+    <p id="display-bg-color">#ffffff</p>
+
+    <h3>Vordergrundfarbe auswählen:</h2>
+    <input id="fg-color" />
+    <p id="display-fg-color">#000000</p>
 
     <p id="ws" class="max-width calc-text">
     wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
@@ -34,8 +45,7 @@
       <p>Pinterest ugh commodo truffaut delectus. Locavore marfa stumptown, pour-over thundercats schlitz affogato irony synth proident pabst elit. Cillum shoreditch dolor, kickstarter bushwick shabby chic et. Magna flannel yr keffiyeh excepteur, fap keytar.</p>
     </div>
 
-    <script type="text/javascript" src="scripts/calculate.js">
-
-    </script>
+    <script type="text/javascript" src="scripts/calculate.js"></script>
+    <script type="text/javascript" src="scripts/colors.js"></script>
   </body>
 </html>
