@@ -1,0 +1,23 @@
+\select@language {ngerman}
+\select@language {ngerman}
+\contentsline {chapter}{Abstract}{i}{dummy.1}
+\contentsline {chapter}{Abbildungsverzeichnis}{iv}{dummy.3}
+\vspace {-0.5cm}
+\contentsline {chapter}{Quellcodeverzeichnis}{iv}{dummy.5}
+\vspace {-0.5cm}
+\contentsline {chapter}{Abk\IeC {\"u}rzungsverzeichnis}{vi}{dummy.7}
+\contentsline {chapter}{\numberline {1}Einleitung}{1}{chapter.8}
+\contentsline {section}{\numberline {1.1}Einleitung}{1}{section.9}
+\contentsline {section}{\numberline {1.2}Zielsetzung}{1}{section.10}
+\contentsline {section}{\numberline {1.3}Wissenschaftlich belegte Relevanz}{2}{section.11}
+\contentsline {section}{\numberline {1.4}Aktueller Stand in Markt und Forschung}{2}{section.12}
+\contentsline {chapter}{\numberline {2}Neues Kapitel}{3}{chapter.13}
+\contentsline {section}{\numberline {2.1}Unterkapitel}{3}{section.14}
+\contentsline {subsection}{\numberline {2.1.1}Unterunterkapitel}{3}{subsection.15}
+\contentsline {chapter}{\numberline {3}N\IeC {\"a}chstes Kapitel}{4}{chapter.16}
+\contentsline {section}{\numberline {3.1}Unterkapitel}{4}{section.17}
+\contentsline {subsection}{\numberline {3.1.1}Unterunterkapitel}{4}{subsection.18}
+\contentsline {chapter}{\numberline {4}Fazit}{5}{chapter.19}
+\contentsline {section}{\numberline {4.1}Zusammenfassung}{5}{section.20}
+\contentsline {section}{\numberline {4.2}Fazit}{5}{section.21}
+\contentsline {section}{\numberline {4.3}Schlussbemerkung}{5}{section.22}
