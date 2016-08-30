@@ -12,3 +12,7 @@ h1, h2, h3 {
   display: inline-block;
   top: -9999px;
 }
+
+#styled-text {
+  padding: 20px;
+}
