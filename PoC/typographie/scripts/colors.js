@@ -1,6 +1,8 @@
 $(document).ready(function() {
   $("#bg-color").spectrum({
     color: "#fff",
+    preferredFormat: "hex",
+    showInput: true,
     change: function(color) {
       var colorStringHEX = color.toHexString();
       $("#display-bg-color").html(colorStringHEX);
@@ -11,6 +13,8 @@ $(document).ready(function() {
 
   $("#fg-color").spectrum({
     color: "#000",
+    preferredFormat: "hex",
+    showInput: true,
     change: function(color) {
       var colorStringHEX = color.toHexString();
       $("#display-fg-color").html(colorStringHEX);
@@ -87,12 +91,25 @@ $(document).ready(function() {
     // Check the ratio of the lighter color
     // To pass WCAG 2.0 AA it has to be at least 4.5
     // To pass WCAG 2.0 AAA it has to be at least 7
-    if(ratio >= 7) {
-      console.log("Passing AAA");
-    } else if (ratio >= 4.5) {
-      console.log("Passing Level AA");
+    if(ratio > 7) {
+      $("#wcga-aaa").removeClass("cross").addClass("checkmark");
+      $("#wcga-aa").removeClass("cross").addClass("checkmark");
+      $("#wcga-a").removeClass("cross").addClass("checkmark");
+    } else if(ratio >= 4.5 && ratio < 7) {
+      // Only passing AA
+      $("#wcga-aaa").removeClass("checkmark").addClass("cross");
+      $("#wcga-aa").removeClass("cross").addClass("checkmark");
+      $("#wcga-a").removeClass("cross").addClass("checkmark");
+    } else if (ratio >= 3 && ratio < 4.5) {
+      // Only passing A
+      $("#wcga-aaa").removeClass("checkmark").addClass("cross");
+      $("#wcga-aa").removeClass("checkmark").addClass("cross");
+      $("#wcga-a").removeClass("cross").addClass("checkmark");
     } else {
-      console.log("Contrast too low");
+      // Passing nothing
+      $("#wcga-aaa").removeClass("checkmark").addClass("cross");
+      $("#wcga-aa").removeClass("checkmark").addClass("cross");
+      $("#wcga-a").removeClass("checkmark").addClass("cross");
     }
   }
 })

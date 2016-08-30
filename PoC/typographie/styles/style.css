@@ -16,3 +16,43 @@ h1, h2, h3 {
 #styled-text {
   padding: 20px;
 }
+
+.colors {
+  margin: 40px 0;
+  padding: 20px;
+  border: 1px solid grey;
+}
+
+.color-inputs {
+  float: left;
+  margin-right: 80px;
+}
+
+.wcga-acceptance {
+  float: left;
+}
+
+.checkmark::before {
+  padding-right: 10px;
+  content: "✔";
+  color: green;
+}
+
+.cross::before {
+  padding-right: 10px;
+  content: "✘";
+  color: red;
+}
+
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
