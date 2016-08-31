@@ -14,6 +14,17 @@ $(document).ready(function() {
    *  chosen Typeface.
    */
   function calc() {
+    // Verify entered value
+    if(!$("#font-size").length) {
+      throw new Error("Font Size Element not found");
+    }
+    if($("#font-size").val() <= 0) {
+      throw new Error("Font Size must be bigger than 0");
+    }
+    if(!$.isNumeric($("#font-size").val())) {
+      throw new Error("Font Size must be a number");
+    }
+    
     // Get set font size and calculate optimal line height
     var fontSize = $("#font-size").val();
     var lineHeight = Math.round(fontSize * 1.4);
