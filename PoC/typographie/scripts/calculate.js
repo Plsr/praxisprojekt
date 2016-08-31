@@ -24,7 +24,7 @@ $(document).ready(function() {
     if(!$.isNumeric($("#font-size").val())) {
       throw new Error("Font Size must be a number");
     }
-    
+
     // Get set font size and calculate optimal line height
     var fontSize = $("#font-size").val();
     var lineHeight = Math.round(fontSize * 1.4);
@@ -63,6 +63,7 @@ $(document).ready(function() {
    */
   function adjustElementWidth(element, fontSize) {
     // TODO: Verify variables
+    // TODO: Refactor
 
     // Remove whitespace from text
     // var elementContent = element.innerHTML.replace(/\s/g, '');
@@ -105,6 +106,7 @@ $(document).ready(function() {
    */
   function getCharWidth(element) {
     // TODO: Verify variables
+    // TODO: Refactor
 
     //var elementContent = element.innerHTML.replace(/\s/g, '');
     var elementContent = element.html().replace(/\s/g, '');
@@ -117,6 +119,10 @@ $(document).ready(function() {
 
 
   function generateHeadlines(fontSize, numberHeadlines) {
+    // TODO: Verify variables
+    // TODO: Refactor
+    // TODO: Documentation
+
     var goldenRatio = 1.62;
     var typographicScale = [6,7,8,9,10,11,12,14,16,18,21,24,36,48,60];
 
@@ -140,6 +146,10 @@ $(document).ready(function() {
 
 
   function getClosestValuePositionFromArray(exactValue, array) {
+    // TODO: Verify variables
+    // TODO: Refactor
+    // TODO: Documentation
+
     for (var i = 0; i < array.length; i++) {
       console.log('Current position: ' + array[i]);
 
@@ -165,6 +175,10 @@ $(document).ready(function() {
 
 
   function styleText(fontSize, lineHeight, contentWidth, headlines) {
+    // TODO: Verify variables
+    // TODO: Refactor
+    // TODO: Documentation
+
     var textDiv = document.getElementById('styled-text');
     textDiv.style.fontSize = fontSize + 'px';
     textDiv.style.lineHeight = lineHeight + 'px';
