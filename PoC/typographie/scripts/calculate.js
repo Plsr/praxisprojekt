@@ -62,8 +62,7 @@ $(document).ready(function() {
    *  to a width of 300px.
    */
   function adjustElementWidth(element, fontSize) {
-    // TODO: Refactor
-
+    // Verify variables
     if(!(element.length)) {
       throw new Error("Font Size Element not found");
     }
@@ -112,38 +111,49 @@ $(document).ready(function() {
    *  Calculates the average width of a single character in the given element.
    */
   function getCharWidth(element) {
-    // TODO: Verify variables
-    // TODO: Refactor
+    // Verify variable
+    if(!(element.length)) {
+      throw new Error("Font Size Element not found");
+    }
 
-    //var elementContent = element.innerHTML.replace(/\s/g, '');
     var elementContent = element.html().replace(/\s/g, '');
-    //var elementLength = element.innerHTML.length; // should always be 5
-    var elementLength = element.html().length; // should always be 5
+    var elementLength = element.html().length;
     var elementWidth = element.outerWidth();
 
     return elementWidth / elementLength;
   }
 
-
+  /*
+   *  Generates three levels of headlines sizes
+   *  calculated absed on the body text size
+   */
   function generateHeadlines(fontSize, numberHeadlines) {
-    // TODO: Verify variables
-    // TODO: Refactor
-    // TODO: Documentation
+    // Verify variables
+    if(fontSize <= 0) {
+      throw new Error("Font Size must be bigger than 0");
+    }
+    if(numberHeadlines <= 0) {
+      throw new Error("Number of Headlines must be bigger than 0");
+    }
 
+    // Setup
     var goldenRatio = 1.62;
     var typographicScale = [6,7,8,9,10,11,12,14,16,18,21,24,36,48,60];
 
     var exactH1Size = fontSize * goldenRatio;
     console.log('Exact Size: ' + exactH1Size); // DEBUG
 
+    // DANGER ZONE: What if h1Pos is 0?
     var h1Pos = getClosestValuePositionFromArray(exactH1Size, typographicScale);
     var h2Pos = h1Pos - 1;
     var h3Pos = h1Pos - 2;
 
+    // DEBUG
     console.log('H1: ' + typographicScale[h1Pos]);
     console.log('H2: ' + typographicScale[h2Pos]);
     console.log('H3: ' + typographicScale[h3Pos]);
 
+    // Setup headline objects
     var h1 = {size: typographicScale[h1Pos] + 'px'}
     var h2 = {size: typographicScale[h2Pos] + 'px'}
     var h3 = {size: typographicScale[h3Pos] + 'px'}
@@ -151,22 +161,34 @@ $(document).ready(function() {
     return {h1: h1, h2: h2, h3: h3}
   }
 
-
+  /*
+   *  Takes a value and an array as arguments.
+   *  Determines which value in the array is closest to the given one
+   *  NOTE: Does not check *if* the value is in array, nor if the types
+   *  match.
+   */
   function getClosestValuePositionFromArray(exactValue, array) {
-    // TODO: Verify variables
-    // TODO: Refactor
-    // TODO: Documentation
+    // Verify variables
+    if(typeof exactValue == 'undefined') {
+      throw new Error("Exact Value not defined");
+    }
+    if(array.length <=0) {
+      throw new Error("Array ha no content");
+    }
 
     for (var i = 0; i < array.length; i++) {
-      console.log('Current position: ' + array[i]);
+      console.log('Current position: ' + array[i]); // DEBUG
 
+      // Check if the next bigger number was found
       if(array[i] > exactValue) {
         var upper = array[i];
         var lower = array[i - 1];
 
+        // Calculate differences to upper and lower neighbour
         var upperDiff = upper - exactValue;
         var lowerDiff = exactValue - lowerDiff;
 
+        // Determine which neighbour is the closest
         if(upperDiff > lowerDiff) {
           console.log('Closest Value: ' + lower);
           return i - 1;
@@ -177,43 +199,48 @@ $(document).ready(function() {
       }
     }
 
+    // Return null if no match was found
     return null;
   }
 
-
+  /*
+   *  Styles the entire example text based on the earlier calculated
+   *  values.
+   */
   function styleText(fontSize, lineHeight, contentWidth, headlines) {
-    // TODO: Verify variables
-    // TODO: Refactor
-    // TODO: Documentation
+    // Setup
+    var fontSizeString = fontSize + 'px';
+    var lineHeightString = lineHeight + 'px';
+    var contentWidthString = contentWidth + 'px';
+    var pMarginString = (lineHeight / 2) + 'px';
+    var bigHeadlineMarginString = (lineHeight * 2.5) + 'px';
+    var mediumHeadlineMarginString = (lineHeight * 1.5) + 'px';
+    var smallHeadlineMarginString = (lineHeight * 0.5) + 'px';
 
-    var textDiv = document.getElementById('styled-text');
-    textDiv.style.fontSize = fontSize + 'px';
-    textDiv.style.lineHeight = lineHeight + 'px';
-    textDiv.style.maxWidth = contentWidth + 'px';
+    // Style text basics
+    var textDiv = $('#styled-text');
+    textDiv.css({"font-size": fontSizeString,
+                 "line-height": lineHeightString,
+                 "max-width": contentWidthString});
 
-    var ps = textDiv.getElementsByTagName('p');
+    textDiv.find('p').css({"margin-top": pMarginString,
+                           "margin-bottom": pMarginString});
 
-    for (var i = 0; i < ps.length; i++) {
-      ps[i].style.marginBottom = (lineHeight / 2) + 'px';
-      ps[i].style.marginTop = (lineHeight / 2) + 'px';
-    }
+    // Style headlines
+    var h1 = textDiv.find('h1');
+    var h2 = textDiv.find('h2');
+    var h3 = textDiv.find('h3');
 
-    var h1 = textDiv.getElementsByTagName('h1')[0];
-    var h2 = textDiv.getElementsByTagName('h2')[0];
-    var h3 = textDiv.getElementsByTagName('h3')[0];
+    h1.css({"margin-top": bigHeadlineMarginString,
+             "margin-bottom": smallHeadlineMarginString,
+             "font-size": headlines.h1.size});
 
-    h1.style.fontSize = headlines.h1.size;
-    h1.style.marginTop = (lineHeight * 2.5) + 'px';
-    h1.style.marginBottom = (lineHeight* 0.5) + 'px';
+    h2.css({"margin-top": bigHeadlineMarginString,
+            "margin-bottom": smallHeadlineMarginString,
+            "font-size": headlines.h2.size});
 
-    h2.style.fontSize = headlines.h2.size;
-    h2.style.marginTop = (lineHeight * 2.5) + 'px';
-    h2.style.marginBottom = (lineHeight* 0.5) + 'px';
-
-    h3.style.fontSize = headlines.h3.size;
-    h3.style.marginTop = (lineHeight * 1.5) + 'px';
-    h3.style.marginBottom = (lineHeight* 0.5) + 'px';
-
+    h3.css({"margin-top": mediumHeadlineMarginString,
+            "margin-bottom": smallHeadlineMarginString,
+            "font-size": headlines.h3.size});
   }
-
 })
