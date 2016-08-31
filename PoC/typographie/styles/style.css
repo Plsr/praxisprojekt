@@ -44,6 +44,12 @@ h1, h2, h3 {
   color: red;
 }
 
+#values span {
+  background-color: #1bc21d;
+  font-weight: bold;
+  padding: 5px;
+}
+
 
 .clearfix:after {
      visibility: hidden;

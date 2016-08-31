@@ -58,6 +58,7 @@ $(document).ready(function() {
 
     // Style text according to calculated values
     styleText(fontSize, lineHeight, optimalContentWidth, headlines);
+    setValues(fontSize, lineHeight, optimalContentWidth, headlines);
   }
 
 
@@ -248,3 +249,17 @@ $(document).ready(function() {
             "font-size": headlines.h3.size});
   }
 })
+
+
+/*
+ *  Displays calculate values
+ */
+function setValues(fontSize, lineHeight, contentWidth, headlines) {
+  console.log("setValues called");
+  $("#bodySize").html(fontSize + "px");
+  $("#lineHeight").html(lineHeight + "px");
+  $("#contentWidth").html(Math.round(contentWidth) + "px");
+  $("#h1Size").html(headlines.h1.size);
+  $("#h2Size").html(headlines.h2.size);
+  $("#h3Size").html(headlines.h3.size);
+}
