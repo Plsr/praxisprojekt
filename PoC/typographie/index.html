@@ -6,11 +6,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src='node_modules/spectrum-colorpicker/spectrum.js'></script>
     <link rel='stylesheet' href='node_modules/spectrum-colorpicker/spectrum.css' />
+
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
     <title>Typographie PoC</title>
   </head>
   <body>
 
-    <p>Verdana</p>
+    <select id="font-family">
+      <option disabled>─────Sans Serif─────</option>
+      <option value="Verdana" style="font-family: Verdana">Verdana</option>
+      <option value="Arial" style="font-family: Arial">Arial</option>
+      <option value="TrebuchetMS" style="font-family: TrebuchetMS">TrebuchetMS</option>
+      <option value="Fira Sans" style="font-family: Fira Sans">Fira Sans</option>
+      <option disabled>─────Serif─────</option>
+      <option value="Georgia" style="font-family: Georgia">Georgia</option>
+      <option value="Palatino" style="font-family: Palatino">Palatino</option>
+      <option value="Times New Roman" style="font-family: Times New Roman">Times New Roman</option>
+      <option disabled>───Monospace───</option>
+      <option value="Courier New" style="font-family: Courier New">Courier New</option>
+    </select>
     <input type="text" name="font-size" id="font-size" value="12">
     <button id="btn-text-size" type="submit" name="button">Los</button>
 

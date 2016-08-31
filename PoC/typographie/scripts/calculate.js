@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $("#font-family").change(function() {
+    var font = $("#font-family").val();
+    $('#styled-text').css("font-family", font);
+  })
   // Call calc() when document is first loaded
   // to start with already set Text
   calc();
