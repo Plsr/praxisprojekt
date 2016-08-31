@@ -62,22 +62,29 @@ $(document).ready(function() {
    *  to a width of 300px.
    */
   function adjustElementWidth(element, fontSize) {
-    // TODO: Verify variables
     // TODO: Refactor
 
+    if(!(element.length)) {
+      throw new Error("Font Size Element not found");
+    }
+    if(!$.isNumeric(fontSize)) {
+      throw new Error("Font Size must be a number");
+    }
+    if(fontSize <= 0) {
+      throw new Error("Font Size must be bigger than 0");
+    }
+
     // Remove whitespace from text
-    // var elementContent = element.innerHTML.replace(/\s/g, '');
     var elementContent = element.html().replace(/\s/g, '');
 
     // Set font size of text example according to what
     // the user defined
-    // element.style.fontSize = fontSize + "px";
     var fontSizeString = fontSize + "px";
     element.css("font-size", fontSizeString);
 
     // DEBUG
     console.log(elementContent);
-    console.log('Width of Element at start: ' + element.offsetWidth);
+    console.log('Width of Element at start: ' + element.outerWidth());
     console.log('Content length at start: ' + elementContent.length);
 
     // Calculate width of one character
@@ -94,8 +101,8 @@ $(document).ready(function() {
     console.log('Measured length of new Content: ' + newContent.length);
 
     // Populate Element with new content
-    element.innerHTML = newContent;
-    console.log(element.offsetWidth);
+    element.html(newContent);
+    console.log(element.outerWidth());
 
     return element;
   }
