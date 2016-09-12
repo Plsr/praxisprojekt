@@ -12,7 +12,7 @@ $(document).ready(function () {
     var target = event.target;
 
     // Remove old highligts from other elements
-    removeOldHighlights();
+    removeOldHighlights(target);
 
     // Toggle highlight class on target element
     $(target).toggleClass("highlight");
