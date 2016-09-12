@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   /**
    * OnClick Listener for the #styled-text element.
-   * Toogles highlighting and margin highlighting for click target.
+   * Adds highlighting and margin highlighting for click target.
    * Also removes all other other highlights from earlier click events
    * on this element.
    */
@@ -14,15 +14,25 @@ $(document).ready(function () {
     // Remove old highligts from other elements
     removeOldHighlights(target);
 
-    // Toggle highlight class on target element
-    $(target).toggleClass("highlight");
+    // Add highlight class to target element
+    $(target).addClass("highlight");
 
     // If the highlight just got set, also highlight
     // the margins of the element
     if ($(target).hasClass("highlight")) {
-      $(target).before("<div class='highlight-margin'></div>");
-      $(".highlight-margin").css(computeStyles(target));
+      $(target).before("<div class='highlight-padding'></div>");
+      $(".highlight-padding").css(computeStyles(target));
     }
+  });
+
+  /**
+   * OnClick listener for padding highlights.
+   * Removes all highlighting (padding and element) on clickpadding
+   */
+  $("#styled-text").on('click', ".highlight-padding", function(event) {
+    console.log("YOOOOOO");
+    $(event.target).siblings().removeClass("highlight");
+    $(event.target).remove();
   });
 
   /**
@@ -36,15 +46,21 @@ $(document).ready(function () {
   function computeStyles(target) {
     var height = $(target).height();
     var width = $(target).width();
-    var marginTop = $(target).css("margin-top");
-    var marginBottom = $(target).css("margin-bottom");
+    var paddingTop = $(target).css("padding-top");
+    var paddingBottom = $(target).css("padding-bottom");
+
+    // DEBUG
+    // TODO: Removes
+    console.log(height);
+    console.log(width);
+    console.log(paddingTop);
+
 
     var styles = {
       "height": height,
       "width": width,
-      "border-top": "solid " + marginTop + " orange",
-      "border-bottom": "solid " + marginBottom + " orange",
-      "margin-top": "-" + marginTop
+      "border-top": "solid " + paddingTop + " orange",
+      "border-bottom": "solid " + paddingBottom + " orange"
     };
 
     return styles;
@@ -58,6 +74,6 @@ $(document).ready(function () {
    */
   function removeOldHighlights(target) {
     $(target).siblings().removeClass("highlight");
-    $(".highlight-margin").remove();
+    $(".highlight-padding").remove();
   }
 })

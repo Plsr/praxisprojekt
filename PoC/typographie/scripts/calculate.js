@@ -217,10 +217,10 @@ $(document).ready(function() {
     var fontSizeString = fontSize + 'px';
     var lineHeightString = lineHeight + 'px';
     var contentWidthString = contentWidth + 'px';
-    var pMarginString = (lineHeight / 2) + 'px';
-    var bigHeadlineMarginString = (lineHeight * 2.5) + 'px';
-    var mediumHeadlineMarginString = (lineHeight * 1.5) + 'px';
-    var smallHeadlineMarginString = (lineHeight * 0.5) + 'px';
+    var pPaddingString = (lineHeight / 2) + 'px';
+    var bigHeadlinePaddingString = (lineHeight * 2.5) + 'px';
+    var mediumHeadlinePaddingString = (lineHeight * 1.5) + 'px';
+    var smallHeadlinePaddingString = (lineHeight * 0.5) + 'px';
 
     // Style text basics
     var textDiv = $('#styled-text');
@@ -228,24 +228,24 @@ $(document).ready(function() {
                  "line-height": lineHeightString,
                  "max-width": contentWidthString});
 
-    textDiv.find('p').css({"margin-top": pMarginString,
-                           "margin-bottom": pMarginString});
+    textDiv.find('p').css({"padding-top": pPaddingString,
+                           "padding-bottom": pPaddingString});
 
     // Style headlines
     var h1 = textDiv.find('h1');
     var h2 = textDiv.find('h2');
     var h3 = textDiv.find('h3');
 
-    h1.css({"margin-top": bigHeadlineMarginString,
-             "margin-bottom": smallHeadlineMarginString,
+    h1.css({"padding-top": bigHeadlinePaddingString,
+             "padding-bottom": smallHeadlinePaddingString,
              "font-size": headlines.h1.size});
 
-    h2.css({"margin-top": bigHeadlineMarginString,
-            "margin-bottom": smallHeadlineMarginString,
+    h2.css({"padding-top": bigHeadlinePaddingString,
+            "padding-bottom": smallHeadlinePaddingString,
             "font-size": headlines.h2.size});
 
-    h3.css({"margin-top": mediumHeadlineMarginString,
-            "margin-bottom": smallHeadlineMarginString,
+    h3.css({"padding-top": mediumHeadlinePaddingString,
+            "padding-bottom": smallHeadlinePaddingString,
             "font-size": headlines.h3.size});
   }
 })
