@@ -49,13 +49,6 @@ $(document).ready(function () {
     var paddingTop = $(target).css("padding-top");
     var paddingBottom = $(target).css("padding-bottom");
 
-    // DEBUG
-    // TODO: Removes
-    console.log(height);
-    console.log(width);
-    console.log(paddingTop);
-
-
     var styles = {
       "height": height,
       "width": width,
