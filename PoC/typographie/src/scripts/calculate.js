@@ -1,19 +1,17 @@
-"use strict";
+$(document).ready(function() {
 
-$(document).ready(function () {
-
-  $("#font-family").change(function () {
+  $("#font-family").change(function() {
     var font = $("#font-family").val();
     $('#styled-text').css("font-family", font);
-  });
+  })
   // Call calc() when document is first loaded
   // to start with already set Text
   calc();
 
   // Onclick listener for text size button
-  $("#btn-text-size").click(function () {
+  $("#btn-text-size").click(function() {
     calc();
-  });
+  })
 
   /*
    *  Calculates properties of text based on font size and
@@ -21,13 +19,13 @@ $(document).ready(function () {
    */
   function calc() {
     // Verify entered value
-    if (!$("#font-size").length) {
+    if(!$("#font-size").length) {
       throw new Error("Font Size Element not found");
     }
-    if ($("#font-size").val() <= 0) {
+    if($("#font-size").val() <= 0) {
       throw new Error("Font Size must be bigger than 0");
     }
-    if (!$.isNumeric($("#font-size").val())) {
+    if(!$.isNumeric($("#font-size").val())) {
       throw new Error("Font Size must be a number");
     }
 
@@ -63,19 +61,20 @@ $(document).ready(function () {
     setValues(fontSize, lineHeight, optimalContentWidth, headlines);
   }
 
+
   /**
    *  Fills an Element with Characters so that the Element is as close as possible
    *  to a width of 300px.
    */
   function adjustElementWidth(element, fontSize) {
     // Verify variables
-    if (!element.length) {
+    if(!(element.length)) {
       throw new Error("Font Size Element not found");
     }
-    if (!$.isNumeric(fontSize)) {
+    if(!$.isNumeric(fontSize)) {
       throw new Error("Font Size must be a number");
     }
-    if (fontSize <= 0) {
+    if(fontSize <= 0) {
       throw new Error("Font Size must be bigger than 0");
     }
 
@@ -97,7 +96,7 @@ $(document).ready(function () {
     console.log('Width of a single character: ' + singleCharWidth);
 
     // Calculate how many chars will fit in 300px width
-    var numChars = Math.floor((300 - 300 % singleCharWidth) / singleCharWidth);
+    var numChars = Math.floor((300 - (300 % singleCharWidth)) / singleCharWidth);
     console.log(numChars);
 
     // Create new string according to calculated values
@@ -112,12 +111,13 @@ $(document).ready(function () {
     return element;
   }
 
+
   /**
    *  Calculates the average width of a single character in the given element.
    */
   function getCharWidth(element) {
     // Verify variable
-    if (!element.length) {
+    if(!(element.length)) {
       throw new Error("Font Size Element not found");
     }
 
@@ -134,16 +134,16 @@ $(document).ready(function () {
    */
   function generateHeadlines(fontSize, numberHeadlines) {
     // Verify variables
-    if (fontSize <= 0) {
+    if(fontSize <= 0) {
       throw new Error("Font Size must be bigger than 0");
     }
-    if (numberHeadlines <= 0) {
+    if(numberHeadlines <= 0) {
       throw new Error("Number of Headlines must be bigger than 0");
     }
 
     // Setup
     var goldenRatio = 1.62;
-    var typographicScale = [6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 21, 24, 36, 48, 60];
+    var typographicScale = [6,7,8,9,10,11,12,14,16,18,21,24,36,48,60];
 
     var exactH1Size = fontSize * goldenRatio;
     console.log('Exact Size: ' + exactH1Size); // DEBUG
@@ -159,11 +159,11 @@ $(document).ready(function () {
     console.log('H3: ' + typographicScale[h3Pos]);
 
     // Setup headline objects
-    var h1 = { size: typographicScale[h1Pos] + 'px' };
-    var h2 = { size: typographicScale[h2Pos] + 'px' };
-    var h3 = { size: typographicScale[h3Pos] + 'px' };
+    var h1 = {size: typographicScale[h1Pos] + 'px'}
+    var h2 = {size: typographicScale[h2Pos] + 'px'}
+    var h3 = {size: typographicScale[h3Pos] + 'px'}
 
-    return { h1: h1, h2: h2, h3: h3 };
+    return {h1: h1, h2: h2, h3: h3}
   }
 
   /*
@@ -174,10 +174,10 @@ $(document).ready(function () {
    */
   function getClosestValuePositionFromArray(exactValue, array) {
     // Verify variables
-    if (typeof exactValue == 'undefined') {
+    if(typeof exactValue == 'undefined') {
       throw new Error("Exact Value not defined");
     }
-    if (array.length <= 0) {
+    if(array.length <=0) {
       throw new Error("Array ha no content");
     }
 
@@ -185,7 +185,7 @@ $(document).ready(function () {
       console.log('Current position: ' + array[i]); // DEBUG
 
       // Check if the next bigger number was found
-      if (array[i] > exactValue) {
+      if(array[i] > exactValue) {
         var upper = array[i];
         var lower = array[i - 1];
 
@@ -194,7 +194,7 @@ $(document).ready(function () {
         var lowerDiff = exactValue - lowerDiff;
 
         // Determine which neighbour is the closest
-        if (upperDiff > lowerDiff) {
+        if(upperDiff > lowerDiff) {
           console.log('Closest Value: ' + lower);
           return i - 1;
         } else {
@@ -217,48 +217,48 @@ $(document).ready(function () {
     var fontSizeString = fontSize + 'px';
     var lineHeightString = lineHeight + 'px';
     var contentWidthString = contentWidth + 'px';
-    var pPaddingString = lineHeight / 2 + 'px';
-    var bigHeadlinePaddingString = lineHeight * 2.5 + 'px';
-    var mediumHeadlinePaddingString = lineHeight * 1.5 + 'px';
-    var smallHeadlinePaddingString = lineHeight * 0.5 + 'px';
+    var pPaddingString = (lineHeight / 2) + 'px';
+    var bigHeadlinePaddingString = (lineHeight * 2.5) + 'px';
+    var mediumHeadlinePaddingString = (lineHeight * 1.5) + 'px';
+    var smallHeadlinePaddingString = (lineHeight * 0.5) + 'px';
 
     // Style text basics
     var textDiv = $('#styled-text');
-    textDiv.css({ "font-size": fontSizeString,
-      "line-height": lineHeightString,
-      "max-width": contentWidthString });
+    textDiv.css({"font-size": fontSizeString,
+                 "line-height": lineHeightString,
+                 "max-width": contentWidthString});
 
-    textDiv.find('p').css({ "padding-top": pPaddingString,
-      "padding-bottom": pPaddingString });
+    textDiv.find('p').css({"padding-top": pPaddingString,
+                           "padding-bottom": pPaddingString});
 
     // Style headlines
     var h1 = textDiv.find('h1');
     var h2 = textDiv.find('h2');
     var h3 = textDiv.find('h3');
 
-    h1.css({ "padding-top": bigHeadlinePaddingString,
-      "padding-bottom": smallHeadlinePaddingString,
-      "font-size": headlines.h1.size });
+    h1.css({"padding-top": bigHeadlinePaddingString,
+             "padding-bottom": smallHeadlinePaddingString,
+             "font-size": headlines.h1.size});
 
-    h2.css({ "padding-top": bigHeadlinePaddingString,
-      "padding-bottom": smallHeadlinePaddingString,
-      "font-size": headlines.h2.size });
+    h2.css({"padding-top": bigHeadlinePaddingString,
+            "padding-bottom": smallHeadlinePaddingString,
+            "font-size": headlines.h2.size});
 
-    h3.css({ "padding-top": mediumHeadlinePaddingString,
-      "padding-bottom": smallHeadlinePaddingString,
-      "font-size": headlines.h3.size });
+    h3.css({"padding-top": mediumHeadlinePaddingString,
+            "padding-bottom": smallHeadlinePaddingString,
+            "font-size": headlines.h3.size});
   }
 
-  $(".btn-manipulate").click(function () {
+  $(".btn-manipulate").click(function() {
 
     // Setup
-    var targetElement = $(this).data("target");
-    var type = $(this).data("type");
-    var attribute = $(this).data("attribute");
-    var targetElements = $("#styled-text").children(targetElement);
-    var currSize = parseInt($(targetElements).css(attribute), 10);
+    let targetElement = $(this).data("target");
+    let type = $(this).data("type");
+    let attribute = $(this).data("attribute");
+    let targetElements = $("#styled-text").children(targetElement);
+    let currSize = parseInt($(targetElements).css(attribute), 10);
 
-    var adjustedSize = void 0;
+    let adjustedSize;
 
     switch (type) {
       case 'increase':
@@ -275,7 +275,9 @@ $(document).ready(function () {
     $("#font-size").val(adjustedSize);
     calc();
   });
-});
+
+})
+
 
 /*
  *  Displays calculate values

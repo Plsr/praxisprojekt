@@ -1,5 +1,3 @@
-"use strict";
-
 $(document).ready(function () {
 
   /**
@@ -8,7 +6,7 @@ $(document).ready(function () {
    * Also removes all other other highlights from earlier click events
    * on this element.
    */
-  $("#styled-text").children().click(function (event) {
+  $("#styled-text").children().click(function(event) {
 
     // Get target
     var target = event.target;
@@ -33,7 +31,7 @@ $(document).ready(function () {
    * OnClick listener for padding highlights.
    * Removes all highlighting (padding and element) on clickpadding
    */
-  $("#styled-text").on('click', ".highlight-padding", function (event) {
+  $("#styled-text").on('click', ".highlight-padding", function(event) {
     console.log("YOOOOO");
     $(event.target).siblings().removeClass("highlight");
     $(event.target).remove();
@@ -74,31 +72,31 @@ $(document).ready(function () {
     $(".highlight-padding").remove();
   }
 
-  var displayControls = function displayControls(target) {
+  let displayControls = (target) => {
 
     // Debug
     // TODO: Remove
-    var position = $(target).position();
+    let position = $(target).position();
     console.log("Controls should be spawned, target is " + target);
     console.log("Target position: " + position.left + " , " + position.top);
 
-    var rightCenterPosition = calculateRightCenterPosition(target);
-  };
+    let rightCenterPosition = calculateRightCenterPosition(target);
+  }
 
-  var calculateRightCenterPosition = function calculateRightCenterPosition(target) {
-    var targetPosition = $(target).position();
-    var targetWidth = $(target).outerWidth();
-    var targetHeight = $(target).outerHeight();
+  let calculateRightCenterPosition = (target) => {
+    let targetPosition = $(target).position();
+    let targetWidth = $(target).outerWidth();
+    let targetHeight = $(target).outerHeight();
 
     // Debug
     // TODO: Remove
     console.log("Target width: " + targetWidth);
     console.log("Target height " + targetHeight);
 
-    var rightCenterPosition = {
+    let rightCenterPosition = {
       "left": targetPosition.left + targetWidth,
-      "top": targetPosition.top + targetHeight / 2
-    };
+      "top": targetPosition.top + (targetHeight / 2)
+    }
 
     // Debug
     // TODO: Remove
@@ -106,5 +104,5 @@ $(document).ready(function () {
     console.log(rightCenterPosition.top);
 
     return rightCenterPosition;
-  };
-});
+  }
+})
