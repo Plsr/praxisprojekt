@@ -1,9 +1,16 @@
 $(document).ready(function() {
 
+  // Change the font size accorind to the changes made by user.
+  // Also re-calculates values for new font family
   $("#font-family").change(function() {
     var font = $("#font-family").val();
     $('#styled-text').css("font-family", font);
-  })
+    $('#ws, #is').each(function() {
+      $(this).css("font-family", font);
+    });
+    calc();
+  });
+
   // Call calc() when document is first loaded
   // to start with already set Text
   calc();
