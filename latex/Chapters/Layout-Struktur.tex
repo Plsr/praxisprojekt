@@ -1,0 +1,111 @@
+% Chapter 1
+
+%\footnote{vgl. \cite{studie}}
+
+\newcommand{\chaptertitle}{Layout und Struktur}
+
+\chapter{\chaptertitle} % Main chapter title
+
+\label{LayoutStruktur} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+\lhead{\chaptername{} \thechapter{} - \emph{\chaptertitle}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+Während der Fehleranalyse konnten immer wieder grundlegende Fehler in der Anordnung von Elementen beobachtet werden, die dazu führten, dass ein Artefakt unsauber wirkte.
+Diese Fehler lassen sich mit sehr simplen Mitteln wie Hilfslinien oder Grid Systems vermeiden.
+Hier unterscheiden sich die verschiedenen Medien sowie Plattformen, weshalb dieses Kapitel in jeweils spezifische Unterkapitel unterteilt ist.
+
+\section{Herleitung}
+Grid Systems sind sowohl für den Designer als auch für die späteren Nutzer des Artefaktes von Vorteil. Sie helfen dabei, Elemente innerhalb einer Gestaltung sauber anzuordnen und klare Linien zu erzeugen.
+[Hier noch verweis darauf, dass das menschliche Gehirn gerne nach Mustern sucht]
+
+\section{Grid Systems im Web}
+Für Gestaltungen im Web sind Grid Systems sehr verbreitet, nicht zuletzt wegen ihrer hohen Flexibilität im Bezug auf Responsive Webdesign.
+Wegen der hohen Verbreitung liegt es nahe, dass das Tool kein eigenes Grid System erstellt, sondern nur die Grundlagen vermittelt und auf eine bereits bestehende Lösung verweist.
+Hierfür wurden zunächst verschiedene Grid Systems gesichtet und evaluiert.
+
+[gridpak](http://gridpak.com/#)
+Geeignet, um individuelle Grid Systems zu erstellen. Sehr simpel, da nur drei Werte verändert werden müssen (plus Option zum Anlegen von Breakpoints).
+**Output:** Verschiedene CSS und JS Files und das Grid System als png.
+
+[960px Grid](http://960.gs/)
+Festes, 960px breites Grid System, keine individuellen Einstellungen mehr Möglich.
+**Output:** Verschiedene CSS Dateien sowie vorlagen für viele Grafikprogramme.
+
+[1200px Grid](https://1200px.com/)
+Aufbauend auf dem 960px Grid, aber 1200px breit. Außerdem in allen Werten anpassbar.
+**Output:** CSS Dateien oder Photoshop/Illustrator Files.
+
+[Bootstrap](http://getbootstrap.com/2.3.2/index.html)
+Sehr flexibel und anpassbar, allerdings nur, wenn es im Web verwendet wird, Einbindung in HTML/CSS also Pflicht.
+**Output:** Im Code verwendbare CSS-Klassen.
+
+[Dead Simple Grid](https://github.com/mourner/dead-simple-grid)
+Ähnlich wie Bootstrap aber sehr viel simpler. Flexibel anpassbar, aber auch nur für HTML/CSS geeignet.
+**Output:** Im Code verwendbare CSS-Klassen.
+
+[Bourbon Neat](http://neat.bourbon.io/)
+Ähnlich wie Bootstrap & Dead Simple Grid aber deutlich komplexer, da es zwingen über einen CSS-Präprozessor eingebunden werden muss. Flexibel anpassbar, aber auch nur für HTML/CSS geeignet.
+**Output:** Im Code verwendbare CSS-Klassen.
+
+[Foundation](http://foundation.zurb.com/)
+Ähnlich wie Bootstrap. Flexibel anpassbar, aber auch nur für HTML/CSS geeignet.
+**Output:** Im Code verwendbare CSS-Klassen.
+
+\subsection{Abbildung im Tool}
+Da sich die untersuchten Grid Systems in ihren Eigenschaften sehr unterscheiden, sollte das Tool mehrere Empfehlen und ihre typischen Einsatzgebiete nennen.
+Die Wahl fiel mit gridpack auf ein System, dass auch unabhängig vom Code eingesetzt werden kann sowie auf Foundation, das nur im CSS verwendet werden kann. Foundation wurde gewählt, da es die Möglichkeit bietet, nur das Grid System ohne Klassen für andere Elemente einzubinden.
+Um dem Nutzer das Arbeiten mit Grid Systems näher zu bringen, könnte das Tool den Nutzer dazu auffordern, verschiedene Elemente auf einer Seite zu Platzieren. Zunächst sollte die Platzierung ohne eine Hilfestellung stattfinden (s. Abb.X), im zweiten Schritt dann mit einem vom User konfigurierten Grid System (s. Abb.X).
+
+\section{Grid Systems auf nativen Plattformen}
+Auf nativen Plattformen werden Grid Systems eher von Interface Designern verwendet, vorgefertigte Grid Systems wie im Web bestehen in der Art nicht. Die Zielgruppe des Tools sind jedoch nicht Interface Designer sondern Studenten, die Projekte in der Rolle des Entwicklers durchführen. Hier müssen also Plattformspezifische Grundlagen gefunden werden.
+
+\subsection{iOS}
+Unter iOS spielt das Storyboard in Xcode für die Platzierung von Elementen eine wichtige Rolle. Im Storyboard ist implizit ein Grid vorhanden, dass zumindest die Außenabstände und die Abstände von Elementen untereinander mit Hilfslinien kennzeichnet. (s. Abb. X)
+In den Human Interface Guidelines werden außerdem die folgenden Abstände definiert: TBD
+Das Tool sollte an dieser Stelle auf die Werte und die Benutzung des Storyboards hinweisen. Eine weitere Interaktivität macht wenig Sinn.
+
+\subsection{Android}
+Für Android gestaltet sich das erstellen von Layouts als schwieriger, da der in Android Studio enthaltene Visuelle Editor deutlich weniger intuitiv ist als bei Xcode. Das Interface wird hier in der Praxis außerdem deutlich häufiger in XML-Form beschreiben, als durch einen visuellen Editor erzeugt. Die Fehleranfälligkeit ist daher besonders hoch.
+In den [Material Design Guidelines](https://material.google.com/layout/metrics-keylines.html#metrics-keylines-baseline-grids) wird generell ein 8dp Square Grid verwendet. Das heißt, der Abstand von allen Elementen nach außen beträgt mindestens 8dp. Für alle UI-Elemente sind jedoch auch andere Abstände ineinander angegeben, auf die verwiesen werden sollte.
+Für alle Elemente und Endgeräte sind außerdem Illustrator-Vorlagen vorhanden. Auch hier sollten eher auf die vorhandenen Ressourcen verwiesen werden, um den Umfang des Tools nicht unnötig zu vergrößern.
+
+\section{Grid Systems im Print}
+Generell sind Grid Systeme auch im Print-Bereich sehr verbreitet und finden dort sogar ihren Ursprung. Sie unterscheiden sich aber durchaus von Grid-Systemen, wie man sie im Web-Bereich verwendet. Sie haben deutlich weniger Spalten und sind dadurch deutlich weniger fein. In der Regel beschreibt eine Spalte den Platz für den Fließtext, daher sind Auch Raster mit nur einer Spalte sehr verbreitet.
+
+Ein weiteres Beispiel ist der Satzspiegel nennen, der in seiner Funktion auch ein Grid-System ist, jedoch die harmonische Platzierung von Text auf einer Doppelseite beschreibt.
+
+Da viele der im Rahmen der Fehleranalyse untersuchten Artefakte einzelne Textseiten (z.B. Exposes) waren wird der Fokus des Tools darauf liegen, eine einzelne Textseite zu setzen.
+Hier sind zum einen die Abstände vom Text zum Rand der Seite als auch die Abstände von Spalten untereinander (wenn der Text mehrere Spalten besitzt) interessant.
+
+Weiterhin sollte erwähnt werden, dass die meisten Office-Programm diese Abstände bereits in den Standardeinstellungen auf   solide Werte setzen.
+
+\subsection{Berechnung}
+Die simpelste mögliche Berechnung verwendet einen Bruchteil der Gesamten Länger der kürzesten Kante des Dokumentes als Außenabstand. Für ein DIN A4 Blatt mit einer Breite von 595px oder 210mm ergibt das folgende Berechnung mit einem Außenabstand vom 10%:
+```
+Kürzeste Kante: 595px bzw. 210mm
+Ansatz: 595px * 0.1 = 59,5 bzw. 210mm * 0.1 = 21mm
+Gerundet: 60px bzw. 21mm
+```
+Der Außenabstand würde also 60px bzw. 21mm betragen. Das folgende Bild zeigt ein DIN A4 Dokument mit den errechneten Abständen:
+![60px Margin](https://github.com/Plsr/praxisprojekt/blob/master/images/layout/A4%201%20Col.png?raw=true)
+
+Mit diesem Wert kann also eine Richtlinie angenähert werden. Nach unten lassen sich für den Abstand genaue Grenzen finden: Viele Drucker benötigen einen Druckrand von etwa 15mm, das Tool sollten den Nutzer also warnen, sollte der Abstand nach außen diesen Wert unterschreiten.
+
+Sollte ein layout mit mehr als einer Spalte gewünscht sein, kann der Abstand zwischen ihnen ebenfalls über den errechneten Außenabstand errechnet werden:
+
+```
+Errechneter Außenabstand: 60px
+Innernabstand: 60px / 2 = 30px
+```
+
+Das folgende Bild zeigt einen zweispaltigen Text mit den errechenten Abständen (außen und innen):
+![2 Columns](https://github.com/Plsr/praxisprojekt/blob/master/images/layout/A4%202%20Col.png?raw=true)
+
+Zu beachten ist hier, dass die Spalten mit diesen Werten nur 445px breit wären und hierdurch du im Kapitel Typographie behandelte optimale Laufweite des Textes von 75 - 90 CPL bei größeren Texten nicht mehr gewährleistet werden kann. Dem Tool sollten die im ersten Schritt errechneten Werte für Texte bekannt sein und es sollte den Nutzer auf diesen Umstand hinweisen.
+
+\subsection{Abbildung im Tool}
+Das Tool soll dem User die Möglichkeit geben, ein Format zu wählen. Für dieses Format sollte der User dann die Anzahl der Spalten, die Abstände zwischen den Spalten und die Abstände nach außen einstellen können.
+Das Tool weist den Nutzer dann darauf hin, welche Werte kritisch sind und warum sie nicht optimal sind.
+Optional soll noch ein Bild eingefügt werden können. Die Platzierung soll dem Nutzer überlassen werden und ihn dazu bringen, bereits im Tool auch aktiv mit einem Layout zu arbeiten.
