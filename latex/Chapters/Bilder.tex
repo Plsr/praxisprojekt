@@ -1,0 +1,132 @@
+% Chapter 6
+
+\newcommand{\chaptertitle}{Bilder}
+
+\chapter{\chaptertitle} % Main chapter title
+
+\label{Bilder} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+\lhead{\chaptername{} \thechapter{} - \emph{\chaptertitle}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+Der folgende Abschnitt bezieht sich auf den technischen Einsatz von Bildern in einer Gestaltung. Themen wie Ästhetik oder das Finden von passenden Bildern für eine Gestaltung werden hier nicht behandelt.
+Diese Themenabgrenzung begründet sich zum einen mit dem schieren Umfang des Themas Ästhetik und Fotografie, der im Rahmen dieses Projektes nicht abgedeckt werden kann. Zum Anderen ist die Abgrenzung eine Folge der Fehleranalyse, in der vor allem technische Mängel auffielen. Weiterhin ist es gerade in einem Wissenschaftlichen Studiengang nicht immer möglich, ästhetisch schöne Bilder zu verwenden.
+
+Während der Fehleranalyse fielen vor allem zwei Arten von Fehlern auf: Strecken bzw. stauchen von Bildern und das verwenden von verpixelten Bildern.
+
+Im Folgenden sollen die Hauptursachen für diese Fehler definiert und Ansätze entwickelt werden, wie diese vermieden werden können. Außerdem gilt es festzustellen, ob, und wenn ja, wie die erarbeiteten Techniken im Tool möglichst interaktiv vermittelt werden können.
+
+\section{Strecken \& Stauchen}
+Gestreckte und gestauchte Bilder in einer Gestaltung sorgen beim Betrachter für einen unprofessionellen Eindruck.
+Zwar konnten keine wissenschaftlichen Belege dafür gefunden werden, aber welchem Grad der Verzerrung Menschen ein Bild als verzerrt erkennen und wie schnell, jedoch kann mit einiger Sicherheit davon ausgegangen werden, dass die meisten Menschen ein verzerrtes Bild erkennen, gerade, wen sich im Bild ihnen bekannte Gegenstände befinden.
+Ursache für ein Strecken oder Stauchen des Bildes ist dabei in den meisten Fällen das Nichteinhalten des ursprünglichen Seitenverhältnisses beim skalieren des Bildes.
+
+Als Seitenverhältnis wird das Verhältnis der beiden Kanten eines Bildes zueinander bezeichnet. Obwohl die Berechnung des Seitenverhältnisses in der Praxis eher unwichtig ist (in der Regeln errechnen Programme dieses Verhältnis automatisch) kann sie für das Tool dennoch wichtig werden, um eine korrekte Skalierung zu überprüfen.
+Wie bereits durch die Schreibweise angedeutet (`4:3`, `16:9`) lässt sich das Seitenverhältnis berechnen durch
+
+\begin{lstlisting}
+Seitenverhältnis = Breite des Bildes / Höhe des Bildes
+\end{lstlisting}
+
+Für ein Bild mit den Maßen 400px * 300px ergibt sich also ein Seitenverhältnis von 1,33 oder 4:3. Der Schritt von der Dezimalzahl zur "schönen" Darstellung kann dabei im Tool vernachlässigt werden, da die Berechnung nur intern erfolgt.
+
+Beim Skalieren des Bildes sollte also darauf geachtet werden, beide Kanten im gleichen Verhältnis zu skalieren (s. Abb. 1 \& 2), um das Bild nicht zu strecken oder zu stauchen (s. Abb. 3)
+
+%![Seitenverhältnis Schmema](https://github.com/Plsr/praxisprojekt/blob/master/images/images/ratio-scheme.png?raw=true)
+%Abb. 1: Obwohl das Bild verkleinert wurde, wurde das Seitenverhältnis von 4:3 beibehalten, das skalierte Bild ist nicht gestreckt oder gestaucht._
+
+
+%![Bild korrekt skaliert](https://github.com/Plsr/praxisprojekt/blob/master/images/images/ratio-right.png?raw=true)
+%_Abb. 2: Anwendung mit einem echten Bild._
+
+
+%![Bild falsch skaliert](https://github.com/Plsr/praxisprojekt/blob/master/images/images/ratio-wrong.png?raw=true)
+%_Abb.3: Falsche Anwendung, nur die lange Seite des Bildes wurde verändert, das skalierte Bild ist gestaucht._
+
+\subsection{Konkrete Anwendung}
+In den meisten Textverarbeitungsprogrammen sowie Grafikprogrammen und Editoren für native Plattformen ist die Anwendung denkbar simpel: Bei der Bearbeitung eines Bildes werden verschiedene Punkte angeboten, mit denen das Bild verändert werden kann. Hier gilt es, einen der Eckpunkte zu verwenden, um das Seitenverhältnis des Original-Bildes beizubehalten (s. Abb. 4)
+
+%![Anwendungsbeispiel Microsoft Word](https://github.com/Plsr/praxisprojekt/blob/master/images/images/image-word.png?raw=true)
+%_Abb. 4: Beispiel der Bildmanipulation in Microsoft Word._
+
+Auch im Web ist die richtige Skalierung von Bildern leicht zu erreichen. Die CSS-Attribute width und height haben einen Standardwert von auto __[http://www.w3schools.com/css/css_dimension.asp]__, alle Bilder werden also zunächst in Originalgröße angezeigt. Soll eine bestimmte Größe erreicht werden, kann entweder die `width` oder die `height` auf den gewünschten Wert gesetzt werden. Solange für das jeweils andere Attribut der Wert `auto` beibehalten wird, wird auch das Seitenverhältnis beibehalten.
+
+\textbf{HTML:}
+\begin{lstlisting}
+<img src="images/landscape.jpg">
+\end{lstlisting}
+
+\textbf{CSS:}
+\begin{lstlisting}
+img {
+  width: 400px;
+  height: auto;
+}
+\end{lstlisting}
+
+\subsection{Eine gegebene Fläche ausfüllen}
+Häufig tritt eine falsche Formatierung vor allem dann auf, wenn das Bild eine Fläche füllen soll, die nicht dem Seitenverhältnis des Originalbildes entspricht (Abb. 5 illustriert das Problem).
+
+%![Abb.5: Illustration des problems](https://github.com/Plsr/praxisprojekt/blob/master/images/images/problem-illustration.png?raw=true)
+
+Ein reines Skalieren des Bildes reicht hier nicht aus, um ein befriedigendes Ergebnis zu erzielen. Im zweiten Schritt muss das Bild außerdem beschnitten werden (s. Abb. 6).
+
+%![Abb. 6: Richtige Lösung](https://github.com/Plsr/praxisprojekt/blob/master/images/images/solution-cut.png?raw=true)
+
+Welcher Teil des Bildes abgeschnitten wird und welcher erhalten bleibt ist dabei wiederum eine ästhetische Frage und kann nur subjektiv und je nach Situation beurteilt werden. Optimaler Weise wird die Kernaussage des Bildes durch die Beschneidung nicht verändert. Das Tool könnte dies Beispielhaft mit einigen wenigen vordefinierten Bildern abbilden.
+
+%![Abb. 7: Falsche Lösung](https://github.com/Plsr/praxisprojekt/blob/master/images/images/solution-skew.png?raw=true)
+
+Grafikprogramme bieten für das behandeln dieser Aufgabe verschieden Möglichkeiten, sowie das einfach beschneiden des Bildes oder den Einsatz von Masken.
+
+Auch im Web bieten sich verschiedne Möglichkeiten an.
+Die meiste Kontrolle über die Ausrichtung des beschnittenen Bildes bringt dabei die Verwendung von background-image mit sich:
+
+\textbf{HTML:}
+\begin{lstlisting}
+<div class="bg-image"></div>
+\end{lstlisting}
+
+\textbf{CSS:}
+\begin{lstlisting}
+.bg-image {
+  width: 300px;
+  height: 400px;
+  background-image: url("image/landscape.jpg");
+  background-size: cover;
+}
+\end{lstlisting}
+
+\section{Verpixelte Bilder}
+Neben gestreckten und gestauchten Bildern fallen auch verpixelte Bilder unschön auf und lassen die Qualität der Gestaltung schlechter wirken. Die Ursachen für verpixelte Bilder können verschieden sein.
+
+Die Ursache, die am simpelsten vermieden werden kann, ist das Skalieren von Bildern über ihre Originalgröße hinweg. Eine weitere Ursache kann in der Pixeldichte des Mediums liegen, auf dem die Bilder betrachtet werden.
+Beide Probleme treten nur bei der Verwendung von Bitmaps auf.
+
+\subsection{Bitmaps}
+Enderle, Kansy und Pfaff definieren Bitmaps oder Raster Graphics wie folgt:
+
+\begin{quote}
+Raster graphics — Definition
+Computer graphics in which a display image is composed of an array of pixels arranged in rows and columns. __[Enderle, Günter, Klaus Kansy, and Günther Pfaff. Computer Graphics Programming: GKS—The Graphics Standard. Springer Science & Business Media, 2012.]__
+\end{quote}
+
+Bitmaps bestehen also aus einem Array von Pixeln, von denen jeder seine eigene Farbe und Position hat (s. Abb. 8).
+
+%![Abb. 8: Raster Beispiel](https://github.com/Plsr/praxisprojekt/blob/master/images/images/raster.png?raw=true)
+
+Beim skalieren dieses Bildes muss also eine neue Anzahl an Pixeln innerhalb dieses Rasters erzeugt werden. Beim Skalieren nach unten ist dies kein Problem, da benachbarte Pixel zu einem neuen "verschmelzen" und aufgrund des kleineren Bildes kein Unterschied zu erkennen ist.
+Beim skalieren nach oben müssen aber neue Pixel aus der Datengrundlage des Bildes erzeugt werden. Bei der Skalierung können zwar neue Pixel anhand der vorhandenen, ähnlich wie bei der Skalierung nach unten, errechnet werden, jedoch fällt die fehlende Grundlage zur Berechnung schnell auf und das Bild wirkt verschwommen.
+
+Nach Möglichkeit sollten Bilder also nicht größer skaliert werden als ihre Originalgröße zulässt.
+
+
+\section{PPI \& DPI}
+Die Begriffe PPI (Pixels per Inch) und DPI (Dots per Inch) werden insbesondere in zwei Bereichen wichtig:
+* Hochauflösende Displays (z.B. Retina)
+* Print
+
+Die Begriffe bezeichnen die Pixel bzw. Dots, die ein Ausgabegerät (z.B. Display oder Drucker) pro Inch darstellen kann. Zu Problemen, besonders im Bezug auf Bilder kommt es hier, wenn die Pixeldichte der Bilder nicht mit der des Ausgabegerätes übereinstimmt. Hier erfolgt dann eine Skalierung nach oben, die schon im vorherigen Kapitel besprochen wurde.
+
+Das Tool soll hier keine Schritt für Schritt Anleitung geben, wie hier zu verfahren ist, sondern eher eine erinnernde Funktion übernehmen und den Nutzer darauf hinweisen, Bilder unter Umständen in die richtige Pixeldichte konvertiert werden müssen.
