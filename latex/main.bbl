@@ -1,0 +1,45 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Berman(2010)]{berman2010street}
+Margo Berman.
+\newblock \emph{Street-smart advertising: How to win the battle of the buzz}.
+\newblock Rowman \& Littlefield Publishers, 2010.
+
+\bibitem[Crozier(1999)]{crozier1999meanings}
+W~Ray Crozier.
+\newblock The meanings of colour: Preferences among hues.
+\newblock \emph{Pigment \& Resin Technology}, 28\penalty0 (1):\penalty0 6--14,
+  1999.
+
+\bibitem[Cyr et~al.(2010)Cyr, Head, and Larios]{cyr2010colour}
+Dianne Cyr, Milena Head, and Hector Larios.
+\newblock Colour appeal in website design within and across cultures: A
+  multi-method evaluation.
+\newblock \emph{International journal of human-computer studies}, 68\penalty0
+  (1):\penalty0 1--21, 2010.
+
+\bibitem[Eysenck(1941)]{eysenck1941critical}
+Hans~J Eysenck.
+\newblock A critical and experimental study of colour preferences.
+\newblock \emph{The American Journal of Psychology}, 54\penalty0 (3):\penalty0
+  385--394, 1941.
+
+\bibitem[Itten(2010)]{Itten201006}
+Johannes Itten.
+\newblock \emph{Kunst der Farbe. Studienausgabe: Subjektives Erleben und
+  objektives Erkennen als Wege zur Kunst}.
+\newblock Christophorus Verlag, 5 edition, 6 2010.
+\newblock ISBN 9783862301614.
+\newblock URL \url{http://amazon.de/o/ASIN/3862301613/}.
+
+\bibitem[Rider(2010)]{rider2010color}
+Rose~M Rider.
+\newblock Color psychology and graphic design applications.
+\newblock \emph{Senior Honors Papers}, page 111, 2010.
+
+\end{thebibliography}

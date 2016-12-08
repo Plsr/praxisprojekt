@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.8)  23 NOV 2016 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.8)  8 DEC 2016 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,6 +810,9 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 143.
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/was/gensymb.sty
+Package: gensymb 2003/07/02 v1.0 (WaS)
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -858,28 +861,28 @@ Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 ** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
 ** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
-Package hyperref Info: Option `colorlinks' set `true' on input line 70.
+Package hyperref Info: Option `colorlinks' set `true' on input line 71.
 
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 80.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
@@ -906,7 +909,7 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count136
 \AtBeginShipoutBox=\box34
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 80.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -915,19 +918,30 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count137
 )
-LaTeX Info: Redefining \ref on input line 79.
-LaTeX Info: Redefining \pageref on input line 79.
-LaTeX Info: Redefining \nameref on input line 79.
+LaTeX Info: Redefining \ref on input line 80.
+LaTeX Info: Redefining \pageref on input line 80.
+LaTeX Info: Redefining \nameref on input line 80.
 
 (./main.out) (./main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
+LaTeX Info: Redefining \celsius on input line 80.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 80.
+
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 80.
+Package gensymb Info: Using \Omega for \ohm on input line 80.
+
+Package gensymb Warning: Not defining \micro.
 
 
 bibgerm.sty: babel.sty detected
 
-(./titlepage.tex <images/TH_Koeln_Logo.png, id=184, 2007.5pt x 1086.0575pt>
+(./titlepage.tex <images/TH_Koeln_Logo.png, id=80, 2007.5pt x 1086.0575pt>
 File: images/TH_Koeln_Logo.png Graphic file (type png)
 
 <use images/TH_Koeln_Logo.png>
@@ -970,33 +984,28 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
 [1])
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 115.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 116.
  (./main.toc
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 20.
+(babel)             in language  on input line 22.
  [2
 
 
-]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 43.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 43.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 43.
- [3])
+])
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 118.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 117.
+(babel)             in language  on input line 118.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 117.
- [4] (./verzeichnisse.tex
+(babel)             in language  on input line 118.
+ [3] (./verzeichnisse.tex
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 8.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1013,7 +1022,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 14.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 14.
- [5
+ [4
 
 
 ] (./main.lol)
@@ -1024,7 +1033,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 17.
- [6
+
+[5
 
 ]) (./abkuerzungen.tex
 Package babel Info: Redefining ngerman shorthand "|
@@ -1038,289 +1048,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
 )
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 135.
+(babel)             in language  on input line 136.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 135.
- [7
+(babel)             in language  on input line 136.
+ [6
 
 
 ] (./Chapters/Einleitung.tex
 Kapitel 1.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 ------------------------------------------------------------------------------
  1 Einleitung
 ------------------------------------------------------------------------------
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 15.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 13.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 25.
 [1
 
 
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.32 _
-      _[Raymond S Nickerson. Confirmation bias: A ubiquitous phenomenon in m...
 
-? 
-! Missing { inserted.
-<to be read again> 
-                   _
-l.32 __
-       [Raymond S Nickerson. Confirmation bias: A ubiquitous phenomenon in m...
-
-? 
-! Missing { inserted.
-<to be read again> 
-                   _
-l.32 ... of general psychology, 2(2):175, 1998.]__
-                                                  
-? 
-! Missing { inserted.
-<to be read again> 
-                   \def 
-l.33 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.33 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.33 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.33 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.33 
-     
-? 
-
-Overfull \hbox (18.577pt too wide) in paragraph at lines 32--33
-$[]$ 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.35 ...ss sie sp√§ter √ºber Fehler hinwegsehen ._
-                                                  _[Arnold Campbell and Susa...
-
-? 
-! Missing { inserted.
-<to be read again> 
-                   _
-l.35 ...s sie sp√§ter √ºber Fehler hinwegsehen .__
-                                                  [Arnold Campbell and Susan...
-
-? 
-
-LaTeX Warning: Command \textendash invalid in math mode on input line 35.
-
-! Missing { inserted.
-<to be read again> 
-                   _
-l.35 ...al (Former Series), 7(4):10‚Äì14, 1996.]__
-                                                  
-? 
-! Missing { inserted.
-<to be read again> 
-                   \par 
-l.36 
-     
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.36 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.36 
-     
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.36 
-     
-? ^^[q
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-1 or ... or 9 to ignore the next 1 to 9 tokens of input,
-H for help, X to quit.
-? q
-OK, entering \batchmode...
-! Missing } inserted.
-<inserted text> 
-                }
-l.36 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+LaTeX Warning: Citation `nickerson1998confirmation' on page 2 undefined on inpu
+t line 28.
 
 
-Overfull \hbox (482.55627pt too wide) in paragraph at lines 34--36
-\T1/phv/m/n/10.95 schein-lich, dass sie sp‰-ter ¸ber Feh-ler hin-weg-se-hen .$[
-]$ 
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.37 ...e Meinung √ºber eine Webseite zu bilden. _
-                                                  _[Gitte Lindgaard, Gary Fe...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing { inserted.
-<to be read again> 
-                   _
-l.37 ... Meinung √ºber eine Webseite zu bilden. __
-                                                  [Gitte Lindgaard, Gary Fer...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Misplaced alignment tab character &.
-l.37 ... make a good first impression! Behaviour &
-                                                   information technology, 2...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+LaTeX Warning: Citation `campbell1996fitting' on page 2 undefined on input line
+ 32.
 
 
-LaTeX Warning: Command \textendash invalid in math mode on input line 37.
-
-! Missing { inserted.
-<to be read again> 
-                   _
-l.37 ...tion technology, 25(2):115‚Äì126, 2006.]__
-                                                  
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing { inserted.
-<to be read again> 
-                   \par 
-l.38 
-     
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.38 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.38 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.38 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.38 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (667.70473pt too wide) in paragraph at lines 37--38
-\T1/phv/m/n/10.95 raum von 50ms aus-reicht, um sich ei-ne Mei-nung ¸ber ei-ne W
-eb-sei-te zu bil-den. $[]$ 
- []
+LaTeX Warning: Citation `lindgaard2006attention' on page 2 undefined on input l
+ine 34.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 42.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 45.
+(babel)             in language  on input line 42.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 46.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 46.
+[2]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 49.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 49.
- [2]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 52.
+(babel)             in language  on input line 59.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 62.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 62.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 73.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 70.
  [3]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 73.
+(babel)             in language  on input line 70.
  [4]) (./Chapters/Ermittlung.tex
 
 ! LaTeX Error: Command \chaptertitle already defined.
@@ -1330,58 +1128,66 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...title}{Ermittlung relevanter Themengebiete}
+l.3 ...title}{Ermittlung relevanter Themengebiete}
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 Kapitel 2.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 ------------------------------------------------------------------------------
  2 Einleitung
 ------------------------------------------------------------------------------
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 25.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
- [5
+(babel)             in language  on input line 25.
+[5
 
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 30.
+(babel)             in language  on input line 28.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 36.
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/omsphv.fd
+File: omsphv.fd 
+)
+LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 47.
+
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 62.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
- [6]
+(babel)             in language  on input line 62.
+[6]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 92.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 90.
+(babel)             in language  on input line 95.
  [7]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 94.
+(babel)             in language  on input line 101.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 108.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 101.
+(babel)             in language  on input line 108.
  [8]) (./Chapters/Typographie.tex
 
 ! LaTeX Error: Command \chaptertitle already defined.
@@ -1391,820 +1197,473 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \newcommand{\chaptertitle}{Typographie}
+l.3 \newcommand{\chaptertitle}{Typographie}
                                            
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 Kapitel 3.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 ------------------------------------------------------------------------------
  3 Einleitung
 ------------------------------------------------------------------------------
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 17.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 19.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.21 ... einheitlich sind. So verwendet Strizver _
-                                                  _[Strizver, Ilene. Type Ru...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+(babel)             in language  on input line 17.
 
-! Missing { inserted.
-<to be read again> 
-                   _
-l.21 ...einheitlich sind. So verwendet Strizver __
-                                                  [Strizver, Ilene. Type Rul...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Misplaced alignment tab character &.
-l.21 ...e to Professional Typography. John Wiley &
-                                                   Sons, 2014.]__ andere Gru...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing { inserted.
-<to be read again> 
-                   _
-l.21 ...al Typography. John Wiley & Sons, 2014.]__
-                                                   andere Gruppierungen als ...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 21.
-
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 21
-.
-
-! Missing { inserted.
-<to be read again> 
-                   _
-l.21 ...tandards Classification of Typefaces‚Äù __
-                                                  [Baines, Phil, and Andrew ...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-! Missing { inserted.
-<to be read again> 
-                   _
-l.21 ...y. Laurence King Publishing, 2005, S.51]__
-                                                  . Die zwei Gruppierungen ‚...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
-
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 21.
-
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 21
+LaTeX Warning: Citation `strizver2014type' on page 9 undefined on input line 19
 .
 
 
-LaTeX Warning: Command \textquotedblleft invalid in math mode on input line 21.
-
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 21
-.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 22.
-
-
-LaTeX Warning: Command \ss invalid in math mode on input line 22.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.23 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.23 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.23 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.23 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.23 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Missing character: There is no ‰ in font cmr6!
-Missing character: There is no ˇ in font cmr6!
-
-Overfull \hbox (2060.44325pt too wide) in paragraph at lines 20--23
-\T1/phv/m/n/10.95 Ka-te-go-ri-en un-ter-teilt, die nicht im-mer ein-heit-lich s
-ind. So ver-wen-det Striz-ver $[]$ 
- []
+LaTeX Warning: Citation `baines2005type' on page 9 undefined on input line 19.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 24.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 22.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 22.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 24.
+(babel)             in language  on input line 22.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.25 ... feststellen, so kommen sowohl Josephson _
+l.23 ... feststellen, so kommen sowohl Josephson _
                                                   _[Josephson, S. (2008). Ke...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.25 ...feststellen, so kommen sowohl Josephson __
+l.23 ...feststellen, so kommen sowohl Josephson __
                                                   [Josephson, S. (2008). Kee...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.26 ...ommunication quarterly, 15(1-2), 67-79.]__
+l.24 ...ommunication quarterly, 15(1-2), 67-79.]__
                                                    als auch Dogusoy, Cicek &...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 ! Misplaced alignment tab character &.
-l.26 ...(1-2), 67-79.]__ als auch Dogusoy, Cicek &
+l.24 ...(1-2), 67-79.]__ als auch Dogusoy, Cicek &
                                                    Cagiltay __[Dogusoy, B., ...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.26 ....]__ als auch Dogusoy, Cicek & Cagiltay __
+l.24 ....]__ als auch Dogusoy, Cicek & Cagiltay __
                                                   [Dogusoy, B., Cicek, F., &...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 ! Misplaced alignment tab character &.
-l.26 ...ek & Cagiltay __[Dogusoy, B., Cicek, F., &
+l.24 ...ek & Cagiltay __[Dogusoy, B., Cicek, F., &
                                                    Cagiltay, K. (2016, July)...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.27 Springer International Publishing.]__
+l.25 Springer International Publishing.]__
                                            zu dem Ergebnis, dass serifenlose...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+
+? 
+
+LaTeX Warning: Command \" invalid in math mode on input line 25.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 27.
+LaTeX Warning: Command \" invalid in math mode on input line 25.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 27.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 27.
+LaTeX Warning: Command \" invalid in math mode on input line 25.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.29 
+l.27 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.29 
+l.27 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.29 
+l.27 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.29 
+l.27 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.29 
+l.27 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 Missing character: There is no ˆ in font cmr6!
 Missing character: There is no ¸ in font cmr6!
 Missing character: There is no ¸ in font cmr6!
 
-Overfull \hbox (2467.17102pt too wide) in paragraph at lines 25--29
+Overfull \hbox (2467.17102pt too wide) in paragraph at lines 23--27
 \T1/phv/m/n/10.95 ten Un-ter-schie-de fest-stel-len, so kom-men so-wohl Jo-se-p
 h-son $[]$ 
  []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 28.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 28.
+[9
+
+
+]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.30 ... das verwendete Medium entwickelt wurde. _
+l.28 ... das verwendete Medium entwickelt wurde. _
                                                   _[Josephson, S. (2008). Ke...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.30 ...das verwendete Medium entwickelt wurde. __
+l.28 ...das verwendete Medium entwickelt wurde. __
                                                   [Josephson, S. (2008). Kee...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.31 ...ommunication quarterly, 15(1-2), 67-79.]__
+l.29 ...ommunication quarterly, 15(1-2), 67-79.]__
                                                   
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    \par 
-l.32 
+l.30 
      
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.32 
+l.30 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.32 
+l.30 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.32 
+l.30 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.32 
+l.30 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+? 
 
-
-Overfull \hbox (571.35371pt too wide) in paragraph at lines 30--32
+Overfull \hbox (571.35371pt too wide) in paragraph at lines 28--30
 \T1/phv/m/n/10.95 be-reits kennt und ob die-se ex-pli-zit f¸r das ver-wen-de-te
  Me-di-um ent-wi-ckelt wur-de. $[]$ 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 34.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 36.
- [9
-
-
-]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 36.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 36.
+(babel)             in language  on input line 34.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.42 _
+l.40 _
       _Sans-Serif__
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.42 __
+l.40 __
        Sans-Serif__
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.42 __Sans-Serif__
+l.40 __Sans-Serif__
                    
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.48 
+l.46 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.48 
+l.46 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.48 
+l.46 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+? 
 
-
-Overfull \hbox (140.78694pt too wide) in paragraph at lines 42--48
+Overfull \hbox (140.78694pt too wide) in paragraph at lines 40--46
 []$[]$ 
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.49 _
+l.47 _
       _Serif__
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.49 __
+l.47 __
        Serif__
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.49 __Serif__
+l.47 __Serif__
               
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.53 
+l.51 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.53 
+l.51 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.53 
+l.51 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.54 _
+l.52 _
       _Monospace__
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.54 __
+l.52 __
        Monospace__
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.54 __Monospace__
+l.52 __Monospace__
                   
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.55 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 
+     
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.55 
+     
+? 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 56.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 56.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 60.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 60.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 63.
+[10]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 63.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 63.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.57 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.57 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.57 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 58.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 62.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 62.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 65.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 65.
-! Missing $ inserted.
-<inserted text> 
-                $
-l.68 ... different colors, tastes, and textures. _
+l.66 ... different colors, tastes, and textures. _
                                                   _[Lupton, E. (2014). Think...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.68 ...different colors, tastes, and textures. __
+l.66 ...different colors, tastes, and textures. __
                                                   [Lupton, E. (2014). Thinki...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.68 ...). Thinking with type. Chronicle Books.]__
+l.66 ...). Thinking with type. Chronicle Books.]__
                                                   
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    \par 
-l.69 
+l.67 
      
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.69 
+l.67 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.69 
+l.67 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.69 
+l.67 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.69 
+l.67 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+? 
 
-
-Overfull \hbox (20.76491pt too wide) in paragraph at lines 66--69
+Overfull \hbox (20.76491pt too wide) in paragraph at lines 64--67
 \T1/phv/m/n/10.95 ments re-pre-sen-ting dif-fe-rent co-lors, tas-tes, and tex-t
 u-res. $[]$ 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 69.
+(babel)             in language  on input line 70.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 69.
- [10]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 72.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 72.
+(babel)             in language  on input line 70.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.74 ...n sich dennoch finden, so empfiehlt Runk _
+l.72 ...n sich dennoch finden, so empfiehlt Runk _
                                                   _[Claudia Runk. Grundkurs ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.74 ... sich dennoch finden, so empfiehlt Runk __
+l.72 ... sich dennoch finden, so empfiehlt Runk __
                                                   [Claudia Runk. Grundkurs T...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 
-LaTeX Warning: Command \" invalid in math mode on input line 74.
+LaTeX Warning: Command \" invalid in math mode on input line 72.
 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.74 ...n). Galileo Design, 3 edition, 10 2011.]__
+l.72 ...n). Galileo Design, 3 edition, 10 2011.]__
                                                    f√ºr Bildschirme ab 15‚Äù...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+
+? 
+
+LaTeX Warning: Command \" invalid in math mode on input line 72.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 74.
-
-
-LaTeX Warning: Command \textquotedblright invalid in math mode on input line 74
+LaTeX Warning: Command \textquotedblright invalid in math mode on input line 72
 .
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 74.
+LaTeX Warning: Command \" invalid in math mode on input line 72.
 
 
-LaTeX Warning: Command \ss invalid in math mode on input line 74.
+LaTeX Warning: Command \ss invalid in math mode on input line 72.
 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.74 ...√∂√üe von 14px - 16px, Benedikt Lehnert __
+l.72 ...√∂√üe von 14px - 16px, Benedikt Lehnert __
                                                   [http://www.typogui.de/]__...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.74 ...edikt Lehnert __[http://www.typogui.de/]__
+l.72 ...edikt Lehnert __[http://www.typogui.de/]__
                                                    spricht von 14px -24px f√...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+
+? 
+
+LaTeX Warning: Command \" invalid in math mode on input line 72.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 74.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 74.
+LaTeX Warning: Command \" invalid in math mode on input line 72.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.75 
+l.73 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 
+l.73 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 
+l.73 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 
+l.73 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.75 
+l.73 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 Missing character: There is no ¸ in font cmr8!
 Missing character: There is no ¸ in font cmr6!
 Missing character: There is no ˆ in font cmr6!
@@ -2212,455 +1671,318 @@ Missing character: There is no ˇ in font cmr6!
 Missing character: There is no ¸ in font cmr6!
 Missing character: There is no ¸ in font cmr6!
 
-Overfull \hbox (872.49426pt too wide) in paragraph at lines 73--75
+Overfull \hbox (872.49426pt too wide) in paragraph at lines 71--73
 \T1/phv/m/n/10.95 Ein-gren-zun-gen las-sen sich den-noch fin-den, so emp-fiehlt
  Runk $[]$ 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 78.
+(babel)             in language  on input line 76.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 85.
+(babel)             in language  on input line 79.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 85.
- [11]
+(babel)             in language  on input line 79.
+[11]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 86.
+(babel)             in language  on input line 84.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 86.
+(babel)             in language  on input line 84.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.88 Laut _
+l.86 Laut _
            _[Livio, M. (2003). The golden ratio (p. 4). Aryeh Nir Publishers...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.88 Laut __
+l.86 Laut __
             [Livio, M. (2003). The golden ratio (p. 4). Aryeh Nir Publishers...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
 
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.88 ...o (p. 4). Aryeh Nir Publishers Limited.]__
+l.86 ...o (p. 4). Aryeh Nir Publishers Limited.]__
                                                    wird dieses Verh√§ltnis d...
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
+
+? 
+
+LaTeX Warning: Command \" invalid in math mode on input line 86.
 
 
-LaTeX Warning: Command \" invalid in math mode on input line 88.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 88.
+LaTeX Warning: Command \" invalid in math mode on input line 86.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.89 
+l.87 
      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.89 
+l.87 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.89 
+l.87 
      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 Missing character: There is no ‰ in font cmr6!
 Missing character: There is no ‰ in font cmr6!
 
-Overfull \hbox (328.89792pt too wide) in paragraph at lines 87--89
+Overfull \hbox (328.89792pt too wide) in paragraph at lines 85--87
 \T1/phv/m/n/10.95 nom-men wird. Laut $[]$ 
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 95.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 97.
+(babel)             in language  on input line 95.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 _
-       _[HIER BILD VON SCALE AUS BUCH]__
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+l.98 _
+      _[HIER BILD VON SCALE AUS BUCH]__
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.100 __
-        [HIER BILD VON SCALE AUS BUCH]__
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+l.98 __
+       [HIER BILD VON SCALE AUS BUCH]__
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.100 __[HIER BILD VON SCALE AUS BUCH]__
-                                        
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+l.98 __[HIER BILD VON SCALE AUS BUCH]__
+                                       
+? 
 ! Missing { inserted.
 <to be read again> 
                    \par 
-l.101 
-      
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+l.99 
+     
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.101 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+l.99 
+     
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.101 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+l.99 
+     
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.101 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+l.99 
+     
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.101 
-      
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+l.99 
+     
+? 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 100.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 100.
+[12]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.105 _
+l.103 _
        _[HIER ERSTES BILD VON GESETZTEM TEXT]__
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.105 __
+l.103 __
         [HIER ERSTES BILD VON GESETZTEM TEXT]__
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.105 __[HIER ERSTES BILD VON GESETZTEM TEXT]__
+l.103 __[HIER ERSTES BILD VON GESETZTEM TEXT]__
                                                
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    \par 
-l.106 
+l.104 
       
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.106 
+l.104 
       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.106 
+l.104 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.106 
+l.104 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.106 
+l.104 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 107.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 107.
- [12]
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.109 _
+l.107 _
        _[HIER ZWEITES BILD VON GESETZTEM TEXT]__
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.109 __
+l.107 __
         [HIER ZWEITES BILD VON GESETZTEM TEXT]__
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.109 __[HIER ZWEITES BILD VON GESETZTEM TEXT]__
+l.107 __[HIER ZWEITES BILD VON GESETZTEM TEXT]__
                                                 
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    \par 
-l.110 
+l.108 
       
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.110 
+l.108 
       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.110 
+l.108 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.110 
+l.108 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.110 
+l.108 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 133.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 139.
+(babel)             in language  on input line 133.
+[13]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
- [13]
+(babel)             in language  on input line 137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 142.
+(babel)             in language  on input line 140.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 146.
+(babel)             in language  on input line 144.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 165.
+(babel)             in language  on input line 155.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 165.
+(babel)             in language  on input line 155.
  [14]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.167 _
+l.165 _
        _[HIER NOCH BILD]__
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.167 __
+l.165 __
         [HIER NOCH BILD]__
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    _
-l.167 __[HIER NOCH BILD]__
+l.165 __[HIER NOCH BILD]__
                           
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing { inserted.
 <to be read again> 
                    \par 
-l.168 
+l.166 
       
-A left brace was mandatory here, so I've put one in.
-You might want to delete and/or insert some corrections
-so that I will find a matching right brace soon.
-(If you're confused by all this, try typing `I}' now.)
-
+? 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.168 
+l.166 
       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.168 
+l.166 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.168 
+l.166 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.168 
+l.166 
       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
+? 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 174.
+(babel)             in language  on input line 172.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 174.
+(babel)             in language  on input line 172.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 179.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 179.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 181.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 181.
+[15]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 188.
+(babel)             in language  on input line 186.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 188.
- [15]) (./Chapters/Layout-Struktur.tex
+(babel)             in language  on input line 186.
+ [16]) (./Chapters/Layout-Struktur.tex
 
 ! LaTeX Error: Command \chaptertitle already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -2671,10 +1993,7 @@ Type  H <return>  for immediate help.
                                                   
 l.5 ...command{\chaptertitle}{Layout und Struktur}
                                                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
+? 
 Kapitel 4.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 7.
@@ -2695,18 +2014,14 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 28.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 28.
- [16
+[17
 
 
 ]
 ! You can't use `macro parameter character #' in horizontal mode.
 l.28 [gridpak](http://gridpak.com/#
                                    )
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
+? 
 
 Overfull \hbox (3.51717pt too wide) in paragraph at lines 40--43
 []\T1/phv/m/n/10.95 [Bootstrap](http://getbootstrap.com/2.3.2/index.html) Sehr 
@@ -2716,13 +2031,8 @@ fle-xi-bel und an-pass-bar, al-ler-dings nur,
 ! Misplaced alignment tab character &.
 l.49 √Ñhnlich wie Bootstrap &
                               Dead Simple Grid aber deutlich komplexer, da e...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
 
+? 
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 56.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2731,7 +2041,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 60.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 60.
- [17]
+[18]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 61.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2744,14 +2054,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 69.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 69.
+
 ! You can't use `macro parameter character #' in horizontal mode.
 l.71 ...l.google.com/layout/metrics-keylines.html#
                                                   metrics-keylines-baseline-...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
+? 
 
 Overfull \hbox (24.21239pt too wide) in paragraph at lines 70--73
 \T1/phv/m/n/10.95 Guidelines](https://material.google.com/layout/metrics-keylin
@@ -2762,7 +2070,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 73.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 73.
- [18]
+[19]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 74.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2782,77 +2090,319 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 95.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 95.
- [19]
+[20]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 108.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 108.
-) (./Chapters/Fazit.tex
+) (./Chapters/Whitespace.tex
+
+! LaTeX Error: Command \chaptertitle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \newcommand{\chaptertitle}{Whitespace}
+                                          
+? 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 7.
- [20]
+(babel)             in language  on input line 5.
+[21]
 Kapitel 5.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 7.
+(babel)             in language  on input line 5.
 ------------------------------------------------------------------------------
- 5 Fazit
+ 5 Einleitung
 ------------------------------------------------------------------------------
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 15.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 15.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 19.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 19.
+(babel)             in language  on input line 13.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 23.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 27.
+(babel)             in language  on input line 29.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 27.
- [21
+(babel)             in language  on input line 29.
+[22
 
-]) (./anhang.tex) (./literaturverzeichnis.tex
-No file main.bbl.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
- (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BD333072B523440C3D6ED1ED2FEB2697;6751.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 32.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 32.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 44.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 44.
+ [23]) (./Chapters/Farben.tex
+
+! LaTeX Error: Command \chaptertitle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \newcommand{\chaptertitle}{Farben}
+                                      
+? 
+Kapitel 6.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 5.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 5.
+------------------------------------------------------------------------------
+ 6 Einleitung
+------------------------------------------------------------------------------
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 20.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 20.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 25.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 25.
+[24
+
+
+]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 38.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 38.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 47.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 53.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 53.
+ [25]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 70.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 70.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 74.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 74.
+ [26]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 97.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 97.
+ [27]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 119.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 119.
+ [28]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 122.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 122.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 141.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 141.
+ [29]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 144.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 144.
+
+
+LaTeX Warning: Citation `zhang2016makes' on page 30 undefined on input line 148
+.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 164.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 164.
+
+LaTeX Warning: Citation `elizabeth2016simple' on page 30 undefined on input lin
+e 168.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 169.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 169.
+[30]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 170.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 179.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 179.
+ [31]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 182.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 182.
+
+
+LaTeX Warning: Citation `joblove1978color' on page 32 undefined on input line 1
+87.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 194.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 194.
+[32]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 195.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 195.
+
+
+LaTeX Warning: Citation `elizabeth2016simple' on page 33 undefined on input lin
+e 200.
+
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 202.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 202.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 215.
+[33]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 215.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 220.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 220.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 232.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 232.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 236.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 236.
+ [34]) (./Chapters/Fazit.tex
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 7.
+ [35]
+Kapitel 7.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 7.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 7.
+------------------------------------------------------------------------------
+ 7 Fazit
+------------------------------------------------------------------------------
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 15.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 19.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 19.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 23.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 27.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 27.
+[36
+
+]) (./anhang.tex) (./literaturverzeichnis.tex (./main.bbl
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 38.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 13.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 13.
+ [37
+
+
+
+
+])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
+
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D8050900C5671F6FA390FB933A5B39FD;3084
+(rerunfilecheck)             After:  9C044B0B8E2D438C0A7EC49C7FDBF38C;9895.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 171.
  ) 
 Here is how much of TeX's memory you used:
- 14159 strings out of 493027
- 198293 string characters out of 6134070
- 290250 words of memory out of 5000000
- 17353 multiletter control sequences out of 15000+600000
- 44217 words of font info for 63 fonts, out of 8000000 for 9000
+ 14318 strings out of 493027
+ 200820 string characters out of 6134070
+ 291672 words of memory out of 5000000
+ 17436 multiletter control sequences out of 15000+600000
+ 49699 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 49i,12n,45p,646b,649s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/tex
-live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
-/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (29 pages, 263713 bytes).
+ 49i,12n,45p,647b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.29} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.23} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.22} has been referenced but does not exist,
+ replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.20} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/
+usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
+/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/
+urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (44 pages, 328596 bytes).
 PDF statistics:
- 418 PDF objects out of 1000 (max. 8388607)
- 372 compressed objects within 4 object streams
- 78 named destinations out of 1000 (max. 500000)
- 366 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 452 PDF objects out of 1000 (max. 8388607)
+ 389 compressed objects within 4 object streams
+ 133 named destinations out of 1000 (max. 500000)
+ 158 words of extra memory for PDF output out of 10000 (max. 10000000)
 

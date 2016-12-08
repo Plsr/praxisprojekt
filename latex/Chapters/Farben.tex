@@ -1,0 +1,242 @@
+% Chapter 6
+
+\newcommand{\chaptertitle}{Farben}
+
+\chapter{\chaptertitle} % Main chapter title
+
+\label{Farben} % For referencing the chapter elsewhere, use \ref{Chapter1}
+
+\lhead{\chaptername{} \thechapter{} - \emph{\chaptertitle}} % This is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+
+Neben der Typographie stellte sich das Kapitel Farben als eines der Komplexesten Kapitel heraus. Viele Entscheidungen im Bezug auf Farben müssen auf einer subjektiven Ebene getroffen werden, einige können jedoch, zumindest bedingt, auch durch Regeln vereinfacht werden.
+
+Dieses Kapitel beschäftigt sich mit verschiedenen Fragestellungen. Zunächst wird der Versuch unternommen, herauszufinden, ob die Verwendung bestimmte Farben immer empfohlen oder von dieser abgeraten werden kann.
+Weiterhin wird versucht, Regeln für die Kombination von verschiedenen Farben zu finden. Die Frage, wie und in welchem Umfang Farben in einer Gestaltung eingesetzt werden sollten wird beantwortet, und es wird der Versuch unternommen, einen Workflow zum finden von Farben zu definieren. Außerdem wird die Verwendung von Farben auf den nativen Plattformen Android und iOS behandelt.
+
+%----------------------------------------------------------------------------------------
+
+\section{Farbwirkung}
+
+Um herauszufinden, ob bestimmte Farben empfohlen oder von ihnen abgeraten werden kann, soll hier zunächst der psychologische Effekt von Farben auf Menschen behandelt werden.
+
+Generell lässt sich feststellen, dass Farben eine Wirkung auf die menschliche Wahrnehmung und ihr Verhalten haben. In den letzten drei Jahren konnte beispielsweise während des Moduls "Grundlagen der visuellen Kommunikation" beobachtet werden, wie ein Raum von über 100 Menschen fast einstimmig bestimmte Farbkombinationen mit Adjektiven belegten. Auch in der Forschung wir diese Annahme unterstützt:
+
+\begin{quote}
+Color filters humanity’s perception of the world and alters people’s relationships with their surroundings. It influences human perception, preference, and psychology throughout the lifespan \cite{cyr2010colour}
+\end{quote}
+
+\begin{quote}
+Colour has the potential to elicit emotions or behaviors [...] \cite{rider2010color}
+\end{quote}
+
+Die Frage in diesem Teil lautet also nicht, ob es möglich ist, Menschen mit Farben zu beeinflussen, sondern vielmehr \textit{wie}. Konkreter gilt es die Frage zu beantworten, ob es bestimmte Farben gibt, die bei einem Großteil der Menschen positive bzw. negative Gefühle hervorrufen um so eine solide Basis für das erstellen eines Farbschemas zu schaffen.
+
+%----------------------------------------------------------------------------------------
+
+\section{Beliebtheit von Farben}
+
+Generell lässt sich keine absolute und allgemeingültige Regel aufstellen, welche Farben am beliebtesten sind. Dies hängt von verschiedenen Faktoren wie Herkunft, Kultur, Geschlecht und Charakterausprägung des Individuums ab. Für Westeuropäische Erwachsene weist aber die von \cite{eysenck1941critical} erstellte Hierarchie \textit{blau, rot, grün, violett, orange, gelb} eine hohe Gültigkeit auf.
+
+Es lässt sich aber auch feststellen, dass kalte Farbtöne beliebter sind als warme, was wiederum im Widerspruch mit der oben aufgestellten Hierarchie steht. Zwar scheint Blau immer eine solide Lösung zu sein, jedoch sollte die Farbauswahl auf basis der generellen Beliebtheit der Farben nur als letztes Mittel erfolgen.
+Gibt es eine andere Möglichkeit, die Hauptfarbe einer Gestaltung zu definieren (siehe andere Kapitel), so sollte diese auch verwendet werden.
+
+%----------------------------------------------------------------------------------------
+
+\section{Psychologische Wirkung von Farben}
+
+Eine dieser anderen Möglichkeiten wäre, Farben nach einem intendierten Effekt auf den Betrachter auszuwählen.
+Hier unterschieden sich sowohl Farbtöne, als auch einzelne Farben.
+So erhöhen \textbf{warme Farbtöne} wie Rot und Gelb den Puls und verursachen Hunger beim Betrachter \cite{berman2010street},
+einigen \textbf{kalte Farbtönen} wie zum Beispiel Blau kann hingegen ein einen beruhigenden Effekt auf den Betrachter nachgewiesen werden \cite{crozier1999meanings}.
+
+\cite{berman2010street} listet einige der beliebtesten Farben samt ihrer Bedeutung auf. Diese gilt explizit für Nordamerika, sollte aber auch in der restlichen westlichen Welt gültigkeit haben.
+
+\textit{Rot} hat, je nach Kontext, verschiedene (und teilweise recht unterschiedliche) Bedeutungen. Sp gilt Rot als Farbe der Romantik, Liebe und Leidenschaft, wird jedoch auch als Signalfarbe auf Straßenschilden genutzt und kann in gewissen Kontexten als Zeichen für Gefahr stehen.
+
+\textit{Gelb und Orange} rufen Erinnerungen an die Sonne hervor und gelten daher als fröhliche Farben, sind im allgemeinen aber eher unbeliebt. Gelb ist oft heller als Weiß und wird als Signalfarbe genutzt, Orange erhöht (ähnlich wie Rot) den Appetit des Betrachters.
+
+\textit{Blau} ist in der westlichen Welt die beliebteste Farbe. Ihr wird eine beruhigende Wirkung nachgesagt, in verschiedenen Abstufungen wirkt Blau jedoch verschieden, von dynamisch bis zuverlässig.
+
+\textit{Grün} steht hauptsächlich als Farbe der Natur un der Gesundheit, kann in dunkleren Abstufungen aber auch für Wohlstand stehen.
+
+\textit{Violett} steht für das Noble und Majestätische, kann gliechzeitig aber auch für Einsamkeit stehen.
+
+Es ist also schwer, einer Farbe genau eine Eigenschaft zuzuschreiben, häufig hat die gleiche Farbe in einer helleren oder dunkleren Abstufung eine andere Wirkung. Zumindest lässt sich aber eine grobe Auflistung von Eigenschaften finden, auf dessen Basis eine Farbempfehlung erfolgen könnte.
+
+%----------------------------------------------------------------------------------------
+
+\section{Kontraste}
+
+Um eine Farbpalette zu erstellen müssen Farben kombiniert werden. Um diese Farben so zu kombinieren, dass sie zusammen funktionieren, gibt es verschiedene Farbkontraste, mit denen gearbeitet werden kann.
+Dieses Kapitel beschäftigt sich mit der Frage, welche Kontraste es gibt, welche davon am Besten programmatisch umzusetzen sind und welche letzten endes im Tool verwendet werden sollten.
+
+Weiterhin werden einige bereits bestehende Tools auf ihre Stärken und Schwächen untersucht.
+
+Zu Farbschemata, deren Verwendung und der Anzahl der vertretenen Farben schreibt Rose Rider:
+
+\begin{quote}Strong color schemes are important to effective design. Monochromatic designs, containing various shades and tints of one hue, are most effective for communicating simple messages (Fehrman \& Fehrman, 2004). Multiple-color combinations can add depth, complexity, and additional meaning to design. A common two-hue combination involves complimentary colors, colors directly opposite each other on the color wheel (e.g., blue and orange, or red and green; Berman, 2007). Three-hue color harmonies often involve triads, colors located equally far from each other on the color wheel (Bleicher, 2005).
+\end{quote}
+
+und
+
+\begin{quote}
+Four-color schemes in general are more attractive than one- or two-color schemes (Shank \& LaGarce, 1990). One-color schemes, however, were ranked more tasteful than their two- or four-color counterparts. A simple monochromatic color scheme can lend an air of sophisticated restraint while cutting costs (Nelson, 1994).
+\end{quote}
+
+Die Frage nach der richtigen Anzahl von Farben in einem Farbschema kann also nicht eindeutig beantwortet werden. Das Tool sollte aber ein Farbschemata mit maximal vier Farben empfehlen, nach Möglichkeit jedoch weniger, um die Zahl der Fehlerquellen möglichst gering zu halten.
+
+In "Kunst der Farbe" beschreibt \cite{Itten201006} 7 Farbkontraste:
+
+\begin{enumerate}
+  \item Farbe-an-sich-Kontrast
+  \item Hell-Dunkel-Kontrast
+  \item Kalt-Warm-Kontrast
+  \item Komplementär-Kontrast
+  \item Simultan-Kontrast
+  \item Qualitäts-Kontrast
+  \item Quantitäts-Kontrast
+\end{enumerate}
+
+Für den hier gegebenen Kontext wurden aus dieser Liste vier Kontraste ausgewählt, die zum Einen in vielen der untersuchten Tools verwendet wurden und zum Anderen einfach umzusetzen sind. Diese sollen im Folgenden kurz erläutert werden.
+
+Der \textbf{Kalt-Warm-Kontrast} beschreibt eine Verwendung von Kalten und Warmen Farben im Farbschema. Itten unterteilt den Farbkreis dabei wie folgt:
+
+\begin{quote}
+Die Farben Gelb, Orange, Rotorange, Rot und Rotviolett werden im allgemeinen als warme, und Gelbgrün, Grün, Blaugrün, Blau, Blauviolett und Violett werden als kalte Farben bezeichnet.
+\cite[S. 45]{Itten201006}
+\end{quote}
+
+Zwar wurde die Verwendung diese Kontraste in den untersuchten Tools nicht explizit gefunden, jedoch liegt er wegen der unternommenen Teilung des Farbkreises nahe am Komplementär-Kontrast (So werden häufig Blau und Orange in Farbschemata verwendet).
+
+Der \textbf{Komplementär-Kontrast} ist der am häufigsten in bestehenden Lösungen verwendete Kontrast, vermutlich wegen seiner einfachen logischen Umsetzung. Zwei Farben gelten als Komplementär, wenn sie zusammengemischt Grau ergeben.
+Da das Auge auch selbstständig nach einer Komplementärfarbe sucht, wenn diese nicht gegeben ist \cite[S. 49]{Itten201006}, wirkt das auftreten zweier Komplementärfarben in einem Farbschema sehr harmonisch.
+
+Der \textbf{Qualitäts-Kontrast} ist, ähnlich wie der Komplementär-Kontrast sehr einfach zu erzeugen. Als Qualitätskontrast bezeichnet Itten den Gegensatz von gesättigten und stumpfen Farben \cite[S. 55]{Itten201006}. Dieser lässt sich also sehr einfach durch das mischen einer Grundfarbe mit Schwarz, Weiss, Grau oder der entsprechenden Komplementärfarbe.
+
+Der \textbf{Quantitäts-Kontrast} ist für das Finden einer Farbpalette weniger von Bedeutung als für ihren späteren Einsatz. Dieser Kontrast wird also im Kapitel "Farbeinsatz" noch einmal von Relevanz sein, trotzdem solle r hier kurz erläutert werden. Der Qunatitäts-Kontrast bezieht sich auf das Größenverhältnis zwischen zwei Verwedndeten Farben, also "'viel und wenig' oder 'groß und klein'" \cite[S. 59]{Itten201006}
+
+%----------------------------------------------------------------------------------------
+
+\subsection{Bestehende Lösungen zur Farbfindung}
+Im Rahmen der Recherche wurde einige bestehende Lösungen untersucht. Die Folgende Liste gibt einen kurzen Überblick über einige der Untersuchten Tools und deren Lösungsansätze.
+
+\textbf{Paletton}
+Sehr simpel zu benutzen, der Nutzer wählt eine Grundfarbe und kann zwischen Benachbarten, Triadisch oder Tetraedisch angelegten Farben wählen. Dabei besteht immer auch die Möglichkeit, die Komplementärfarbe mit in die Farbpalette zu übernehmen. Das Tool erzeugt eine Farbpalette von 2 bis 4 Farben.
+
+\textbf{Adobe Color CC}
+Etwas umfangreicher als Paletton, es besteht die Wahl zwischen 6 verschiedenen Kontrasten. Das Tool erstellt eine Farbpalette von 5 Farben, die alle individuell angepasst werden können.
+
+\textbf{Coolors}
+Sehr einfach zu bedienen, der Nutzer drück die Leertaste und es wird eine neue Palette erzeugt. Farben, die der Nutzer mag können "gelockt" werden und bleiben bei der nächsten Generierung erhalten. Es wird für den Nutzer nicht deutlich, auf welcher Grundlage die Farben ausgesucht werden. Das Tool liefert eine Farbpalette von 5 Farben.
+
+\textbf{colourlovers}
+Liefert beim erstellen einer Farbpalette nur wenig Hilfe (die einzige Hilfe ist das Erstellen einer Palette aus einem Foto). Auf der Plattform sind von anderen Nutzern erstellte Farbpaletten vorhanden, die zur Inspiration dienen können.
+
+\textbf{color-scheme-js}
+JavaScript Library, die Farbpaletten erstellt. Es gibt 5 verschiedene Variationen, ähnlich wie bei Adobe Color CC. Ein Beispiel kann [hier](http://c0bra.github.io/color-scheme-js/) eingesehen werden. Leider liegt keine Lizenz bei, es gilt also zu prüfen, ob diese Library verwendet werden könnte.
+
+Viele der untersuchten Tools liefern gute und verwendbare Ergebnisse, jedoch vermittelt keines Interaktiv Wissen, dem Benutzer wird lediglich eine Aufgabe abgenommen. In diesem Punkt könnte die in diesem Projekt zu entwickelnde Lösung ansetzen.
+
+%----------------------------------------------------------------------------------------
+
+\section{Einsatz von Farben}
+
+Nachdem nun einige Methodiken zum Finden von Farben besprochen wurden gilt es weiterhin die Frage zu klären, wie diese Farben einzusetzen sind. So stellt sich zum Beispiel die Frage, ob es einen prozentualen Richtwert dafür gibt, welche Elemente in einer Gestaltung farbig sein sollten oder ob sich bestimmte Elemente finden lassen, die immer farbig sein sollten.
+
+Generell lassen sich für den Anteil der Farbigen Elemente, etwa auf prozentualer Basis, keine Regeln formulieren. Zwar zeigen Studien, dass Webseiten mit wenigen Farben in der Regel als hochwertiger und teurer angesehen werden \cite{zhang2016makes}, jedoch bezieht sich diese Beobachtung nicht darauf, ob eine Gestaltung als angenehm wahrgenommen wird oder nicht. Gerade im Kontext eines Informatikstudienganges können auch bunte Gestaltungen durchaus reizvoll und angebracht sein.
+
+Für den Anteil der Farbigen Element in sich lassen sich jedoch zumindest Ansätze von finden. So führt \cite[S. 59]{Itten201006} zu den bereits früher erwähnten Quantitäts-Kontrasten Verhältnisse der Grundfarben zueinander auf:
+
+\begin{quote}
+Gelb : Orange : Rot : Violett : Blau : Grün
+sind wie
+3 : 4 : 6 : 9 : 8 : 6
+\end{quote}
+
+Verwendet der Benutzer also zwei oder mehr dieser Farben, kann zumindest für deren Einsatz eine Empfehlung gegeben werden.
+
+Weiterhin lässt sich feststellen, dass die für die intendierte Botschaft der Gestaltung besonders wichtigen Elemente häufig farbig sind. Hierzu können zum Beispiel ein Button zählen, den der User drücken soll oder ein besonders wichtiges Zitat, das die Grundaussage des gesamten Textes gut widerspiegelt.
+
+%----------------------------------------------------------------------------------------
+
+\section{Farbfindung}
+
+Nachdem die vorhergehenden Abschnitte einige theoretische Grundlagen lieferten beschäftig sich dieses Kapitel mit der konkreten Erstellung von Farbpaletten. Dieser Prozess wird hier in drei Schritte unterteilt und soll so auch im Tool abgebildet werden.
+Den ersten Schritt stellt das Finden einer Grundfarbe dar, auf der aufbauend dann die anderen Farben der Palette gefunden werden können.
+Im zweiten Schritt gilt es, je nach Art der Farbpalette, entweder einer Akzentfarbe oder passende Abstufungen der Grundfarbe zu finden. Im letzten Schritt soll die Farbpalette dann mit passenden Grautönen vervollständigt werden. Für das Finden der passenden Grautöne soll sich das Tool am Vorgehen orientieren, das \cite{elizabeth2016simple} beschreibt.
+
+\subsection{Finden einer Grundfarbe}
+
+Das finden einer Grundfarbe wurde bereits im Abschnitt Farbwirkung angeschnitten. In vielen Fällen ist die Grundfarbe bereits vorgegeben oder es gibt Anhaltspunkte, an denen diese definiert werden kann. Solch ein Anhaltspunkt könnte beispielsweise ein Logo sein.
+Oft liegen Vorlagen aus den entsprechenden Modulen vor, an denen man sich orientieren kann (und sollte). Außerdem sind Styleguides sowohl von der Technischen Hochschule Köln als  auch der Medieninformatik vorhanden. Diese enthalten zwar bereits vordefinierte Farbpaletten und machen diesen Schritt im Tool überflüssig, sollten aber gegenüber der individuellen Definition einer Farbpalette den Vorzug erhalten. Weiterhin gibt es für native Plattformen bereits Farbvorgaben, siehe hierzu das entsprechende Kapitel.
+
+Lässt sich all das oben genannte nicht anwenden, so muss eine andere Grundfarbe gefunden werden. Wie bereits im Abschnitt Farbwirkung erwähnt gibt es hier keine universellen Regeln, auf deren Grundlage man eine sichere Entscheidung treffen könnte, hier spielen viel Charakteristiken der Zielgruppe eine Rolle. Die Zielgruppe für Artefakte kann mit recht großer Sicherheit als in Westeuropa lebende Erwachsene definiert werden, wodurch sich konkretere Regeln entwickeln lassen.
+Der erste Schritt wäre die Auswahl eines Farbtones, hier kommt es ganz darauf an, ob die Anwendung eher ruhig oder eher aufregend wirken soll. Generell scheint sich aufgrund der Beliebtheit der Farbe auch das Verwenden eines Blautones empfehlen.
+Auch finden sich im Web viele Listen mit Adjektiven, die bestimmten Farben zugeschrieben werden. Auch diese Listen wäre ein valider Ansatzpunkt.
+
+Als erster Schritt im Tool wäre es also denkbar, dem Nutzer aufzuzeigen, wo er eine vielleicht bereits definierte Grundfarbe finden könnte und diese über einen simplen Colorpicker einzulesen.
+Außerdem wäre es möglich, dem Nutzer eine Liste von Adjektiven zur intendierten Wirkung seiner Gestaltung zu präsentieren und aufgrund der Auswahl des Nutzer eine Farbe vorzuschlagen.
+
+\subsection{Finden einer Akzentfarbe}
+
+Für die Akzentfarbe ist vor allem wichtig, dass sie mit der Grundfarbe harmoniert. Außerdem sollte sich sich deutlich von der Grundfarbe unterscheiden. (Die Ausnahme bildet hier ein Monochromatisches Farbschema, bei dem es keine Akzentfarbe an sich gibt.) Je nach Farbschema gibt es nicht nur eine Akzentfarbe sondern auch mehrere.
+Zum finden der Akzentfarbe bietet sich zunächst die Komplementärfarbe der Grundfarbe an. Da diese auf der anderen Seite des Farbkreises liegt ist sichergestellt, dass sie sich von der Grundfarbe abhebt (also einen Akzent setzten kann) und mit ihr harmoniert. Sollte mehr als eine Akzentfarbe benötigt werden kann hier auf die triadische oder tetradische Farbfindung zurück gegriffen werden.
+
+Für die tatsächliche Berechnung im Tool müssen die verwendeten Farben in den HSL-Farbraum (Hue, Saturation, Lightness) konvertiert werden. In diesem Farbraum werden Farbtöne radial auf einem Zylinder angeordnet \cite{joblove1978color}.
+
+Um die Komplementärfarbe einer gegebenen Grundfarbe zu finden muss also nur die auf dem Kreis gegenüberliegende Farbe gefunden werden, der Winkel also um 180 \degree vergrößert werden. Das vorgehen beim Finden von 3 oder 4 Farben ist simultan, der Winkel wird hier entsprechend um 120\degree oder 90 \degree vergrößert.
+
+st die Grundfarbe zum Beispiel ein Rot mit dem HEX-Wert \#ff0000 würde dieses zunächst in den HSL-Farbraum konvertiert und die Werte H = 0\degree, S=100\% und L=50\% ergeben. Saturation und Lightness werden beibehalten, der Hue-Wert wird um 180\degree erhöht. Die Komplementärfarbe hat also die Werte  H = 180\degree, S=100\% und L=50\% oder \#00ffff.
+
+Für eine Abstufung von Farben zur Verwendung in einem Monochromatischen Farbschema kann der Hue-Wert der Grundfarbe beibehalten werden und lediglich die Saturation oder Lightness erhöht bzw. verringert werden. Hier sollten dem User 4 zusätzliche Farben in verschiedenen Abstufungen vorgeschlagen werden.
+
+\subsection{Komplettieren der Farbpalette}
+
+Nachdem Grund- und Akzentfarbe gefunden sind fehlen für eine nutzbare Farbpalette noch Grautöne.  Hier sollte darauf geachtet werden, nicht zu viele Grautöne zu verwenden, die sich nur marginal unterscheiden. In den meisten Fällen sollten 2-3 Grautöne in verschiedenen Abstufungen ausreichend sein.
+Als einfachste Methode würde es sich anbieten, neutrale Grautöne ohne andere Farben zu wählen. Welche Grautöne genau genutzt werden muss dabei Subjektiv entschieden werden. Denkbar wären zum Beispiel \#eeeeee und \#666666.
+
+\cite{elizabeth2016simple} erläutert eine andere Methode: Bei dieser Methode wird die Grundfarbe mit in die Grautöne eingearbeitet, was ein harmonischeres Bild erzeugt.  Für die Berechnung dieser Werte muss jedoch auf eine externe Bibliothek wie zum Beispiel chroma.js zurück gegriffen werden.
+
+\subsection{Signalfarben}
+Die üblichen Signalfarben fallen aus der Farbpalette heraus. Diese sind in der Regel Grün, Gelb und Rot. Dies bedeutet nicht, dass Grün, Gelb und Rot nicht als Farben in der Farbpalette vorkommen können, sie spielen einfach eine zusätzliche Rolle. Die Farben für die Buttons können zum Beispiel vom Framework Bootstrap übernommen werden. Diese sind:
+
+\begin{itemize}
+  \item Grün: \#5cb85c
+  \item Gelb: \#f0ad4e
+  \item Rot: \#c9302c
+\end{itemize}
+
+Hier stellt sich außerdem die Frage, wie häufig diese Warnfarben tatsächlich benötigt werden. Hauptsächlich treten sie in interaktiven Systemen auf, viele dieser interaktiven Systeme werden aber in Modulen an der Hochschule in Android umgesetzt, welches seine eigenen Guidelines zu Farben mitbringt.
+
+%----------------------------------------------------------------------------------------
+
+\section{Android \& iOS}
+
+Für beide Betriebssyteme liegen Guidelines bezüglich der visuellen Gestaltung, auch im Bezug auf Farben vor. An diese soll sich auch das Tool halten. Das Tool soll hier aber nicht nur auf diese Guidelines verweisen oder sie wiederholen, sondern eine interaktive Möglichkeit bilden, auch für diese Plattformen eine Farbpalette zu erstellen.
+Da die beiden Plattformen sich in ihren Richtlinien deutlich unterscheiden werden sie hier auch getrennt behandelt.
+
+\subsection{Android}
+Die Android Guidelines geben keine spezifischen Farben vor, das Hauptaugenmerk liegt darauf, dass interaktive Elemente genügend Kontrast aufweisen.
+
+\begin{quote}
+Your app's color palette may be defined by using a custom palette suited to your brand, [...]. Alternatively, you may use the material design color palette. All color palettes should include sufficient contrast between different UI elements.
+\end{quote}
+
+Da für Projekte im Hochschulkontext davon ausgegangen werden kann, dass keine Brand Identity vorliegt soll der Fokus hier darauf liegen, die von Google vordefinierten Farben zu verwenden. Vor allem soll interaktiv aufgezeigt werden, welche Elemente wie gefärbt werden sollten.
+
+Die Android Guidelines geben eine Menge an Farben vor. Zusätzlich sind alle Farben mit einem Indikator für die Helligkeit versehen. Die Guidelines Empfehlen die Farben mit der Helligkeit 500 als Grundfarbe zu benutzen. Hiervon bilden sich dann hellere und dunklere Varianten, die für andere Elemente verwendet werden.
+Die Guidelines stellen außerdem eine Menge von Akzentfarben bereit, die frei mit einer der Grundfarben kombiniert werden können. Die Akzentfarbe sollte für interaktive Elemente verwendet werden.
+
+\subsection{iOS}
+
+Die iOS-Richtlinien sind deutlich weniger konkret. Unter iOS wird Farbe vor allem dafür genutzt, um Interaktivität deutlich zu machen. Hier werden als Referenz die Systemfarben genannt.
+
+\begin{quote}
+In iOS, color can indicate interactivity, impart vitality, and provide visual continuity. Look to the system’s color scheme for guidance when picking app tint colors that look great individually and in combination, on both light and dark backgrounds.
+\end{quote}
+
+Hier wäre sogar das Vorschlagen nur einer einzigen Farbe eine valide Lösung.
+
+
