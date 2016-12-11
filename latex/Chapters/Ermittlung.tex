@@ -1,12 +1,10 @@
 % Chapter 2
 
-\newcommand{\chaptertitle}{Ermittlung relevanter Themengebiete}
-
-\chapter{\chaptertitle} % Main chapter title
+\chapter{Ermittlung relevanter Themengebiete} % Main chapter title
 
 \label{Ermittlung} % For referencing the chapter elsewhere, use \ref{Chapter1}
 
-\lhead{\chaptername{} \thechapter{} - \emph{\chaptertitle}} % This is for the header on each page - perhaps a shortened title
+\lhead{\chaptername{} \thechapter{} - \emph{Ermittlung relevanter Themengebiete}} % This is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
 
@@ -42,7 +40,7 @@ Diese wurden zur Orientierung zunächst grob in vier Kategorien unterteilt:
 Zur Gruppe *Interaktiv* sei hier angemerkt, dass diese bewusst weit gefasst ist. Sie umfasst sowohl Android-Apps, als auch Websites mit Fokus auf Front- oder Backend.
 Eine weiter Unterteilung wurde an nicht als Sinnvoll erachtet, da so zwar Plattformspezifische Fehler besser hätten gefunden werden können, das Tool sich jedoch auf die Grundlagen Konzentrieren soll. (Weitere Erläuterungen zu den Mobilen Plattformen finden sich in Kapitel 2.3)
 
-Die genauen Zahlen der jeweiligen Kategorien können \textit{Tabelle 1} entnommen werden. Bei der Betrachtung der Werte fällt auf, dass nahezu 50\% der untersuchten Artefakte in die Kategorie “Text” fallen. Weiterhin fällt auf, dass Plakate mit etwa 3\% aller Artefakte kaum vorhanden waren.
+Die genauen Zahlen der jeweiligen Kategorien können Tabelle \ref{table:types} auf Seite \pageref{table:types} entnommen werden. Bei der Betrachtung der Werte fällt auf, dass nahezu 50\% der untersuchten Artefakte in die Kategorie “Text” fallen. Weiterhin fällt auf, dass Plakate mit etwa 3\% aller Artefakte kaum vorhanden waren.
 
 \begin{table}[]
 \centering
@@ -54,38 +52,43 @@ Plakat       & 16                                               \\ \hline
 Interaktiv   & 113                                              \\ \hline
 Text         & 223                                              \\ \hline
 \end{tabular}
-\caption{My caption}
-\label{Tabelle 1}
+\caption{Auflistung der untersuchten Artefakte nach Typ}
+\label{table:types}
 \end{table}
 
 Das gesammelte Material wurde im nächsten Schritt auf Fehler in der Gestaltung untersucht. Nachfolgend findet sich eine Liste der gefundenen Fehler (in absteigender Reihenfolge nach Häufigkeit ihres Auftretens):
 
-* **Fehler bim Einsatz von Farben:** Es wurden Farbkombinationen verwendet die flimmerten, visuell anstrengende Farben wurden als Hintergrundfarbe für Texte gewählt, Unharmonische Farbkombinationen, übermäßiger Einsatz von Farben.
-* **Fehlendes raster:** Beim Ausrichten der Elemente wurde kein Raster verwendet, Elemente wirken dadurch wie zufällig platziert.
-* **Zu wenig Weissraum:** In der Gestaltung wurde zu wenig Whitespace verwendet, die gesamte Gestaltung ist dadurch unübersichtlich und wirkt unruhig.
-* **Visuell anstrengende Tabellen:** Tabellen verwendeten mehr Trennlinien als nötig, verwendeten zu viele/unpassende Farben, es war schwer die Informationen aus der Tabelle zu entnehmen, es wurden Tabellen verwendet wo keine nötig gewesen wären.
-* **Hierarchie im Text nicht deutlich:** Die Unterscheide zwischen verschiedenen Elementen(z.B. Überschriften verschiedener Ordnungen) waren zu gering, es wurde keine klare Hierarchie deutlich.
-* **Fehlerhafte Ausrichtung von Elementen:** Elemente wurden in sich unsauber ausgerichtet
-* **Interaktive Elemente nicht deutlich:** Es wurde nicht deutlich, mit welchen Elementen der Benutzer interagieren kann und mit welchen nicht.
-* **Bilder gestreckt/gestaucht/verpixelt**
-* **Inkonsistente Größen:** Gleiche Elemente waren verscheiden groß
-* **Elementgrößen unverhältnismäßig:** Einige Elemente sind im Vergleich zu anderen Elementen unverhältnismäßig zu klein/zu groß
-* **Zu wenig Kontrast im Text:** Text war wegen des Kontrastes schwer lesbar
-* **Boxes in Boxes:** Unnötiges Verwenden von Boxen
-* **Zeilenhöhe zu groß/klein**
-* **Fehler im Textsatz:** Vor allem: Lücken im Blocksatz
-* **Rechtschreibfehler**
-* **Schlecht lesbare Schriftfamilie**
+\begin{itemize}
+	\item \textbf{Fehler bim Einsatz von Farben:} Es wurden Farbkombinationen verwendet die flimmerten, visuell anstrengende Farben wurden als Hintergrundfarbe für Texte gewählt, Unharmonische Farbkombinationen, übermäßiger Einsatz von Farben.
+	\item \textbf{Fehlendes raster:} Beim Ausrichten der Elemente wurde kein Raster verwendet, Elemente wirken dadurch wie zufällig platziert.
+	\item \textbf{Zu wenig Weissraum:} In der Gestaltung wurde zu wenig Whitespace verwendet, die gesamte Gestaltung ist dadurch unübersichtlich und wirkt unruhig.
+	\item \textbf{Visuell anstrengende Tabellen:} Tabellen verwendeten mehr Trennlinien als nötig, verwendeten zu viele/unpassende Farben, es war schwer die Informationen aus der Tabelle zu entnehmen, es wurden Tabellen verwendet wo keine nötig gewesen wären.
+	\item \textbf{Hierarchie im Text nicht deutlich:} Die Unterscheide zwischen verschiedenen Elementen(z.B. Überschriften verschiedener Ordnungen) waren zu gering, es wurde keine klare Hierarchie deutlich.
+	\item \textbf{Fehlerhafte Ausrichtung von Elementen:} Elemente wurden in sich unsauber ausgerichtet
+	\item \textbf{Interaktive Elemente nicht deutlich:} Es wurde nicht deutlich, mit welchen Elementen der Benutzer interagieren kann und mit welchen nicht.
+	\item Bilder gestreckt/gestaucht/verpixelt
+	\item \textbf{Inkonsistente Größen:} Gleiche Elemente waren verscheiden groß
+	\item \textbf{Elementgrößen unverhältnismäßig:} Einige Elemente sind im Vergleich zu anderen Elementen unverhältnismäßig zu klein/zu groß
+	\item \textbf{Zu wenig Kontrast im Text:} Text war wegen des Kontrastes schwer lesbar
+	\item \textbf{Boxes in Boxes:} Unnötiges Verwenden von Boxen
+	\item Zeilenhöhe zu groß/klein
+	\item \textbf{Fehler im Textsatz:} Vor allem: Lücken im Blocksatz
+	\item Rechtschreibfehler
+	\item Schlecht lesbare Schriftfamilie
+\end{itemize}
+
 
 Abschließend wurde jedem der Fehler eine Oberdisziplin zugeordnet, die somit die Themengebiete definieren, die im Projekt behandelt werden sollen:
 
-* Typographie
-* Layout
-* Struktur
-* Farben
-* Interaktive Elemente
-* Tabellen
-* Bilder
+\begin{itemize}
+	\item Typographie
+	\item Layout
+	\item Struktur
+	\item Farben
+	\item Interaktive Elemente
+	\item Bilder
+\end{itemize}
+
 
 %----------------------------------------------------------------------------------------
 
@@ -99,7 +102,7 @@ Außerdem sollten die auf Basis von Fehlern gefundenen Schwerpunkte nicht als ex
 %----------------------------------------------------------------------------------------
 
 \section{Mobile Plattformen}
-Die beiden größten Mobilen Plattformen, *Android* und *iOS* besitzen eigene Design Guidelines, die bestimmte Themengebiete von vorn herein stark einschränken.
+Die beiden größten Mobilen Plattformen, \textit{Android} und \textit{iOS} besitzen eigene Design Guidelines, die bestimmte Themengebiete von vorn herein stark einschränken.
 Als Beispiel sei hier die Wahl der Schrift genannt. Sowohl die Guidelines für Android als auch für iOS legen die Verwendung einer bestimmten Schrift nahe.
 Da sich dieses Tool nicht über die Plattformspezifischen Guidelines hinwegsetzen sollte, muss von Anfang an die Plattform  auf der das Projekt des Nutzers laufen soll bekannt sein, die Inhalte des Tools müssen sich entsprechend anpassen.
 

@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: /Users/Cheese/Documents/Uni/Praxisprojekt/praxisprojekt/latex/.texpadtmp/main.aux
+The style file: plainnat.bst
+Database file #1: ../Bibliography.bib
+Warning--entry type for "cssfontstack" isn't style-file defined
+--line 76 of file ../Bibliography.bib
+Warning--entry type for "Lehnert201602" isn't style-file defined
+--line 101 of file ../Bibliography.bib
+Warning--entry type for "elizabeth2016simple" isn't style-file defined
+--line 208 of file ../Bibliography.bib
+Warning--to sort, need author or key in cssfontstack
+Warning--to sort, need author or key in W3C
+Warning--empty year in W3C
+Warning--empty year in cssfontstack
+Warning--empty year in elizabeth2016simple
+Warning--can't use both volume and number fields in joblove1978color
+You've used 23 entries,
+            2773 wiz_defined-function locations,
+            733 strings with 8559 characters,
+and the built_in function-call counts, 8969 in all, are:
+= -- 810
+> -- 361
+< -- 21
++ -- 131
+- -- 108
+* -- 629
+:= -- 1332
+add.period$ -- 75
+call.type$ -- 23
+change.case$ -- 100
+chr.to.int$ -- 23
+cite$ -- 54
+duplicate$ -- 487
+empty$ -- 856
+format.name$ -- 135
+if$ -- 1931
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 26
+newline$ -- 126
+num.names$ -- 84
+pop$ -- 256
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 353
+stack$ -- 0
+substring$ -- 279
+swap$ -- 65
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 218
+warning$ -- 6
+while$ -- 86
+width$ -- 0
+write$ -- 304
+(There were 9 warnings)

@@ -1,12 +1,10 @@
 % Chapter 6
 
-\newcommand{\chaptertitle}{Bilder}
-
-\chapter{\chaptertitle} % Main chapter title
+\chapter{Bilder} % Main chapter title
 
 \label{Bilder} % For referencing the chapter elsewhere, use \ref{Chapter1}
 
-\lhead{\chaptername{} \thechapter{} - \emph{\chaptertitle}} % This is for the header on each page - perhaps a shortened title
+\lhead{\chaptername{} \thechapter{} - \emph{Bilder}} % This is for the header on each page - perhaps a shortened title
 
 %----------------------------------------------------------------------------------------
 
@@ -109,7 +107,7 @@ Enderle, Kansy und Pfaff definieren Bitmaps oder Raster Graphics wie folgt:
 
 \begin{quote}
 Raster graphics — Definition
-Computer graphics in which a display image is composed of an array of pixels arranged in rows and columns. __[Enderle, Günter, Klaus Kansy, and Günther Pfaff. Computer Graphics Programming: GKS—The Graphics Standard. Springer Science & Business Media, 2012.]__
+Computer graphics in which a display image is composed of an array of pixels arranged in rows and columns. [Enderle, Günter, Klaus Kansy, and Günther Pfaff. Computer Graphics Programming: GKS—The Graphics Standard. Springer Science & Business Media, 2012.]
 \end{quote}
 
 Bitmaps bestehen also aus einem Array von Pixeln, von denen jeder seine eigene Farbe und Position hat (s. Abb. 8).
@@ -124,8 +122,10 @@ Nach Möglichkeit sollten Bilder also nicht größer skaliert werden als ihre Or
 
 \section{PPI \& DPI}
 Die Begriffe PPI (Pixels per Inch) und DPI (Dots per Inch) werden insbesondere in zwei Bereichen wichtig:
-* Hochauflösende Displays (z.B. Retina)
-* Print
+\begin{itemize}
+	\item Hochauflösende Displays (z.B. Retina)
+	\item Print
+\end{itemize}
 
 Die Begriffe bezeichnen die Pixel bzw. Dots, die ein Ausgabegerät (z.B. Display oder Drucker) pro Inch darstellen kann. Zu Problemen, besonders im Bezug auf Bilder kommt es hier, wenn die Pixeldichte der Bilder nicht mit der des Ausgabegerätes übereinstimmt. Hier erfolgt dann eine Skalierung nach oben, die schon im vorherigen Kapitel besprochen wurde.
 

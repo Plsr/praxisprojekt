@@ -1,0 +1,149 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[W3C()]{W3C}
+C21: Specifying line spacing in css.
+\newblock
+  \url{http://web.archive.org/web/20160316091041/http://www.w3.org/TR/WCAG20-TECHS/C21.html}.
+\newblock Accessed: 29.06.2016.
+
+\bibitem[css()]{cssfontstack}
+Css font stack: Web safe and web font family with html and css code.
+\newblock URL \url{http://www.cssfontstack.com/}.
+
+\bibitem[Baines and Haslam(2005)]{baines2005type}
+Phil Baines and Andrew Haslam.
+\newblock \emph{Type and typography}.
+\newblock Laurence King Publishing, 2005.
+
+\bibitem[Berman(2010)]{berman2010street}
+Margo Berman.
+\newblock \emph{Street-smart advertising: How to win the battle of the buzz}.
+\newblock Rowman \& Littlefield Publishers, 2010.
+
+\bibitem[Bernard et~al.(2002)Bernard, Fernandez, and Hull]{bernard2002effects}
+Michael Bernard, Marissa Fernandez, and Spring Hull.
+\newblock The effects of line length on children and adults’ online reading
+  performance.
+\newblock \emph{Usability News}, 4\penalty0 (2), 2002.
+
+\bibitem[Campbell and Pisterman(1996)]{campbell1996fitting}
+Arnold Campbell and Susan Pisterman.
+\newblock A fitting approach to interactive service design: The importance of
+  emotional needs.
+\newblock \emph{Design Management Journal (Former Series)}, 7\penalty0
+  (4):\penalty0 10--14, 1996.
+
+\bibitem[Crozier(1999)]{crozier1999meanings}
+W~Ray Crozier.
+\newblock The meanings of colour: Preferences among hues.
+\newblock \emph{Pigment \& Resin Technology}, 28\penalty0 (1):\penalty0 6--14,
+  1999.
+
+\bibitem[Cyr et~al.(2010)Cyr, Head, and Larios]{cyr2010colour}
+Dianne Cyr, Milena Head, and Hector Larios.
+\newblock Colour appeal in website design within and across cultures: A
+  multi-method evaluation.
+\newblock \emph{International journal of human-computer studies}, 68\penalty0
+  (1):\penalty0 1--21, 2010.
+
+\bibitem[Dogusoy et~al.(2016)Dogusoy, Cicek, and Cagiltay]{dogusoy2016serif}
+Berrin Dogusoy, Filiz Cicek, and Kursat Cagiltay.
+\newblock How serif and sans serif typefaces influence reading on screen: An
+  eye tracking study.
+\newblock In \emph{International Conference of Design, User Experience, and
+  Usability}, pages 578--586. Springer, 2016.
+
+\bibitem[Elizabeth()]{elizabeth2016simple}
+Laura Elizabeth.
+\newblock A simple web developer’s guide to color.
+\newblock URL
+  \url{https://www.smashingmagazine.com/2016/04/web-developer-guide-color/}.
+
+\bibitem[Eysenck(1941)]{eysenck1941critical}
+Hans~J Eysenck.
+\newblock A critical and experimental study of colour preferences.
+\newblock \emph{The American Journal of Psychology}, 54\penalty0 (3):\penalty0
+  385--394, 1941.
+
+\bibitem[Itten(2010)]{Itten201006}
+Johannes Itten.
+\newblock \emph{Kunst der Farbe. Studienausgabe: Subjektives Erleben und
+  objektives Erkennen als Wege zur Kunst}.
+\newblock Christophorus Verlag, 5 edition, 6 2010.
+\newblock ISBN 9783862301614.
+\newblock URL \url{http://amazon.de/o/ASIN/3862301613/}.
+
+\bibitem[Joblove and Greenberg(1978)]{joblove1978color}
+George~H Joblove and Donald Greenberg.
+\newblock Color spaces for computer graphics.
+\newblock In \emph{ACM siggraph computer graphics}, volume~12, pages 20--25.
+  ACM, 1978.
+
+\bibitem[Josephson(2008)]{josephson2008keeping}
+Sheree Josephson.
+\newblock Keeping your readers' eyes on the screen: An eye-tracking study
+  comparing sans serif and serif typefaces.
+\newblock \emph{Visual communication quarterly}, 15\penalty0 (1-2):\penalty0
+  67--79, 2008.
+
+\bibitem[Lehnert(2016)]{Lehnert201602}
+Benedikt Lehnert.
+\newblock Typoguide: A pocket guide to master every day's typographic
+  adventures (english edition), 2 2016.
+\newblock URL \url{http://amazon.de/o/ASIN/B01BW0A5ME/}.
+
+\bibitem[Lindgaard et~al.(2006)Lindgaard, Fernandes, Dudek, and
+  Brown]{lindgaard2006attention}
+Gitte Lindgaard, Gary Fernandes, Cathy Dudek, and Judith Brown.
+\newblock Attention web designers: You have 50 milliseconds to make a good
+  first impression!
+\newblock \emph{Behaviour \& information technology}, 25\penalty0 (2):\penalty0
+  115--126, 2006.
+
+\bibitem[Livio(2003)]{livio2003golden}
+Mario Livio.
+\newblock \emph{The golden ratio}.
+\newblock Aryeh Nir Publishers Limited, 2003.
+
+\bibitem[Lupton(2014)]{lupton2014thinking}
+Ellen Lupton.
+\newblock \emph{Thinking with type}.
+\newblock Chronicle Books, 2014.
+
+\bibitem[Nickerson(1998)]{nickerson1998confirmation}
+Raymond~S Nickerson.
+\newblock Confirmation bias: A ubiquitous phenomenon in many guises.
+\newblock \emph{Review of general psychology}, 2\penalty0 (2):\penalty0 175,
+  1998.
+
+\bibitem[Rider(2010)]{rider2010color}
+Rose~M Rider.
+\newblock Color psychology and graphic design applications.
+\newblock \emph{Senior Honors Papers}, page 111, 2010.
+
+\bibitem[Runk(2008)]{Runk200804}
+Claudia Runk.
+\newblock \emph{Grundkurs Typografie und Layout: Für Ausbildung und Praxis
+  (Galileo Design)}.
+\newblock Galileo Design, 2 edition, 4 2008.
+\newblock ISBN 9783836212076.
+\newblock URL \url{http://amazon.de/o/ASIN/3836212072/}.
+
+\bibitem[Strizver(2014)]{strizver2014type}
+Ilene Strizver.
+\newblock \emph{Type Rules, Enhanced Edition: The Designer's Guide to
+  Professional Typography}.
+\newblock John Wiley \& Sons, 2014.
+
+\bibitem[Zhang et~al.(2016)Zhang, Kothari, Butt, and Kumar]{zhang2016makes}
+Jingxian Zhang, Neel Kothari, Asad~Imtiaz Butt, and Ranjitha Kumar.
+\newblock What makes a brand look expensive?
+\newblock In \emph{Proceedings of the 2016 CHI Conference Extended Abstracts on
+  Human Factors in Computing Systems}, pages 3263--3268. ACM, 2016.
+
+\end{thebibliography}
