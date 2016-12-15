@@ -8,39 +8,29 @@
 
 %----------------------------------------------------------------------------------------
 
-\section{Einleitung}
-Für die Ermittlung der relevanten Themengebiet musste zunächst eine geeignete Methode gefunden werden, hierfür kamen verschiedene Ansätze in Frage.
+Für die Ermittlung der relevanten Themengebiet musste zunächst eine geeignete Methode gefunden werden. Hierfür kamen verschiedene Ansätze in Frage.
 
-Der simpelste Ansatz orientiert sich an den bereits definierten Inhalten eines Buches oder Studienganges, die von qualifizierten Leuten erstellt wurden, zu orientieren.
-Dieser Ansatz gewährleistet durch die Fähigkeiten der Ersteller zum Einen und die große Auswahl und damit hohe Vergleichbarkeit zum anderen eine gewisse Fehlerfreiheit.
-Die Inhalte richten sich jedoch an Personen, deren Haupttätigkeit die visuelle Gestaltung ist. Bei Verwendung dieser Methode müssen also die Menge und Tiefe der Inhalte kritisch geprüft werden.
+Ein möglicher Ansatz orientiert sich an einer von einer qualifizierten Person bereits definierten Liste von Inhalten, beispielsweise an einem Buch oder einem Studienverlaufsplan.
+Dieser Ansatz gewährleistet durch die Fähigkeiten der Ersteller zum Einen und die große Auswahl von Materialien und damit hohe Vergleichbarkeit zum Anderen einen gewissen Grad von Fehlerfreiheit.
+Die definierten Inhalte richten sich jedoch zumeist an Personen, deren Haupttätigkeit die visuelle Gestaltung ist. Bei Verwendung dieser Methode müssen also die Menge und Tiefe der Inhalte kritisch geprüft werden.
 
-Ein weiterer Ansatz orientiert sich am Wrokflow der Benutzer und beschäftigt sich eher mit der Frage nach dem “wann” als nach der mit dem “was”. Der Ansatz würde sich also daran orientieren, wann ein User eine bestimmte Tätigkeit ausführt und welche Bereiche der visuellen Gestaltung an dieser Stelle einzubringen sind.
+Ein weiterer Ansatz orientiert sich am Workflow der Benutzer und beschäftigt sich zunächst mehr mit der Frage nach dem “wann” als mit der nach dem “was”. Der Ansatz würde sich also daran orientieren, wann ein Benutzer eine bestimmte Tätigkeit ausführt und welche Art der Unterstützung an dieser Stelle vom Tool einzubringen ist.
 Dieser Ansatz wurde schnell als ungeeignet verworfen, da mit ihm ein hoher Aufwand in der Recherche von Arbeitsabläufen der Nutzer einher geht.
 
-Ein weiterer Ansatz war ein Fehlerorientierter Ansatz, für den ich mich schlußendlich auch entschied. Mit diesem Ansatz würden die Fehler Untersucht, die Nutzer häufig machen und die Inhalte des Tools daraufhin angepasst.
-Die Wahl dieser Methode liegt gerade deshalb nahe, weil das Tool zunächst im Hochschulkontext Verwendung finden sollte. Durch das Mediawiki des Studienganges Medieninformatik war der Zugriff auf viele Materialien gewährleistet, die auf Fehler untersuch werden konnten.
+Für die Ermittlung wurde schlußendlich ein Fehlerorientierter Ansatz verwendet. Bei diesem Ansatz wurden Artefakte auf die Fehler hin untersucht, die Nutzer häufig machen und die Inhalte des Tools daraufhin angepasst.
+Die Wahl dieser Methode liegt gerade deshalb nahe, weil das Tool zunächst im Hochschulkontext Verwendung finden sollte. Durch das Mediawiki des Studienganges Medieninformatik war der Zugriff auf viele Materialien gewährleistet, die auf Fehler hin untersucht werden konnten. Weiterhin konnte das Tools mithilfe dieses Ansatzes so genau wie möglich auf die Themengebiete spezialisiert werden, in denen die Nutzer häufig Defizite aufzeigen.
 
 %----------------------------------------------------------------------------------------
 
 \section{Vorgehen}
-Als erster Schritt wurden Materialien gesammelt. Der erste Anlaufpunkt hierfür war das Mediawiki des Studienganges Medieninformatik. Um zu gewährleisten, dass jedes Modul im Katalog vertreten war, wurden alle Dateien untersucht, die im letzten Jahr hochgeladen wurden.
-Da nur ein Teil der Module das Mediawiki verwendet, wurde weiterhin auch außerhalb dessen nach Material gesucht, wovon sich das meiste auf GitHub wiederfand.
-Insgesamt wurde so ein Katalog von 448 Dateien erstellt.
+Im erstern Schritt wurden, vorrangig im Mediawiki des Studienganges Medieninformatik, Materialien gesammelt. Um sowohl das Sommer- als auch das Wintersemester und somit alle angebotenen Module abzubilden wurden alle Dateien untersucht, die im Zeitraum des vergangenen Jahres hochgeladen wurden.
+Da nicht jedes der in der Medieninformatik angebotenen Module das Mediawiki verwendet wurde versucht, auch außerhalb des Wikis Materialien zu finden. Hier gestaltete sich die Suche allerdings weitaus aufwendiger und weniger erfolgreich.
+Insgesamt wurde ein Katalog von 448 Dateien erstellt, die zur Orientierung zunächst grob in die vier Kategorien \textit{Präsentation, Plakat, Interaktiv} und \textit{Text} unterteilt wurden.
 
-Diese wurden zur Orientierung zunächst grob in vier Kategorien unterteilt:
+Zur Gruppe \textit{Interaktiv} sei hier angemerkt, dass diese bewusst weit gefasst ist. Sie umfasst sowohl Android-Apps, als auch Websites mit Fokus auf Front- oder Backend.
+Eine weitere Unterteilung wurde als nicht Sinnvoll erachtet. So hätten Plattformspezifische Fehler zwar besser gefunden werden können, jedoch soll sich das Tool eher mit gestalterischen Grundlage befassen und ein möglichst weiter Spektrum abdecken. (Weitere Erläuterungen zu den mobilen Plattformen finden sich im Abschnitt \ref{Mobile Plattformen} auf Seite \pageref{Mobile Plattformen})
 
-\begin{itemize}
-  \item Präsentation
-  \item Plakat
-  \item Interaktiv
-  \item Text
-\end{itemize}
-
-Zur Gruppe *Interaktiv* sei hier angemerkt, dass diese bewusst weit gefasst ist. Sie umfasst sowohl Android-Apps, als auch Websites mit Fokus auf Front- oder Backend.
-Eine weiter Unterteilung wurde an nicht als Sinnvoll erachtet, da so zwar Plattformspezifische Fehler besser hätten gefunden werden können, das Tool sich jedoch auf die Grundlagen Konzentrieren soll. (Weitere Erläuterungen zu den Mobilen Plattformen finden sich in Kapitel 2.3)
-
-Die genauen Zahlen der jeweiligen Kategorien können Tabelle \ref{table:types} auf Seite \pageref{table:types} entnommen werden. Bei der Betrachtung der Werte fällt auf, dass nahezu 50\% der untersuchten Artefakte in die Kategorie “Text” fallen. Weiterhin fällt auf, dass Plakate mit etwa 3\% aller Artefakte kaum vorhanden waren.
+Die genauen Zahlen der Artefakte in den jeweiligen Kategorien können Tabelle \ref{table:types} auf Seite \pageref{table:types} entnommen werden. Bei der Betrachtung der Werte fällt auf, dass nahezu 50\% der untersuchten Artefakte in die Kategorie “Text” fallen. Weiterhin fällt auf, dass Plakate mit etwa 3\% aller Artefakte kaum vorhanden waren.
 
 \begin{table}[]
 \centering
@@ -78,12 +68,11 @@ Das gesammelte Material wurde im nächsten Schritt auf Fehler in der Gestaltung 
 \end{itemize}
 
 
-Abschließend wurde jedem der Fehler eine Oberdisziplin zugeordnet, die somit die Themengebiete definieren, die im Projekt behandelt werden sollen:
-
+Abschließend wurde jedem der Fehler eine Oberdisziplin zugeordnet. Auch im Hinblick auf die zur Verfügung stehende Projektzeit wurden darauf aufbauen die Themengebiete definiert, die das Tool abdecken soll:
 \begin{itemize}
 	\item Typographie
-	\item Layout
-	\item Struktur
+	\item Layout & Struktur
+	\item Whitespace
 	\item Farben
 	\item Interaktive Elemente
 	\item Bilder
@@ -93,18 +82,21 @@ Abschließend wurde jedem der Fehler eine Oberdisziplin zugeordnet, die somit di
 %----------------------------------------------------------------------------------------
 
 \section{Kritische Reflexion}
-Auch wenn dieses Fehlerorientierte vorgehen für das Projekt sehr hilfreich ist bringt es einige Gefahren mit sich.
+Auch wenn dieses Fehlerorientierte vorgehen für das Projekt sehr hilfreich ist bringt es einige Gefahren mit sich, die hier kurz diskutiert werden sollen.
 
-So ist das Material von nur zwei Semestern keineswegs dazu geeignet, empirische Ergebnisse zu liefern. Die erarbeiteten Ergebnisse liefern lediglich einen Überblick über die Fehler, die in naher Vergangenheit vorherrschend waren. Außerdem ändern sich Inhalt von Modulen häufig von Semester zu Semester, eine Untersuchung im nächsten Jahr würde also mit hoher Wahrscheinlichkeit neue Fehler zeigen.
+So ist das Material von nur zwei Semestern keineswegs dazu geeignet, empirische Ergebnisse zu liefern. Die erarbeiteten Ergebnisse liefern lediglich einen Überblick über die Fehler, die in naher Vergangenheit vorherrschend waren. Inhalte von Modulen ändern sich häufig von Semester zu Semester, eine Untersuchung im nächsten Jahr würde also mit hoher Wahrscheinlichkeit andere Fehler zeigen.
 
-Außerdem sollten die auf Basis von Fehlern gefundenen Schwerpunkte nicht als exklusiv und vollständig angesehen werden. Es muss darauf geachtet werden, dass ggf. auch andere relevante Themen Einzug erhalten, die nicht explizit Teil der gefundenen Fehlern waren.
+Weiterhin wurde nicht für alle angebotenen Module auch Materialien gefunden. Es ist also durchaus möglich, dass hier Fehler überhaupt nicht entdeckt wurden.
+
+Als Startpunkt für das Projekt ist die oben aufgeführte Liste jedoch durchaus geeignet.
+
 
 %----------------------------------------------------------------------------------------
 
-\section{Mobile Plattformen}
-Die beiden größten Mobilen Plattformen, \textit{Android} und \textit{iOS} besitzen eigene Design Guidelines, die bestimmte Themengebiete von vorn herein stark einschränken.
-Als Beispiel sei hier die Wahl der Schrift genannt. Sowohl die Guidelines für Android als auch für iOS legen die Verwendung einer bestimmten Schrift nahe.
-Da sich dieses Tool nicht über die Plattformspezifischen Guidelines hinwegsetzen sollte, muss von Anfang an die Plattform  auf der das Projekt des Nutzers laufen soll bekannt sein, die Inhalte des Tools müssen sich entsprechend anpassen.
+\section{Mobile Plattformen} \label{Mobile Plattformen}
+Die Mobilen Plattformen, \textit{Android} und \textit{iOS}, die im Studiengang Medieninformatik verwendet werden besitzen eigene Design Guidelines, die für bestimmte Themengebiete schon Vorgaben und Richtlinien bereit stellen. So legen sowohl die Guidelines für Android als auch für iOS legen die Verwendung einer oder mehrerer bestimmter Schriftfamilien nahe.
+
+Da sich dieses Tool nicht über die plattformspezifischen Richtlinien hinwegsetzen sollte, sollte von Anfang an die Plattform  auf der das Projekt des Nutzers laufen soll bekannt sein. Die Inhalte des Tools sollten sich dementsprechend anpassen.
 
 %----------------------------------------------------------------------------------------
 
