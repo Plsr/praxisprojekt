@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{22}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -109,11 +109,6 @@ Gitte Lindgaard, Gary Fernandes, Cathy Dudek, and Judith Brown.
 Mario Livio.
 \newblock \emph{The golden ratio}.
 \newblock Aryeh Nir Publishers Limited, 2003.
-
-\bibitem[Lupton(2014)]{lupton2014thinking}
-Ellen Lupton.
-\newblock \emph{Thinking with type}.
-\newblock Chronicle Books, 2014.
 
 \bibitem[Nickerson(1998)]{nickerson1998confirmation}
 Raymond~S Nickerson.

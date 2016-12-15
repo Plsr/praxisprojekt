@@ -15,65 +15,61 @@
 \contentsline {section}{\numberline {2.3}Mobile Plattformen}{8}{section.15}
 \contentsline {chapter}{\numberline {3}Typographie}{9}{chapter.16}
 \contentsline {section}{\numberline {3.1}Schriftarten}{9}{section.17}
-\contentsline {subsection}{\numberline {3.1.1}Serif oder Serifenlos?}{10}{subsection.18}
-\contentsline {section}{\numberline {3.2}Schriftfamilien}{10}{section.19}
-\contentsline {subsection}{\numberline {3.2.1}Android}{11}{subsection.20}
-\contentsline {subsection}{\numberline {3.2.2}iOS}{11}{subsection.21}
-\contentsline {subsection}{\numberline {3.2.3}Mischen von Schriftfamilien}{11}{subsection.22}
-\contentsline {section}{\numberline {3.3}Schriftgr\IeC {\"o}\IeC {\ss }en}{12}{section.23}
-\contentsline {subsection}{\numberline {3.3.1}\IeC {\"U}berschriften}{12}{subsection.24}
-\contentsline {subsubsection}{\numberline {3.3.1.1}Der goldene Schnitt}{13}{subsubsection.25}
-\contentsline {subsubsection}{\numberline {3.3.1.2}Typographic Scale}{13}{subsubsection.26}
-\contentsline {section}{\numberline {3.4}Abst\IeC {\"a}nde im Text}{15}{section.39}
-\contentsline {subsection}{\numberline {3.4.1}Zeilenh\IeC {\"o}he und -l\IeC {\"a}nge}{15}{subsection.40}
-\contentsline {subsection}{\numberline {3.4.2}Abs\IeC {\"a}tze und \IeC {\"U}berschriften}{16}{subsection.41}
-\contentsline {section}{\numberline {3.5}Kontrast}{17}{section.50}
-\contentsline {subsection}{\numberline {3.5.1}Berechnung}{17}{subsection.51}
-\contentsline {chapter}{\numberline {4}Layout und Struktur}{19}{chapter.52}
-\contentsline {section}{\numberline {4.1}Herleitung}{19}{section.53}
-\contentsline {section}{\numberline {4.2}Grid Systems im Web}{19}{section.54}
-\contentsline {subsection}{\numberline {4.2.1}Abbildung im Tool}{20}{subsection.55}
-\contentsline {section}{\numberline {4.3}Grid Systems auf nativen Plattformen}{21}{section.56}
-\contentsline {subsection}{\numberline {4.3.1}iOS}{21}{subsection.57}
-\contentsline {subsection}{\numberline {4.3.2}Android}{21}{subsection.58}
-\contentsline {section}{\numberline {4.4}Grid Systems im Print}{22}{section.59}
-\contentsline {subsection}{\numberline {4.4.1}Berechnung}{22}{subsection.60}
-\contentsline {subsection}{\numberline {4.4.2}Abbildung im Tool}{23}{subsection.61}
-\contentsline {chapter}{\numberline {5}Whitespace}{24}{chapter.62}
-\contentsline {section}{\numberline {5.1}Herleitung}{24}{section.63}
-\contentsline {section}{\numberline {5.2}Whitespace}{24}{section.66}
-\contentsline {section}{\numberline {5.3}Was ist Whitespace?}{25}{section.67}
-\contentsline {chapter}{\numberline {6}Farben}{26}{chapter.68}
-\contentsline {section}{\numberline {6.1}Farbwirkung}{26}{section.69}
-\contentsline {section}{\numberline {6.2}Beliebtheit von Farben}{27}{section.70}
-\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{27}{section.71}
-\contentsline {section}{\numberline {6.4}Kontraste}{28}{section.72}
-\contentsline {subsection}{\numberline {6.4.1}Bestehende L\IeC {\"o}sungen zur Farbfindung}{31}{subsection.80}
-\contentsline {section}{\numberline {6.5}Einsatz von Farben}{32}{section.81}
-\contentsline {section}{\numberline {6.6}Farbfindung}{33}{section.82}
-\contentsline {subsection}{\numberline {6.6.1}Finden einer Grundfarbe}{33}{subsection.83}
-\contentsline {subsection}{\numberline {6.6.2}Finden einer Akzentfarbe}{34}{subsection.84}
-\contentsline {subsection}{\numberline {6.6.3}Komplettieren der Farbpalette}{35}{subsection.85}
-\contentsline {subsection}{\numberline {6.6.4}Signalfarben}{35}{subsection.86}
-\contentsline {section}{\numberline {6.7}Android \& iOS}{36}{section.87}
-\contentsline {subsection}{\numberline {6.7.1}Android}{36}{subsection.88}
-\contentsline {subsection}{\numberline {6.7.2}iOS}{37}{subsection.89}
-\contentsline {chapter}{\numberline {7}Bilder}{38}{chapter.90}
-\contentsline {section}{\numberline {7.1}Strecken \& Stauchen}{38}{section.91}
-\contentsline {subsection}{\numberline {7.1.1}Konkrete Anwendung}{39}{subsection.94}
-\contentsline {subsection}{\numberline {7.1.2}Eine gegebene Fl\IeC {\"a}che ausf\IeC {\"u}llen}{40}{subsection.102}
-\contentsline {section}{\numberline {7.2}Verpixelte Bilder}{41}{section.112}
-\contentsline {subsection}{\numberline {7.2.1}Bitmaps}{41}{subsection.113}
-\contentsline {section}{\numberline {7.3}PPI \& DPI}{42}{section.114}
-\contentsline {chapter}{\numberline {8}Typographie}{43}{chapter.115}
-\contentsline {subsection}{\numberline {8.0.1}Buttons}{45}{subsection.116}
-\contentsline {subsubsection}{\numberline {8.0.1.1}Web}{45}{subsubsection.117}
-\contentsline {subsubsection}{\numberline {8.0.1.2}Android}{46}{subsubsection.118}
-\contentsline {subsubsection}{\numberline {8.0.1.3}iOS}{47}{subsubsection.119}
-\contentsline {subsection}{\numberline {8.0.2}Input Fields}{47}{subsection.120}
-\contentsline {subsubsection}{\numberline {8.0.2.1}Web}{48}{subsubsection.121}
-\contentsline {subsubsection}{\numberline {8.0.2.2}Android \& iOS}{48}{subsubsection.127}
-\contentsline {subsection}{\numberline {8.0.3}Select \& Radio Buttons}{49}{subsection.128}
-\contentsline {subsection}{\numberline {8.0.4}Links}{49}{subsection.129}
+\contentsline {section}{\numberline {3.2}Schriftfamilien}{10}{section.18}
+\contentsline {subsection}{\numberline {3.2.1}Mischen von Schriftfamilien}{11}{subsection.19}
+\contentsline {section}{\numberline {3.3}Schriftgr\IeC {\"o}\IeC {\ss }en}{12}{section.20}
+\contentsline {subsection}{\numberline {3.3.1}\IeC {\"U}berschriften}{12}{subsection.21}
+\contentsline {subsubsection}{\numberline {3.3.1.1}Der goldene Schnitt}{13}{subsubsection.22}
+\contentsline {subsubsection}{\numberline {3.3.1.2}Typographic Scale}{13}{subsubsection.23}
+\contentsline {section}{\numberline {3.4}Abst\IeC {\"a}nde im Text}{16}{section.28}
+\contentsline {subsection}{\numberline {3.4.1}Zeilenh\IeC {\"o}he und -l\IeC {\"a}nge}{16}{subsection.29}
+\contentsline {subsection}{\numberline {3.4.2}Abs\IeC {\"a}tze und \IeC {\"U}berschriften}{16}{subsection.30}
+\contentsline {section}{\numberline {3.5}Kontrast}{17}{section.31}
+\contentsline {chapter}{\numberline {4}Layout und Struktur}{21}{chapter.79}
+\contentsline {section}{\numberline {4.1}Herleitung}{21}{section.80}
+\contentsline {section}{\numberline {4.2}Grid Systems im Web}{21}{section.81}
+\contentsline {subsection}{\numberline {4.2.1}Abbildung im Tool}{22}{subsection.82}
+\contentsline {section}{\numberline {4.3}Grid Systems auf nativen Plattformen}{23}{section.83}
+\contentsline {subsection}{\numberline {4.3.1}iOS}{23}{subsection.84}
+\contentsline {subsection}{\numberline {4.3.2}Android}{23}{subsection.85}
+\contentsline {section}{\numberline {4.4}Grid Systems im Print}{24}{section.86}
+\contentsline {subsection}{\numberline {4.4.1}Berechnung}{24}{subsection.87}
+\contentsline {subsection}{\numberline {4.4.2}Abbildung im Tool}{25}{subsection.88}
+\contentsline {chapter}{\numberline {5}Whitespace}{26}{chapter.89}
+\contentsline {section}{\numberline {5.1}Herleitung}{26}{section.90}
+\contentsline {section}{\numberline {5.2}Whitespace}{26}{section.93}
+\contentsline {section}{\numberline {5.3}Was ist Whitespace?}{27}{section.94}
+\contentsline {chapter}{\numberline {6}Farben}{28}{chapter.95}
+\contentsline {section}{\numberline {6.1}Farbwirkung}{28}{section.96}
+\contentsline {section}{\numberline {6.2}Beliebtheit von Farben}{29}{section.97}
+\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{29}{section.98}
+\contentsline {section}{\numberline {6.4}Kontraste}{30}{section.99}
+\contentsline {subsection}{\numberline {6.4.1}Bestehende L\IeC {\"o}sungen zur Farbfindung}{33}{subsection.107}
+\contentsline {section}{\numberline {6.5}Einsatz von Farben}{34}{section.108}
+\contentsline {section}{\numberline {6.6}Farbfindung}{35}{section.109}
+\contentsline {subsection}{\numberline {6.6.1}Finden einer Grundfarbe}{35}{subsection.110}
+\contentsline {subsection}{\numberline {6.6.2}Finden einer Akzentfarbe}{36}{subsection.111}
+\contentsline {subsection}{\numberline {6.6.3}Komplettieren der Farbpalette}{37}{subsection.112}
+\contentsline {subsection}{\numberline {6.6.4}Signalfarben}{37}{subsection.113}
+\contentsline {section}{\numberline {6.7}Android \& iOS}{38}{section.114}
+\contentsline {subsection}{\numberline {6.7.1}Android}{38}{subsection.115}
+\contentsline {subsection}{\numberline {6.7.2}iOS}{39}{subsection.116}
+\contentsline {chapter}{\numberline {7}Bilder}{40}{chapter.117}
+\contentsline {section}{\numberline {7.1}Strecken \& Stauchen}{40}{section.118}
+\contentsline {subsection}{\numberline {7.1.1}Konkrete Anwendung}{41}{subsection.121}
+\contentsline {subsection}{\numberline {7.1.2}Eine gegebene Fl\IeC {\"a}che ausf\IeC {\"u}llen}{42}{subsection.129}
+\contentsline {section}{\numberline {7.2}Verpixelte Bilder}{43}{section.139}
+\contentsline {subsection}{\numberline {7.2.1}Bitmaps}{43}{subsection.140}
+\contentsline {section}{\numberline {7.3}PPI \& DPI}{44}{section.141}
+\contentsline {chapter}{\numberline {8}Interaktive-Elemente}{45}{chapter.142}
+\contentsline {subsection}{\numberline {8.0.1}Buttons}{47}{subsection.143}
+\contentsline {subsubsection}{\numberline {8.0.1.1}Web}{47}{subsubsection.144}
+\contentsline {subsubsection}{\numberline {8.0.1.2}Android}{48}{subsubsection.145}
+\contentsline {subsubsection}{\numberline {8.0.1.3}iOS}{49}{subsubsection.146}
+\contentsline {subsection}{\numberline {8.0.2}Input Fields}{49}{subsection.147}
+\contentsline {subsubsection}{\numberline {8.0.2.1}Web}{50}{subsubsection.148}
+\contentsline {subsubsection}{\numberline {8.0.2.2}Android \& iOS}{50}{subsubsection.154}
+\contentsline {subsection}{\numberline {8.0.3}Select \& Radio Buttons}{51}{subsection.155}
+\contentsline {subsection}{\numberline {8.0.4}Links}{51}{subsection.156}
 \vspace {2em}
 \vspace {2em}
