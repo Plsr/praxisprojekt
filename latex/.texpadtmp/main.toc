@@ -39,8 +39,8 @@
 \contentsline {chapter}{\numberline {6}Farben}{30}{chapter.95}
 \contentsline {section}{\numberline {6.1}Farbwirkung}{30}{section.96}
 \contentsline {section}{\numberline {6.2}Beliebtheit von Farben}{31}{section.97}
-\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{31}{section.98}
-\contentsline {section}{\numberline {6.4}Kontraste}{32}{section.99}
+\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{32}{section.98}
+\contentsline {section}{\numberline {6.4}Kontraste}{33}{section.99}
 \contentsline {subsection}{\numberline {6.4.1}Bestehende L\IeC {\"o}sungen zur Farbfindung}{35}{subsection.107}
 \contentsline {section}{\numberline {6.5}Einsatz von Farben}{36}{section.108}
 \contentsline {section}{\numberline {6.6}Farbfindung}{37}{section.109}
@@ -58,7 +58,7 @@
 \contentsline {section}{\numberline {7.2}Verpixelte Bilder}{45}{section.139}
 \contentsline {subsection}{\numberline {7.2.1}Bitmaps}{45}{subsection.140}
 \contentsline {section}{\numberline {7.3}PPI \& DPI}{46}{section.141}
-\contentsline {chapter}{\numberline {8}Interaktive-Elemente}{47}{chapter.142}
+\contentsline {chapter}{\numberline {8}Interaktive Elemente}{47}{chapter.142}
 \contentsline {subsection}{\numberline {8.0.1}Buttons}{49}{subsection.143}
 \contentsline {subsubsection}{\numberline {8.0.1.1}Web}{49}{subsubsection.144}
 \contentsline {subsubsection}{\numberline {8.0.1.2}Android}{50}{subsubsection.145}
