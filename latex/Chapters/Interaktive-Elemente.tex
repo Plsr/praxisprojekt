@@ -16,8 +16,8 @@ Während der Fehleranalyse wurde vor allem deutlich, dass interaktive Elemente n
 
 Dieses Kapitel gliedert sich in zwei Teile: Zunächst sollen einige generelle Richtlinien im Bezug auf interaktive Elemente festgehalten werden. Im zweiten Teil wird dann auf die Besonderheiten von verschiedenen interaktiven Elementen und auf verschiedenen Plattformen eingegangen.
 
-\seaction{Generell zu beachten}
-Laut den von Dix angesprochenen _Universal Design Principles_ sollte ein interaktives System dem User so viel Feedback wie möglich geben. *(Dix, A. (2004). Human-computer interaction. Harlow, England New York: Pearson/Prentice-Hall, P. 367)* Dies gilt somit auch und vor allem für die Elemente in diesem System, mit dem der User interagieren kann.
+\section{Generell zu beachten}
+Laut den von Dix angesprochenen \textit{Universal Design Principles} sollte ein interaktives System dem User so viel Feedback wie möglich geben. (Dix, A. (2004). Human-computer interaction. Harlow, England New York: Pearson/Prentice-Hall, P. 367) Dies gilt somit auch und vor allem für die Elemente in diesem System, mit dem der User interagieren kann.
 Zu Feedback gehört sowohl, dem User deutlich zu kommunizieren, welche Elemente interaktiv sind, also eine Aktion auslösen und welche nicht, als auch dem User deutlich zu machen, dass eine Aktion erfolgt ist.
 
 Für die meisten interaktiven Elemente gibt es einige Grundregeln und best practices, die sich in jedem dieser Elemente wiederfinden. Darauf aufbauen werden sie dann für die aktuelle Gestaltung angepasst (beispielsweise durch die Anpassung der Farbe oder die Änderung der Grundform passend zur aktuellen Gestaltung).
@@ -35,7 +35,7 @@ Small touch keys have poor performance in terms of the success rate and the numb
 Für die Größe von Touch-Elementen gibt es verschiedene Richtlinien von Unternehmen, deren Produktreihe Touch-Devices umfasst:
 [Apple](https://developer.apple.com/ios/human-interface-guidelines/visual-design/layout/) empfiehlt einen Touch-Bereich von mindestens 44pt mal 44pt, [Google](https://developers.google.com/speed/docs/insights/SizeTapTargetsAppropriately) spricht von 48px im CSS und [Microsoft](https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/guidelines-for-targeting) empfiehlt 40px.  Zwar gibt es keinen definierten Standard für diese Größe, jedoch scheint eine Empfehlung im Bereich von 40px bis 50px valide zu sein.
 
-\seaction{Elemente}
+\section{Elemente}
 Dieser Abschnitt beschäftigt sich mit einer Auswahl verschiedener interaktiver Elemente und ihrer Besonderheiten im Bezug auf Feedback und Größe.
 Jen nach Element wird hier auch auf Besonderheiten auf den verschiedenen Plattformen iOS, Android und Web eingegangen.
 
@@ -70,7 +70,7 @@ Die Material Design Guidelines spezifizieren 3 unterschiedliche Arten von Button
 
 Da die Buttons in ihrer Benutzbarkeit bereits sehr durchdacht sind sollen diese im Folgenden nur kurz erläutert werden.
 
-_[Floating Action Button](https://material.google.com/components/buttons-floating-action-button.html#)_
+Floating Action Button(https://material.google.com/components/buttons-floating-action-button.html)
 Pro Screen gibt es maximal einen Floating Action Button. Der Floating Action Button repräsentiert die auf dem Screen am häufigsten verwendete Aktion. Floating Action Buttons sollten nur "positive" Aktionen repräsentieren, also zum Beispiel einer Liste ein Element hinzufügen.
 Der Button ist in der Regel 56dp x 56dp groß, rund, ist nur mit einem Icon (in der Größe 24dp x 24dp) beschriftet und hat einen Schatten (deswegen auch "Floating"). Als Farbe bietet sich die gewählte Akzentfarbe an. Bei einer Interaktion wird er dunkler und sein Schatten entfernt sich ein Stück nach unten (er schwebt nach der Metapher also höher).
 
@@ -80,7 +80,7 @@ Mit den vom User zuvor ausgewählten Farben können der Normale und der Gedrück
 
 %![Floating Action Button Farbe](https://github.com/Plsr/praxisprojekt/blob/master/images/elements/FAB/FAB-Colors.png?raw=true)
 
-_[Raised Buttons](https://material.google.com/components/buttons.html#buttons-raised-buttons)_
+[Raised Buttons](https://material.google.com/components/buttons.html#buttons-raised-buttons)
 Raised Buttons sollten genutzt werden, um Interaktivität auf einem Screen deutlich zu machen. Sie sollten immer dann genutzt werden, wenn der Anwendungsfall nicht für einen Floating Action Button oder Flat Buttons spricht.
 Raised Buttons sind mindestens 88dp breit, 36dp hoch, haben einen Corner-Radius von 2dp und ihre Beschriftung ist immer groß geschrieben. Ihr Verhalten bei Interaktion ist ähnlich dem von Floating Action Buttons, sie werden dunkler und schweben höher.
 Sie lassen sich Simultan zu den Floating Action Buttons färben, jedoch kann hier je nach Anwendungsfall unterschieden werden, ob die Akzentfarbe oder die Grundfarbe für den Button verwendet wird.

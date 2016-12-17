@@ -1,4 +1,4 @@
-\begin{thebibliography}{23}
+\begin{thebibliography}{24}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -63,6 +63,11 @@ Laura Elizabeth.
 \newblock A simple web developer’s guide to color.
 \newblock URL
   \url{https://www.smashingmagazine.com/2016/04/web-developer-guide-color/}.
+
+\bibitem[Enderle et~al.(2012)Enderle, Kansy, and Pfaff]{enderle2012computer}
+G{\"u}nter Enderle, Klaus Kansy, and G{\"u}nther Pfaff.
+\newblock \emph{Computer Graphics Programming: GKS—The Graphics Standard}.
+\newblock Springer Science \& Business Media, 2012.
 
 \bibitem[Eysenck(1941)]{eysenck1941critical}
 Hans~J Eysenck.
