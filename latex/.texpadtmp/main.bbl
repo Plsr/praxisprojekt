@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{30}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -14,6 +14,13 @@ C21: Specifying line spacing in css.
 \bibitem[css()]{cssfontstack}
 Css font stack: Web safe and web font family with html and css code.
 \newblock URL \url{http://www.cssfontstack.com/}.
+
+\bibitem[Apple Inc.()]{apple2016layout}
+Apple Inc.
+\newblock Layout - visual design - ios human interface guidelines, 2016.
+\newblock URL \url{https://developer.apple.com/ios/human-interface-
+  guidelines/visual-design/layout/}.
+\newblock Accessed 17.12.2016.
 
 \bibitem[Baines and Haslam(2005)]{baines2005type}
 Phil Baines and Andrew Haslam.
@@ -51,6 +58,11 @@ Dianne Cyr, Milena Head, and Hector Larios.
 \newblock \emph{International journal of human-computer studies}, 68\penalty0
   (1):\penalty0 1--21, 2010.
 
+\bibitem[Dix(2009)]{dix2009human}
+Alan Dix.
+\newblock \emph{Human-computer interaction}.
+\newblock Springer, 2009.
+
 \bibitem[Dogusoy et~al.(2016)Dogusoy, Cicek, and Cagiltay]{dogusoy2016serif}
 Berrin Dogusoy, Filiz Cicek, and Kursat Cagiltay.
 \newblock How serif and sans serif typefaces influence reading on screen: An
@@ -74,6 +86,13 @@ Hans~J Eysenck.
 \newblock A critical and experimental study of colour preferences.
 \newblock \emph{The American Journal of Psychology}, 54\penalty0 (3):\penalty0
   385--394, 1941.
+
+\bibitem[Google Inc.()]{google2016tap}
+Google Inc.
+\newblock Size tap targets appropriately, 2016.
+\newblock URL
+  \url{https://developers.google.com/speed/docs/insights/SizeTapTargetsAppropriately}.
+\newblock Accessed 17.12.2016.
 
 \bibitem[Itten(2010)]{Itten201006}
 Johannes Itten.
@@ -115,11 +134,32 @@ Mario Livio.
 \newblock \emph{The golden ratio}.
 \newblock Aryeh Nir Publishers Limited, 2003.
 
+\bibitem[Microsoft Corporation()]{microsoft2016traget}
+Microsoft Corporation.
+\newblock Guidelines for targeting, 2016.
+\newblock URL
+  \url{https://msdn.microsoft.com/en-us/windows/uwp/input-and-devices/guidelines-for-targeting}.
+\newblock Accessed 17.12.2016.
+
 \bibitem[Nickerson(1998)]{nickerson1998confirmation}
 Raymond~S Nickerson.
 \newblock Confirmation bias: A ubiquitous phenomenon in many guises.
 \newblock \emph{Review of general psychology}, 2\penalty0 (2):\penalty0 175,
   1998.
+
+\bibitem[Nielsen(2004)]{nielsen2004guide}
+Jakob Nielsen.
+\newblock Guidelines for visualizing links, 2004.
+\newblock URL
+  \url{https://www.nngroup.com/articles/guidelines-for-visualizing-links/}.
+\newblock Accessed 17.12.2016.
+
+\bibitem[Park et~al.(2008)Park, Han, Park, and Cho]{park2008touch}
+Yong~S Park, Sung~H Han, Jaehyun Park, and Youngseok Cho.
+\newblock Touch key design for target selection on a mobile phone.
+\newblock In \emph{Proceedings of the 10th international conference on Human
+  computer interaction with mobile devices and services}, pages 423--426. ACM,
+  2008.
 
 \bibitem[Rider(2010)]{rider2010color}
 Rose~M Rider.

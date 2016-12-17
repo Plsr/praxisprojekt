@@ -20,45 +20,45 @@ Warning--empty year in W3C
 Warning--empty year in cssfontstack
 Warning--empty year in elizabeth2016simple
 Warning--can't use both volume and number fields in joblove1978color
-You've used 24 entries,
+You've used 30 entries,
             2773 wiz_defined-function locations,
-            739 strings with 8733 characters,
-and the built_in function-call counts, 9376 in all, are:
-= -- 840
-> -- 391
-< -- 21
-+ -- 141
-- -- 117
-* -- 663
-:= -- 1398
-add.period$ -- 78
-call.type$ -- 24
-change.case$ -- 105
-chr.to.int$ -- 24
-cite$ -- 56
-duplicate$ -- 508
-empty$ -- 889
-format.name$ -- 145
-if$ -- 2014
+            766 strings with 9629 characters,
+and the built_in function-call counts, 11428 in all, are:
+= -- 1040
+> -- 450
+< -- 24
++ -- 165
+- -- 135
+* -- 791
+:= -- 1663
+add.period$ -- 101
+call.type$ -- 30
+change.case$ -- 131
+chr.to.int$ -- 30
+cite$ -- 68
+duplicate$ -- 621
+empty$ -- 1112
+format.name$ -- 166
+if$ -- 2488
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 28
-newline$ -- 131
-num.names$ -- 88
-pop$ -- 271
+missing$ -- 31
+newline$ -- 165
+num.names$ -- 100
+pop$ -- 345
 preamble$ -- 1
-purify$ -- 87
+purify$ -- 108
 quote$ -- 0
-skip$ -- 367
+skip$ -- 458
 stack$ -- 0
-substring$ -- 281
-swap$ -- 66
-text.length$ -- 5
+substring$ -- 325
+swap$ -- 82
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 224
+type$ -- 285
 warning$ -- 6
-while$ -- 89
+while$ -- 101
 width$ -- 0
-write$ -- 316
+write$ -- 398
 (There was 1 error message)
