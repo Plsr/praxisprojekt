@@ -63,5 +63,6 @@
 \contentsline {subsubsection}{\numberline {8.2.2.2}Android \& iOS}{52}{subsubsection.138}
 \contentsline {subsection}{\numberline {8.2.3}Select \& Radio Buttons}{53}{subsection.139}
 \contentsline {subsection}{\numberline {8.2.4}Links}{53}{subsection.140}
+\contentsline {chapter}{\numberline {9}Fazit}{54}{chapter.141}
 \vspace {2em}
 \vspace {2em}
