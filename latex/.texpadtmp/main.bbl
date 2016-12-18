@@ -1,4 +1,4 @@
-\begin{thebibliography}{30}
+\begin{thebibliography}{32}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -134,6 +134,12 @@ Mario Livio.
 \newblock \emph{The golden ratio}.
 \newblock Aryeh Nir Publishers Limited, 2003.
 
+\bibitem[Mayer(2005)]{mayer2005einfuhrung}
+Horst~Otto Mayer.
+\newblock \emph{Einf{\"u}hrung in die Wahrnehmungs-, Lern-und
+  Werbe-Psychologie}.
+\newblock Oldenbourg Verlag, 2005.
+
 \bibitem[Microsoft Corporation()]{microsoft2016traget}
 Microsoft Corporation.
 \newblock Guidelines for targeting, 2016.
@@ -184,6 +190,12 @@ Ilene Strizver.
 Bride Whelan.
 \newblock \emph{Color harmony}.
 \newblock Rockport Publishers, 1994.
+
+\bibitem[White(2011)]{white2011elements}
+Alex~W White.
+\newblock \emph{The elements of graphic design: space, unity, page
+  architecture, and type}.
+\newblock Skyhorse Publishing Inc., 2011.
 
 \bibitem[Zhang et~al.(2016)Zhang, Kothari, Butt, and Kumar]{zhang2016makes}
 Jingxian Zhang, Neel Kothari, Asad~Imtiaz Butt, and Ranjitha Kumar.
