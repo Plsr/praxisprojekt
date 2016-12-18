@@ -10,11 +10,11 @@
 
 Das letzte Kapitel beschäftigt sich mit der Darstellung von interaktiven Elementen. Dieser Bereich der visuellen Gestaltung weist starke Überschneidungen mit den Themengebieten der Mensch-Computer-Interaktion auf. Diese sollen hier nur so grundlegend wie möglich behandelt werden, um nicht zu sehr vom gesetzten Ziel des Projektes abzuweichen und den Fokus auf der visuellen Gestaltung zu belassen.
 
-Zunächst sollte hier jedoch der Begriff \textit{interaktive Elemente} erläutert werden. Als interaktives Element wird im folgenden jedes Element verstanden, mit dem der Nutzer interagieren kann und in Folge dessen sich der Zustand der Anwendung verändert. Interaktive Elemente kommen also nur in den interaktiven Artefakten vor und entfallen in allen untersuchten textbasierten Medien.
+Zunächst sollte hier jedoch der Begriff \textit{interaktive Elemente} erläutert werden. Als interaktives Element wird im Folgenden jedes Element verstanden, mit dem der Nutzer interagieren kann und in Folge dessen sich der Zustand der Anwendung verändert. Interaktive Elemente kommen also nur in den interaktiven Artefakten vor und entfallen in allen untersuchten textbasierten Medien.
 
 Während der Fehleranalyse wurde vor allem deutlich, dass interaktive Elemente nicht als solche gekennzeichnet wurden, der Nutzer also nicht intuitiv erkennen konnte, mit welchen Elementen er interagieren konnte. Weiterhin wurden interaktive Elemente häufig nicht an einen gegebenen Nutzungskontext angepasst (so erfordern mobile Endgeräte mit Touch-Interface eine andere Gestaltung der Elemente als ein Desktop-Computer, der mit einer Maus bedient wird).
 
-Dieses Kapitel gliedert sich in zwei Teile: Zunächst sollen einige generelle Richtlinien im Bezug auf interaktive Elemente festgehalten werden. Im zweiten Teil wird dann auf die Besonderheiten von verschiedenen interaktiven Elementen, auch auf verschiedenen Plattformen eingegangen.
+Dieses Kapitel gliedert sich in zwei Teile: Zunächst sollen einige generelle Richtlinien im Bezug auf interaktive Elemente festgehalten werden. Im zweiten Teil wird dann auf die Besonderheiten von verschiedenen interaktiven Elementen, auch auf verschiedenen Plattformen, eingegangen.
 
 \section{Generell zu beachten}
 Laut den von Dix aufgestellten \textit{Universal Design Principles} \cite[S.367]{dix2009human} sollte ein interaktives System dem User so viel Feedback wie möglich geben. Dies gilt somit vor allem auch für die Elemente in diesem System, mit denen der Nutzer interagieren kann.
@@ -23,9 +23,9 @@ Zu Feedback gehört sowohl, dem Nutzer deutlich zu kommunizieren welche Elemente
 Für die meisten interaktiven Elemente gibt es einige Grundregeln und best practices, die aber individuell für eine Gestaltung angepasst werden können (beispielsweise durch die Anpassung der Farbe oder die Änderung der Grundform passend zur aktuellen Gestaltung).
 Je nach Element soll im Folgenden validiert werden, ob und in welchem Maße eine Anpassung des Elementes empfehlenswert ist.
 
-Ein weiterer Faktor, der sich auf die Benutzbarkeit von interaktiven Elementen auswirkt, ist ihre Größe. Hier finden sich viele theoretische Grundlagen in der Mensch-Computer-Interaktion, letztendlich wird die Größe der Elemente jedoch in der visuellen Gestaltung festgelegt. Auch wenn das Tool seinen Fokus darauf legt, eine gute visuelle Grundlage zu schaffen sollte eine grundlegende Nutzerfreundlichkeit nicht außer Acht gelassen werden.
+Ein weiterer Faktor, der sich auf die Benutzbarkeit von interaktiven Elementen auswirkt, ist ihre Größe. Hier finden sich viele theoretische Grundlagen in der Mensch-Computer-Interaktion, letztendlich wird die Größe der Elemente jedoch in der visuellen Gestaltung festgelegt. Auch wenn das Tool seinen Fokus darauf legt, eine gute visuelle Grundlage zu schaffen, sollte eine grundlegende Nutzerfreundlichkeit nicht außer Acht gelassen werden.
 
-Die Größe von interaktiven Elementen spielt vor allem auf Endgeräten mit einem Touch-Interface eine große Rolle. Während sich mit der Maus auch kleine Bereiche gezielt auswählen lassen ist der menschliche Finger deutlich weniger präzise und die Fehlerrate steigt bei der Verwendung von kleineren Elementen deutlich an \cite{park2008touch}.
+Die Größe von interaktiven Elementen spielt vor allem auf Endgeräten mit einem Touch-Interface eine wichtige Rolle. Während sich mit der Maus auch kleine Bereiche gezielt auswählen lassen, ist der menschliche Finger deutlich weniger präzise und die Fehlerrate steigt bei der Verwendung von kleineren Elementen deutlich an \cite{park2008touch}.
 
 Für die konkrete Größe von Touch-Elementen gibt es verschiedene Richtlinien von Unternehmen, deren Produktreihe Touch-Devices umfasst:
 Apple empfiehlt einen Touch-Bereich von mindestens 44pt mal 44pt \cite{apple2016layout}, Google \cite{google2016tap} und Microsoft \cite{microsoft2016traget} sprechen von 48px. Zwar gibt es keinen definierten Standard für diese Größe, jedoch scheint eine Empfehlung im Bereich von 40px bis 50px als Ausgangspunkt valide zu sein.
@@ -41,22 +41,22 @@ Wie viele der interaktiven Elemente stellen auch Buttons eine Metapher dar:
 These regions are referred to as buttons because they are purposely made to resemble the push buttons you would find on control panel. \cite{dix2009human}
 \end{quote}
 
-Ähnlich wie Knöpfe an einem Kontrollpult führen Buttons dabei eine Änderung des Zustandes der Applikation herbei, beispielsweise durch bestätigen einer Interaktion oder absenden eines Formulars. \\
+Ähnlich wie Knöpfe an einem Kontrollpult führen Buttons dabei eine Änderung des Zustandes der Applikation herbei, beispielsweise durch Bestätigen einer Interaktion oder Absenden eines Formulars. \\
 Buttons sollten eine visuell klar abgetrennte Region im Interface bilden. Sie führen nur eine einzige Aktion aus, die durch einen Text und/oder ein Icon repräsentiert wird (auch hier lassen sich viele Diskussionen im Bereich der MCI darüber finden, in welcher Form die Aktion am Besten kommuniziert werden sollte). \\
 Weiterhin haben sie einen Hintergrund der sich, häufig durch die Farbgebung, vom Hintergrund der Anwendung unterscheidet und reagieren auf verschiedene Arten von Interaktion, wie \textit{hover} oder Betätigung.
 In manchen Betriebssystemen (z.B. den neuere Versionen von iOS) können Buttons auch als reiner Text auftreten. Der Hintergrund ist dann nicht mehr sichtbar, jedoch bleibt die Click-Area in ihrer Größe unverändert. Weiterhin gibt es Versionen, bei denen der Hintergrund transparent ist und die Abgrenzungen des Buttons mit einem Rahmen markiert werden.
-Es bietet sich an, Buttons (und auch andere Elemente) mit der Akzentfarbe zu kennzeichnen, um sie aus der Gestaltung heraus stehen zu lassen.
+Es bietet sich an, Buttons (und auch andere Elemente) mit der Akzentfarbe zu kennzeichnen, um sie aus der Gestaltung heraus stechen zu lassen.
 
 \subsubsection{Web}
-Im Web können Buttons verschieden definiert werden. Zum einen gibt es ein explizites \textit{<button>} Element, das einen Button im eigentlichen Sinne darstellt und beispielsweise zum absenden eines Formulars verwendet wird (\textit{<input style=“submit”>} ist eine andere, aber ähnliche Variante). Diese Elemente werden von allen modernen Browsern bereits ohne manuelles Eingreifen wie Buttons gestaltet. Die Gestaltung ist dabei eher neutral und hängt vom verwendeten Betriebssystem und Browser ab, kann aber ohne Probleme angepasst werden. \\
+Im Web können Buttons verschieden definiert werden. Zum Einen gibt es ein explizites \textit{<button>} Element, das einen Button im eigentlichen Sinne darstellt und beispielsweise zum absenden eines Formulars verwendet wird (\textit{<input style=“submit”>} ist eine andere, aber ähnliche Variante). Diese Elemente werden von allen modernen Browsern bereits ohne manuelles Eingreifen wie Buttons gestaltet. Die Gestaltung ist dabei eher neutral und hängt vom verwendeten Betriebssystem und Browser ab, kann aber ohne Probleme angepasst werden. \\
 Zum anderen werden \textit{anchor tags} häufig visuell wie Buttons gestaltet.
 
-Das Tool kann dem Nutzer an dieser Stelle einige Möglichkeiten geben, einen Button zu erstellen und ihn warnen, sollte der Button beispielsweise zu klein sein. Dabei sollte auf die bereits bekannten Parameter wie z. B. die zuvor gewählte Farbe zurück gegriffen werden. Außerdem sollten dem Nutzer je nach Wahl des HTML-Elementes auch der zugehörige CSS-Code zugänglich gemacht werden.
+Das Tool kann dem Nutzer an dieser Stelle einige Möglichkeiten bieten, einen Button zu erstellen und ihn warnen, sollte der Button beispielsweise zu klein sein. Dabei sollte auf die bereits bekannten Parameter wie z. B. die zuvor gewählte Farbe zurück gegriffen werden. Außerdem sollten dem Nutzer, je nach Wahl des HTML-Elementes, auch der zugehörige CSS-Code zugänglich gemacht werden.
 
 
 \subsubsection{Android}
 
-Die Material Design Guidelines spezifizieren 3 unterschiedliche Arten von Buttons:
+Die Material Design Guidelines spezifizieren drei unterschiedliche Arten von Buttons:
 
 \begin{enumerate}
 	\item Floating Action Button
@@ -64,10 +64,10 @@ Die Material Design Guidelines spezifizieren 3 unterschiedliche Arten von Button
 	\item Flat Button
 \end{enumerate}
 
-Da die Buttons in ihrer Benutzbarkeit bereits sehr durchdacht sind sollen diese im Folgenden nur kurz erläutert werden.
+Da die Buttons in ihrer Benutzbarkeit bereits sehr durchdacht sind, sollen diese im Folgenden nur kurz erläutert werden.
 
 \textbf{Floating Action Button} \\
-Pro Screen gibt es maximal einen Floating Action Button, er repräsentiert die auf dem Screen am häufigsten verwendete Aktion. Floating Action Buttons sollten nur \textit{positive} Aktionen repräsentieren, also zum Beispiel einer Liste ein Element hinzufügen.
+Pro Screen gibt es maximal einen Floating Action Button, er repräsentiert die auf dem Screen am häufigsten verwendete Aktion. Floating Action Buttons sollten nur \textit{positive} Aktionen repräsentieren, zum Beispiel das Hinzufügen eines Elementes zu einer Liste.
 Der Button ist $56dp \times 56dp$ groß, rund, und mit einem Icon (in der Größe $24dp \times 24dp$) beschriftet. Er hat einen Schlagschatten (daher auch \textit{Floating}). Als Farbe bietet sich die gewählte Akzentfarbe an. Bei einer Interaktion wird er dunkler und sein Schatten entfernt sich ein Stück nach unten (er schwebt nach der Metapher also höher).
 Mit den vom User zuvor ausgewählten Farben können der Normale und der Gedrückte Zustand des Buttons sehr simpel dargestellt werden. Abbildung \ref{fig:fab-colors} auf Seite \pageref{fig:fab-colors} zeigt die Färbung am Beispiel der Akzentfarbe Pink (A200) auf. Im gepressten Zustand würde der Button entsprechend in einer dunkleren Abstufung (A400) gefärbt.
 
@@ -81,18 +81,10 @@ Mit den vom User zuvor ausgewählten Farben können der Normale und der Gedrück
 \textbf{Raised Button} \\
 Raised Buttons sollten genutzt werden, um Interaktivität auf einem Screen deutlich zu machen. Sie sollten immer dann genutzt werden, wenn der Anwendungsfall nicht für einen Floating Action Button oder Flat Buttons spricht.
 Raised Buttons sind mindestens 88dp breit, 36dp hoch, haben einen Corner-Radius von 2dp. Ihr Verhalten bei Interaktion ist ähnlich dem von Floating Action Buttons, sie werden dunkler und schweben höher.
-Sie lassen sich Simultan zu den Floating Action Buttons färben, jedoch kann hier je nach Anwendungsfall unterschieden werden, ob die Akzentfarbe oder die Grundfarbe für den Button verwendet werden sollte.
+Sie lassen sich simultan zu den Floating Action Buttons färben, jedoch kann hier je nach Anwendungsfall unterschieden werden, ob die Akzentfarbe oder die Grundfarbe für den Button verwendet werden sollte.
 
 \textbf{Flat Button} \\
-Flat Buttons werden für weniger wichtige Aktionen und in Dialogen verwendet. Sie bestehen zunächst nur aus farbiger Schrift und haben keinen Hintergrund, bei Interaktion färbt sich ihr Hintergrund jedoch. Flat Buttons werden in der Regel in der Grundfarbe dargestellt. Sie haben die folgenden Maße:
-
-\begin{itemize}
-	\item Höhe: 36dp (48dp touch target)
-	\item Weite: mindestens 88dp
-	\item Horizontaler Innenabstand: 8dp
-	\item Horizontaler Außenabstand: 8dp
-\end{itemize}
-
+Flat Buttons werden für weniger wichtige Aktionen und in Dialogen verwendet. Sie bestehen zunächst nur aus farbiger Schrift und haben keinen Hintergrund, bei Interaktion färbt sich ihr Hintergrund jedoch. Flat Buttons werden in der Regel in der Grundfarbe dargestellt. Sie haben eine Höhe von 36dp, ein Touch Target von 48dp und eine Mindestweite von 88dp. Ihr Abstand nach innen und nach außen beträgt jeweils 8dp.
 
 \subsubsection{iOS}
 Die Human Interface Guidelines sind im Bezug auf die visuelle Gestaltung von Buttons deutlich weniger explizit als die Material Design Guidelines und beziehen sich eher auf die Verwendung der verschiedenen Button-Typen. Die Guidelines lassen es dem Entwickler offen, komplett eigene Buttons zu gestalten.
@@ -103,29 +95,29 @@ Die für das Tool interessantesten Buttons sind die System Buttons. Sie haben we
 \subsection{Input Fields}
 Viele der Ansprüche an Buttons treffen auch auf Input Fields zu. Zwar dienen sie dem annehmen von User Input, trotzdem sollten sie ein ausreichend großes Touch Target darstellen.  Außerdem sollte klar gekennzeichnet sein, wenn ein Input-Field aktiv ist oder wenn in ihm ein Fehler gefunden wurde.
 
-Zwar existieren je nach Datenart auch verschiedene Input Fields mit individuellen unterschieden im Bezug auf ihre Darstellung, jedoch soll hier stellvertretend nur das Text-Field angesprochen werden, da sich die meisten der Eigenschaften zwischen den verschiedenen Input-Fields problemlos übertragen lassen. Das Tool sollte dem Benutzer jedoch nahelegen, die den Eingabedaten entsprechenden Input-Fields zu verwenden.
+Zwar existieren je nach Datenart auch verschiedene Input Fields mit individuellen Unterschieden im Bezug auf ihre Darstellung, jedoch soll hier stellvertretend nur der Text Input angesprochen werden, da sich die meisten Eigenschaften zwischen den verschiedenen Input Fields problemlos übertragen lassen. Das Tool sollte dem Benutzer jedoch nahelegen, die den Eingabedaten entsprechenden Input Fields zu verwenden.
 
 \subsubsection{Web}
-Im Web wird ein Text Field über ein \textit{input} Element mit dem type \textit{text} erstellt (simultan kann \textit{text} mit anderen Datenarten wie zum Beispiel \textit{password} ersetzt werden). Eine Simple Umsetzung eines Text Fields mit erklärendem Platzhaltertext sähe wie folgt aus:
+Im Web wird ein Text Input über ein \textit{input} Element mit dem type \textit{text} erstellt (simultan kann \textit{text} mit anderen Datenarten wie zum Beispiel \textit{password} ersetzt werden). Eine simple Umsetzung eines Text Fields mit erklärendem Platzhaltertext sähe wie folgt aus:
 
 \begin{lstlisting}
 <input name="firstname" placeholder="First name" type="text"></input>
 \end{lstlisting}
 
-Alternativ kann statt dem Platzhaltertext auch ein Label außerhalb des input fields vergeben werden:
+Alternativ kann statt dem Platzhaltertext auch ein Label außerhalb des Input Fields vergeben werden:
 
 \begin{lstlisting}
 <label for="firstname">First name</label>
 <input name="firstname" id="firstname" type="text"></input>
 \end{lstlisting}
 
-Interagiert der User mit dem Text Field wird ein blinkender Cursor im Inneren platziert und der Rand des Elements färbt sich blau.  Ähnlich wie auch Buttons hängt die Darstellung von Input-Fields vom Browser und Betriebssystem ab, das Element lässt sich jedoch beliebig anpassen. So könnte zum Beispiel die Akzentfarbe im Focus State genutzt werden, jedoch ist auch das Standardverhalten benutzbar. Das Tool sollte dem Nutzer hier, ähnlich wie bei den Buttons, die Möglichkeit geben, Input-Fields zu gestalten und ihn warnen, solle beispielsweise das Touch-Traget zu klein sein.
+Interagiert der User mit dem Text Inout, wird ein blinkender Cursor im Inneren platziert und der Rand des Elements färbt sich blau.  Ähnlich wie auch Buttons hängt die Darstellung der Input Fields vom Browser und Betriebssystem ab, das Element lässt sich jedoch beliebig anpassen. So könnte zum Beispiel die Akzentfarbe im Focus State genutzt werden, jedoch ist auch das Standardverhalten benutzbar. Das Tool sollte dem Nutzer hier, ähnlich wie bei den Buttons, die Möglichkeit geben, Input-Fields zu gestalten und ihn warnen, solle beispielsweise das Touch-Traget zu klein sein.
 
 \subsubsection{Android \& iOS}
-Unter Android sind die input fields abstrakter und besehen nur aus einem Label und einer Grundlinie. Bei Aktivierung floatet das Label nach oben und wird kleiner und der Divider färbt sich. Dieses Verhalten ist im Android SDK eingebunden, es muss lediglich die Farbe angepasst werden.
-Für die Färbung würde sich auch hier die zuvor gewählte Akzentfarbe anbieten, es muss jedoch getestet werden, ob das Text field mit der gewählten Akzentfarbe funktioniert, wenn der Hintergrund in der Hauptfarbe gefärbt ist.
+Unter Android sind die Input Fields abstrakter und bestehen nur aus einem Label und einer Grundlinie. Bei Aktivierung floatet das Label nach oben, wird kleiner und der Divider färbt sich. Dieses Verhalten ist im Android SDK eingebunden, es muss lediglich die Farbe angepasst werden.
+Für die Färbung würde sich auch hier die zuvor gewählte Akzentfarbe anbieten, es muss jedoch getestet werden, ob das Text Input mit der gewählten Akzentfarbe funktioniert, wenn der Hintergrund in der Hauptfarbe gefärbt ist.
 
-Unter iOS ist wenig für die visuelle Gestaltung spezifiziert, aber auch hier bestehen die Text Fields aus einem Label und einem Divider. Die Text Fields passen sich visuell nicht an die Akzentfarbe an und können aus Xcode übernommen werden.
+Unter iOS ist wenig für die visuelle Gestaltung spezifiziert, aber auch hier bestehen die Text Inputs aus einem Label und einem Divider. Die Text Inouts passen sich visuell nicht an die Akzentfarbe an und können aus Xcode übernommen werden.
 
 Das Tool kann dem Nutzer an dieser Stelle nicht viel Interaktivität bieten, es sollte ab dieser Stelle auf die entsprechenden Guidelines verweisen.
 
@@ -134,7 +126,7 @@ Select und Radio Buttons unterscheiden sich sowohl in ihrem Aussehen, als auch i
 
 \subsection{Links}
 Links kommen vor allem im Web vor und verweisen auf eine andere Seite.
-Sie sollten generell durch eine andere Farbe, zum Beispiel die Akzentfarbe und eine Unterstreichung gekennzeichnet werden:
+Sie sollten generell durch eine andere Farbe, zum Beispiel die Akzentfarbe, und eine Unterstreichung gekennzeichnet werden:
 
 \begin{quote}
 To maximize the perceived affordance of clickability, color and underline the link text. Users shouldn't have to guess or scrub the page to find out where they can click. \cite{nielsen2004guide}
