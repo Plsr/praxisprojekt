@@ -13,52 +13,52 @@ I'm skipping whatever remains of this entry
 Warning--entry type for "Lehnert201602" isn't style-file defined
 --line 102 of file ../Bibliography.bib
 Warning--entry type for "elizabeth2016simple" isn't style-file defined
---line 234 of file ../Bibliography.bib
+--line 242 of file ../Bibliography.bib
 Warning--to sort, need author or key in cssfontstack
 Warning--to sort, need author or key in W3C
 Warning--empty year in W3C
 Warning--empty year in cssfontstack
 Warning--empty year in elizabeth2016simple
 Warning--can't use both volume and number fields in joblove1978color
-You've used 32 entries,
+You've used 33 entries,
             2773 wiz_defined-function locations,
-            775 strings with 9876 characters,
-and the built_in function-call counts, 12012 in all, are:
-= -- 1084
+            779 strings with 10134 characters,
+and the built_in function-call counts, 12276 in all, are:
+= -- 1113
 > -- 470
 < -- 26
-+ -- 173
++ -- 175
 - -- 141
-* -- 821
-:= -- 1759
-add.period$ -- 107
-call.type$ -- 32
-change.case$ -- 137
+* -- 841
+:= -- 1785
+add.period$ -- 111
+call.type$ -- 33
+change.case$ -- 141
 chr.to.int$ -- 32
-cite$ -- 72
-duplicate$ -- 661
-empty$ -- 1176
+cite$ -- 74
+duplicate$ -- 676
+empty$ -- 1211
 format.name$ -- 174
-if$ -- 2610
-int.to.chr$ -- 1
+if$ -- 2675
+int.to.chr$ -- 2
 int.to.str$ -- 1
 missing$ -- 35
-newline$ -- 175
+newline$ -- 181
 num.names$ -- 108
-pop$ -- 369
+pop$ -- 379
 preamble$ -- 1
-purify$ -- 114
+purify$ -- 117
 quote$ -- 0
-skip$ -- 482
+skip$ -- 492
 stack$ -- 0
-substring$ -- 329
-swap$ -- 84
+substring$ -- 331
+swap$ -- 87
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 297
+type$ -- 308
 warning$ -- 6
 while$ -- 107
 width$ -- 0
-write$ -- 422
+write$ -- 437
 (There was 1 error message)

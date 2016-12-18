@@ -1,14 +1,15 @@
-\begin{thebibliography}{32}
+\begin{thebibliography}{33}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
-\bibitem[W3C()]{W3C}
+\bibitem[W3C({\natexlab{a}})]{W3C}
 C21: Specifying line spacing in css.
 \newblock
-  \url{http://web.archive.org/web/20160316091041/http://www.w3.org/TR/WCAG20-TECHS/C21.html}.
+  \url{http://web.archive.org/web/20160316091041/http://www.w3.org/TR/WCAG20-TECHS/C21.html},
+  {\natexlab{a}}.
 \newblock Accessed: 29.06.2016.
 
 \bibitem[css()]{cssfontstack}
@@ -185,6 +186,14 @@ Ilene Strizver.
 \newblock \emph{Type Rules, Enhanced Edition: The Designer's Guide to
   Professional Typography}.
 \newblock John Wiley \& Sons, 2014.
+
+\bibitem[W3C({\natexlab{b}})]{w3c2016g18}
+W3C.
+\newblock G18: Ensuring that a contrast ratio of at least 4.5:1 exists between
+  text (and images of text) and background behind the text, 2016{\natexlab{b}}.
+\newblock URL
+  \url{https://web.archive.org/web/20160914150636/http://www.w3.org/TR/2010/NOTE-WCAG20-TECHS-20101014/G18.html}.
+\newblock Accessed 18.12.2016.
 
 \bibitem[Whelan(1994)]{whelan1994color}
 Bride Whelan.
