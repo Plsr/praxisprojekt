@@ -102,13 +102,10 @@ Das Problem der Überschriften verschiedener Ordnungen ist damit jedoch immer no
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.7\textwidth]{images/three-headlines.png}
+    \includegraphics[width=0.6\textwidth]{images/three-headlines.png}
     \caption{Text mit drei Überschriften verschiedener Ordnung}
     \label{fig:threeHeadlines}
 \end{figure}
-
-
-\textbf{HIER ZWEITES BILD VON GESETZTEM TEXT}
 
 Befinden sich eine Überschrift und der Text nur 2px auseinander, so scheint es ratsam, die Überschrift auch anderweitig abzuheben, etwa durch einen fetten Schriftschnitt.
 
@@ -164,10 +161,6 @@ Aufbauend auf der obigen Rechnung können für die Abstände der Überschriften 
 	\item H2: 21px, Top 40px, Bottom 20px (Zeilenhöhe * 3)
 	\item H3: 18px Bold, Top 30px, Bottom 10px (Zeilenhöhe * 2)
 \end{itemize}
-
-Das nachfolgende Bild zeigt einen mit den errechneten Abständen gesetzten Text:
-
-\textbf{HIER NOCH BILD}
 
 An dieser Stelle ist erwähnenswert, dass der Großteil aller Programme diese Abstände auch automatisch setzen, wenn die entsprechenden Elemente auch korrekt ausgezeichnet werden. In der Fehleranalyse wurde jedoch deutlich, dass diese korrekte Auszeichnung häufig versäumt wird.
 
@@ -233,6 +226,49 @@ In Quellcode \ref{lst:contrast-code} auf Seite \pageref{lst:contrast-code} finde
   };
 \end{lstlisting}
 
+%----------------------------------------------------------------------------------------
+
+\section{Proof of Concept}
+
+Für den Bereich Typographie wurde ein \textit{Proof of Concept} angefertigt, der zeigen soll, dass eine technische Umsetzung der gefundenen Regeln und Berechnungen möglich ist.
+
+Zunächst wurde die Umsetzung in der JavaScript-Library \textit{jQuery} geschrieben. Mit zunehmender Komplexität und Abhängigkeiten von Elementen untereinander wurde, aus Gründen der Übersicht, zur Library \textit{ReactJS} in Verbindung mit \textit{redux} gewechselt. Hier war die Lernkurve zwar sehr hoch, aber gerade die zentrale Verwaltung des \textit{state} der Applikation über \textit{redux} erleichterte später das Berechnen der Werte.
+
+Im \textit{Proof of Concept} wurden alle in diesem Kapitel angesprochenen Regeln und Berechnungen erfolgreich Umgesetzt. Der Nutzer kann mittels Schiebereglern einzelne Elemente innerhalb des Textes verändern. Das Programm berechnet bei jeder Veränderung, ob die Werte der Elemente selbst und ihrer Abhängikeiten untereinander noch dem hier definierten Rahmen entsprechen. Ist das nicht der Fall, wird dem Nutzer eine Warnung angezeigt (s. Abb. \ref{fig:pocWarning} auf Seite \pageref{fig:pocWarning})
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{images/poc-warning.png}
+    \caption{Anzeige einer Warnung im Proof of Concept}
+    \label{fig:pocWarning}
+\end{figure}
+
+Währen der Umsetzung des \textit{Proof of Concepts} wurden auch Berechnungen nötig, die währen der Recherche nicht bedacht wurden. So muss die Anzahl der Worte oder der Zeichen pro Zeile, abhängig von der Schriftfamilie und -größe, errechnet werden. Das vorgehen ist recht simpel: Eine einzelne Zeile Text wird in der Entprechenden Schriftfamilie und -größe gesetzt. Anschließend werden deren Breite und die Anzahl der Zeichen durcheinander geteilt. Der (sehr stark gebrochene) Wert für die Anzahl der Zeichen pro Pixel kann anschließend auf gewünschte Werte zwischen 65 und 75 CPL hochgerechnet werden (Quellcode \ref{lst:width} auf Seite \pageref{lst:width} zeigt die Umsetzung). Obwohl die Rechnung sehr simpel wirkt, liefert sie in der Praxis sehr taugliche Ergebnisse.
+
+\begin{lstlisting}[caption={Berechnung der Mindest- und Maximalweite des Fließtextes},label={lst:width},language=javascript]
+	componentDidUpdate(prevProps, prevState) {
+	    // Get snippet DOM Element
+	    let snippet = this.refs.calculationSnippet
+	
+	    // Get width of rendered DOM node
+	    let elementWidth = snippet.getBoundingClientRect().width
+	
+	    // Get length (in terms of characters) of element content
+	    let elementLength = snippet.innerHTML.length
+	
+	    // Get number of chars per pixel
+	    let charsPerPixel = elementLength / elementWidth
+	
+	    // Calculate min an max width
+	    let minWidth = Math.floor(65 / charsPerPixel)
+	    let maxWidth = Math.floor(75 / charsPerPixel)
+	
+	    // Update state
+	    this.props.dispatch(updateBodyWidthContraints(minWidth, maxWidth))
+  	}
+\end{lstlisting}
+
+Zum \textit{Proof of Concept} angemerkt werden muss aber, dass dieser nur einen Beweis der technischen Umsetzung darstellt. Weder ist er sonderlich nutzerfreundlich, noch technisch sehr ausgereift. Trotzdem konnte mit seiner Hilfe gezeigt werden, dass eine technische Umsetzung der hier erarbeiten Grundlagen möglich ist und auch zufriedenstellende Ergebnisse liefert. Der komplette Quellcode wurde zusammen mit dieser Dokumentation übergeben.
 %----------------------------------------------------------------------------------------
 
 \clearpage

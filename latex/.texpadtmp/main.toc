@@ -22,45 +22,46 @@
 \contentsline {subsubsection}{\numberline {3.3.1.1}Der goldene Schnitt}{13}{subsubsection.22}
 \contentsline {subsubsection}{\numberline {3.3.1.2}Typographic Scale}{13}{subsubsection.23}
 \contentsline {section}{\numberline {3.4}Abst\IeC {\"a}nde im Text}{16}{section.28}
-\contentsline {subsection}{\numberline {3.4.1}Zeilenh\IeC {\"o}he und -l\IeC {\"a}nge}{16}{subsection.29}
-\contentsline {subsection}{\numberline {3.4.2}Abs\IeC {\"a}tze und \IeC {\"U}berschriften}{16}{subsection.30}
-\contentsline {section}{\numberline {3.5}Kontrast}{17}{section.31}
-\contentsline {chapter}{\numberline {4}Layout und Struktur}{21}{chapter.79}
-\contentsline {section}{\numberline {4.1}Grid Systems im Web}{21}{section.80}
-\contentsline {subsection}{\numberline {4.1.1}Abbildung im Tool}{22}{subsection.81}
-\contentsline {section}{\numberline {4.2}Grid Systems auf nativen Plattformen}{23}{section.82}
-\contentsline {section}{\numberline {4.3}Grid Systems in einfachen Texten}{24}{section.84}
-\contentsline {subsection}{\numberline {4.3.1}Berechnung}{25}{subsection.85}
-\contentsline {subsection}{\numberline {4.3.2}Abbildung im Tool}{26}{subsection.88}
-\contentsline {chapter}{\numberline {5}Whitespace}{28}{chapter.89}
-\contentsline {section}{\numberline {5.1}Was ist Whitespace?}{28}{section.90}
-\contentsline {chapter}{\numberline {6}Farben}{30}{chapter.91}
-\contentsline {section}{\numberline {6.1}Farbwirkung}{30}{section.92}
-\contentsline {section}{\numberline {6.2}Beliebtheit von Farben}{31}{section.93}
-\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{32}{section.94}
-\contentsline {section}{\numberline {6.4}Kontraste und Farbschemata}{33}{section.95}
-\contentsline {subsection}{\numberline {6.4.1}Bestehende L\IeC {\"o}sungen zur Farbfindung}{34}{subsection.96}
-\contentsline {section}{\numberline {6.5}Einsatz von Farben}{35}{section.97}
-\contentsline {section}{\numberline {6.6}Farbfindung}{36}{section.98}
-\contentsline {subsection}{\numberline {6.6.1}Finden einer Grundfarbe}{36}{subsection.99}
-\contentsline {subsection}{\numberline {6.6.2}Finden einer Akzentfarbe}{37}{subsection.101}
-\contentsline {subsection}{\numberline {6.6.3}Komplettieren der Farbpalette}{40}{subsection.103}
-\contentsline {section}{\numberline {6.7}Android \& iOS}{40}{section.104}
-\contentsline {chapter}{\numberline {7}Bilder}{42}{chapter.105}
-\contentsline {section}{\numberline {7.1}Strecken \& Stauchen}{42}{section.106}
-\contentsline {section}{\numberline {7.2}Verpixelte Bilder}{45}{section.115}
-\contentsline {chapter}{\numberline {8}Interaktive Elemente}{46}{chapter.116}
-\contentsline {section}{\numberline {8.1}Generell zu beachten}{47}{section.117}
-\contentsline {section}{\numberline {8.2}Elemente}{48}{section.118}
-\contentsline {subsection}{\numberline {8.2.1}Buttons}{48}{subsection.119}
-\contentsline {subsubsection}{\numberline {8.2.1.1}Web}{49}{subsubsection.120}
-\contentsline {subsubsection}{\numberline {8.2.1.2}Android}{49}{subsubsection.121}
-\contentsline {subsubsection}{\numberline {8.2.1.3}iOS}{51}{subsubsection.126}
-\contentsline {subsection}{\numberline {8.2.2}Input Fields}{51}{subsection.127}
-\contentsline {subsubsection}{\numberline {8.2.2.1}Web}{52}{subsubsection.128}
-\contentsline {subsubsection}{\numberline {8.2.2.2}Android \& iOS}{52}{subsubsection.134}
-\contentsline {subsection}{\numberline {8.2.3}Select \& Radio Buttons}{53}{subsection.135}
-\contentsline {subsection}{\numberline {8.2.4}Links}{53}{subsection.136}
-\contentsline {chapter}{\numberline {9}Fazit}{54}{chapter.137}
+\contentsline {subsection}{\numberline {3.4.1}Zeilenh\IeC {\"o}he und -l\IeC {\"a}nge}{17}{subsection.29}
+\contentsline {subsection}{\numberline {3.4.2}Abs\IeC {\"a}tze und \IeC {\"U}berschriften}{17}{subsection.30}
+\contentsline {section}{\numberline {3.5}Kontrast}{18}{section.31}
+\contentsline {section}{\numberline {3.6}Proof of Concept}{20}{section.79}
+\contentsline {chapter}{\numberline {4}Layout und Struktur}{23}{chapter.102}
+\contentsline {section}{\numberline {4.1}Grid Systems im Web}{23}{section.103}
+\contentsline {subsection}{\numberline {4.1.1}Abbildung im Tool}{24}{subsection.104}
+\contentsline {section}{\numberline {4.2}Grid Systems auf nativen Plattformen}{25}{section.105}
+\contentsline {section}{\numberline {4.3}Grid Systems in einfachen Texten}{26}{section.107}
+\contentsline {subsection}{\numberline {4.3.1}Berechnung}{27}{subsection.108}
+\contentsline {subsection}{\numberline {4.3.2}Abbildung im Tool}{28}{subsection.111}
+\contentsline {chapter}{\numberline {5}Whitespace}{30}{chapter.112}
+\contentsline {section}{\numberline {5.1}Was ist Whitespace?}{30}{section.113}
+\contentsline {chapter}{\numberline {6}Farben}{32}{chapter.114}
+\contentsline {section}{\numberline {6.1}Farbwirkung}{32}{section.115}
+\contentsline {section}{\numberline {6.2}Beliebtheit von Farben}{33}{section.116}
+\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{34}{section.117}
+\contentsline {section}{\numberline {6.4}Kontraste und Farbschemata}{35}{section.118}
+\contentsline {subsection}{\numberline {6.4.1}Bestehende L\IeC {\"o}sungen zur Farbfindung}{36}{subsection.119}
+\contentsline {section}{\numberline {6.5}Einsatz von Farben}{37}{section.120}
+\contentsline {section}{\numberline {6.6}Farbfindung}{38}{section.121}
+\contentsline {subsection}{\numberline {6.6.1}Finden einer Grundfarbe}{38}{subsection.122}
+\contentsline {subsection}{\numberline {6.6.2}Finden einer Akzentfarbe}{39}{subsection.124}
+\contentsline {subsection}{\numberline {6.6.3}Komplettieren der Farbpalette}{42}{subsection.126}
+\contentsline {section}{\numberline {6.7}Android \& iOS}{42}{section.127}
+\contentsline {chapter}{\numberline {7}Bilder}{44}{chapter.128}
+\contentsline {section}{\numberline {7.1}Strecken \& Stauchen}{44}{section.129}
+\contentsline {section}{\numberline {7.2}Verpixelte Bilder}{47}{section.138}
+\contentsline {chapter}{\numberline {8}Interaktive Elemente}{48}{chapter.139}
+\contentsline {section}{\numberline {8.1}Generell zu beachten}{49}{section.140}
+\contentsline {section}{\numberline {8.2}Elemente}{50}{section.141}
+\contentsline {subsection}{\numberline {8.2.1}Buttons}{50}{subsection.142}
+\contentsline {subsubsection}{\numberline {8.2.1.1}Web}{51}{subsubsection.143}
+\contentsline {subsubsection}{\numberline {8.2.1.2}Android}{51}{subsubsection.144}
+\contentsline {subsubsection}{\numberline {8.2.1.3}iOS}{53}{subsubsection.149}
+\contentsline {subsection}{\numberline {8.2.2}Input Fields}{53}{subsection.150}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Web}{53}{subsubsection.151}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Android \& iOS}{54}{subsubsection.157}
+\contentsline {subsection}{\numberline {8.2.3}Select \& Radio Buttons}{55}{subsection.158}
+\contentsline {subsection}{\numberline {8.2.4}Links}{55}{subsection.159}
+\contentsline {chapter}{\numberline {9}Fazit}{56}{chapter.160}
 \vspace {2em}
 \vspace {2em}
