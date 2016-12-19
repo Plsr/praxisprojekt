@@ -59,12 +59,12 @@
 \usepackage[ngerman]{babel} % Silbentrennung
 
 \newcommand\Declaration[1]{
-\btypeout{Erklärung über die Selbständige Abfassung der Arbeit}
-\addtotoc{Erklärung über die Selbständige Abfassung der Arbeit}
+\btypeout{Erklärung über die selbständige Abfassung der Arbeit}
+\addtotoc{Erklärung über die selbständige Abfassung der Arbeit}
 \thispagestyle{plain}
 \null\vfil
 %\vskip 60\p@
-\begin{center}{\huge\bf Erklärung über die Selbständige Abfassung der Arbeit\par}\end{center}
+\begin{center}{\huge\bf Erklärung über die selbständige Abfassung der Arbeit\par}\end{center}
 %\vskip 60\p@
 {\normalsize #1}
 \vfil\vfil\null

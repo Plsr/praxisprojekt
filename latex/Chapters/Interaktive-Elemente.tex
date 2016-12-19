@@ -42,16 +42,16 @@ These regions are referred to as buttons because they are purposely made to rese
 \end{quote}
 
 Ähnlich wie Knöpfe an einem Kontrollpult führen Buttons dabei eine Änderung des Zustandes der Applikation herbei, beispielsweise durch Bestätigen einer Interaktion oder Absenden eines Formulars. \\
-Buttons sollten eine visuell klar abgetrennte Region im Interface bilden. Sie führen nur eine einzige Aktion aus, die durch einen Text und/oder ein Icon repräsentiert wird (auch hier lassen sich viele Diskussionen im Bereich der MCI darüber finden, in welcher Form die Aktion am Besten kommuniziert werden sollte). \\
+Buttons sollten eine visuell klar abgetrennte Region im Interface bilden. Sie führen nur eine einzige Aktion aus, die durch einen Text und/oder ein Icon repräsentiert wird (auch hier lassen sich viele Diskussionen im Bereich der MCI darüber finden, in welcher Form die Aktion am besten kommuniziert werden sollte). \\
 Weiterhin haben sie einen Hintergrund der sich, häufig durch die Farbgebung, vom Hintergrund der Anwendung unterscheidet und reagieren auf verschiedene Arten von Interaktion, wie \textit{hover} oder Betätigung.
 In manchen Betriebssystemen (z.B. den neuere Versionen von iOS) können Buttons auch als reiner Text auftreten. Der Hintergrund ist dann nicht mehr sichtbar, jedoch bleibt die Click-Area in ihrer Größe unverändert. Weiterhin gibt es Versionen, bei denen der Hintergrund transparent ist und die Abgrenzungen des Buttons mit einem Rahmen markiert werden.
-Es bietet sich an, Buttons (und auch andere Elemente) mit der Akzentfarbe zu kennzeichnen, um sie aus der Gestaltung heraus stechen zu lassen.
+Es bietet sich an, Buttons (und auch andere Elemente) mit der Akzentfarbe zu kennzeichnen, um sie aus der Gestaltung herausstechen zu lassen.
 
 \subsubsection{Web}
-Im Web können Buttons verschieden definiert werden. Zum Einen gibt es ein explizites \textit{<button>} Element, das einen Button im eigentlichen Sinne darstellt und beispielsweise zum absenden eines Formulars verwendet wird (\textit{<input style=“submit”>} ist eine andere, aber ähnliche Variante). Diese Elemente werden von allen modernen Browsern bereits ohne manuelles Eingreifen wie Buttons gestaltet. Die Gestaltung ist dabei eher neutral und hängt vom verwendeten Betriebssystem und Browser ab, kann aber ohne Probleme angepasst werden. \\
-Zum anderen werden \textit{anchor tags} häufig visuell wie Buttons gestaltet.
+Im Web können Buttons verschieden definiert werden. Zum Einen gibt es ein explizites \textit{<button>} Element, das einen Button im eigentlichen Sinne darstellt und beispielsweise zum Absenden eines Formulars verwendet wird (\textit{<input style=“submit”>} ist eine andere, aber ähnliche Variante). Diese Elemente werden von allen modernen Browsern bereits ohne manuelles Eingreifen wie Buttons gestaltet. Die Gestaltung ist dabei eher neutral und hängt vom verwendeten Betriebssystem und Browser ab, kann aber ohne Probleme angepasst werden. \\
+Zum Anderen werden \textit{anchor tags} häufig visuell wie Buttons gestaltet.
 
-Das Tool kann dem Nutzer an dieser Stelle einige Möglichkeiten bieten, einen Button zu erstellen und ihn warnen, sollte der Button beispielsweise zu klein sein. Dabei sollte auf die bereits bekannten Parameter wie z. B. die zuvor gewählte Farbe zurück gegriffen werden. Außerdem sollten dem Nutzer, je nach Wahl des HTML-Elementes, auch der zugehörige CSS-Code zugänglich gemacht werden.
+Das Tool kann dem Nutzer an dieser Stelle einige Möglichkeiten bieten, einen Button zu erstellen und ihn warnen, sollte der Button beispielsweise zu klein sein. Dabei sollte auf die bereits bekannten Parameter wie z. B. die zuvor gewählte Farbe zurückgegriffen werden. Außerdem sollten dem Nutzer, je nach Wahl des HTML-Elementes, auch der zugehörige CSS-Code zugänglich gemacht werden.
 
 
 \subsubsection{Android}
@@ -69,7 +69,7 @@ Da die Buttons in ihrer Benutzbarkeit bereits sehr durchdacht sind, sollen diese
 \textbf{Floating Action Button} \\
 Pro Screen gibt es maximal einen Floating Action Button, er repräsentiert die auf dem Screen am häufigsten verwendete Aktion. Floating Action Buttons sollten nur \textit{positive} Aktionen repräsentieren, zum Beispiel das Hinzufügen eines Elementes zu einer Liste.
 Der Button ist $56dp \times 56dp$ groß, rund, und mit einem Icon (in der Größe $24dp \times 24dp$) beschriftet. Er hat einen Schlagschatten (daher auch \textit{Floating}). Als Farbe bietet sich die gewählte Akzentfarbe an. Bei einer Interaktion wird er dunkler und sein Schatten entfernt sich ein Stück nach unten (er schwebt nach der Metapher also höher).
-Mit den vom User zuvor ausgewählten Farben können der Normale und der Gedrückte Zustand des Buttons sehr simpel dargestellt werden. Abbildung \ref{fig:fab-colors} auf Seite \pageref{fig:fab-colors} zeigt die Färbung am Beispiel der Akzentfarbe Pink (A200) auf. Im gepressten Zustand würde der Button entsprechend in einer dunkleren Abstufung (A400) gefärbt.
+Mit den vom User zuvor ausgewählten Farben können der normale und der gedrückte Zustand des Buttons sehr simpel dargestellt werden. Abbildung \ref{fig:fab-colors} auf Seite \pageref{fig:fab-colors} zeigt die Färbung am Beispiel der Akzentfarbe Pink (A200) auf. Im gepressten Zustand würde der Button entsprechend in einer dunkleren Abstufung (A400) gefärbt.
 
 \begin{figure}[h]
     \centering
@@ -111,18 +111,18 @@ Alternativ kann statt dem Platzhaltertext auch ein Label außerhalb des Input Fi
 <input name="firstname" id="firstname" type="text"></input>
 \end{lstlisting}
 
-Interagiert der User mit dem Text Inout, wird ein blinkender Cursor im Inneren platziert und der Rand des Elements färbt sich blau.  Ähnlich wie auch Buttons hängt die Darstellung der Input Fields vom Browser und Betriebssystem ab, das Element lässt sich jedoch beliebig anpassen. So könnte zum Beispiel die Akzentfarbe im Focus State genutzt werden, jedoch ist auch das Standardverhalten benutzbar. Das Tool sollte dem Nutzer hier, ähnlich wie bei den Buttons, die Möglichkeit geben, Input-Fields zu gestalten und ihn warnen, solle beispielsweise das Touch-Traget zu klein sein.
+Interagiert der User mit dem Text Input, wird ein blinkender Cursor im Inneren platziert und der Rand des Elements färbt sich blau.  Ähnlich wie auch Buttons hängt die Darstellung der Input Fields vom Browser und Betriebssystem ab, das Element lässt sich jedoch beliebig anpassen. So könnte zum Beispiel die Akzentfarbe im Focus State genutzt werden, jedoch ist auch das Standardverhalten benutzbar. Das Tool sollte dem Nutzer hier, ähnlich wie bei den Buttons, die Möglichkeit geben, Input Fields zu gestalten und ihn warnen, solle beispielsweise das Touch Traget zu klein sein.
 
 \subsubsection{Android \& iOS}
 Unter Android sind die Input Fields abstrakter und bestehen nur aus einem Label und einer Grundlinie. Bei Aktivierung floatet das Label nach oben, wird kleiner und der Divider färbt sich. Dieses Verhalten ist im Android SDK eingebunden, es muss lediglich die Farbe angepasst werden.
 Für die Färbung würde sich auch hier die zuvor gewählte Akzentfarbe anbieten, es muss jedoch getestet werden, ob das Text Input mit der gewählten Akzentfarbe funktioniert, wenn der Hintergrund in der Hauptfarbe gefärbt ist.
 
-Unter iOS ist wenig für die visuelle Gestaltung spezifiziert, aber auch hier bestehen die Text Inputs aus einem Label und einem Divider. Die Text Inouts passen sich visuell nicht an die Akzentfarbe an und können aus Xcode übernommen werden.
+Unter iOS ist wenig für die visuelle Gestaltung spezifiziert, aber auch hier bestehen die Text Inputs aus einem Label und einem Divider. Die Text Inputs passen sich visuell nicht an die Akzentfarbe an und können aus Xcode übernommen werden.
 
 Das Tool kann dem Nutzer an dieser Stelle nicht viel Interaktivität bieten, es sollte ab dieser Stelle auf die entsprechenden Guidelines verweisen.
 
 \subsection{Select \& Radio Buttons}
-Select und Radio Buttons unterscheiden sich sowohl in ihrem Aussehen, als auch in ihrer Funktionsweise. Radio Buttons werden genutzt um genau eine, Select oder Checkboxes um beliebig viele aus  aus einer Menge von Optionen zu wählen. Radio Buttons sind auf allen Plattformen rund, Checkboxes eckig und werden mit einem Haken gefüllt, wenn sie aktiviert sind. Auf allen Plattformen gibt es vorgefertigte Lösungen, mit denen gearbeitet werden kann. Gerade im Web gestaltet es sich schwierig, das Standardverhalten zu überschreiben und trotzdem eine gute Funktionalität auf allen Endgeräten sicher zu stellen, daher sollte sich das Tool für eine Verwendung des Standardverhaltens aussprechen.
+Select und Radio Buttons unterscheiden sich sowohl in ihrem Aussehen, als auch in ihrer Funktionsweise. Radio Buttons werden genutzt, um genau eine, Select oder Checkboxes, um beliebig viele aus aus einer Menge von Optionen zu wählen. Radio Buttons sind auf allen Plattformen rund, Checkboxes eckig und werden mit einem Haken gefüllt, wenn sie aktiviert sind. Auf allen Plattformen gibt es vorgefertigte Lösungen, mit denen gearbeitet werden kann. Gerade im Web gestaltet es sich schwierig, das Standardverhalten zu überschreiben und trotzdem eine gute Funktionalität auf allen Endgeräten sicher zu stellen, daher sollte sich das Tool für eine Verwendung des Standardverhaltens aussprechen.
 
 \subsection{Links}
 Links kommen vor allem im Web vor und verweisen auf eine andere Seite.

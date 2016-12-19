@@ -62,5 +62,5 @@
 \contentsline {subsection}{\numberline {8.2.3}Select \& Radio Buttons}{47}{subsection.157}
 \contentsline {subsection}{\numberline {8.2.4}Links}{48}{subsection.158}
 \contentsline {chapter}{\numberline {9}Fazit}{49}{chapter.159}
-\contentsline {chapter}{Erkl\IeC {\"a}rung \IeC {\"u}ber die Selbst\IeC {\"a}ndige Abfassung der Arbeit}{53}{dummy.161}
+\contentsline {chapter}{Erkl\IeC {\"a}rung \IeC {\"u}ber die selbst\IeC {\"a}ndige Abfassung der Arbeit}{53}{dummy.161}
 \vspace {1em}
