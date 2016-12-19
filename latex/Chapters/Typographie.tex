@@ -84,7 +84,15 @@ Zum Einen ist 22.68px eine Gleitkommazahl und somit als Schriftgröße nicht seh
 Zum Anderen ist mit dieser Methode zwar die Größe für eine Überschrift gefunden, häufig bestehen Texte jedoch aus mehreren Überschriften verschiedener Ordnung.
 
 \subsubsection{Typographic Scale}
-Die \textit{Typographic Scale} rührt aus den frühen Zeiten des Buchdruckes, als Texte noch aus einzelnen Buchstaben zusammen gesetzt wurden. Die Auswahl an Schriftgrößen war zu dieser Zeit aus rein technischen Gründen sehr limitiert, die Skala wird aber auch heute noch in vielen Programmen verwendet.
+Die \textit{Typographic Scale} rührt aus den frühen Zeiten des Buchdruckes, als Texte noch aus einzelnen Buchstaben zusammen gesetzt wurden. Die Auswahl an Schriftgrößen war zu dieser Zeit aus rein technischen Gründen sehr limitiert, die Skala wird aber auch heute noch in vielen Programmen verwendet. Eine Version der Typographic Scale nach \cite{Bringhurst201301} kann Abb. \ref{fig:typScale} auf Seite \pageref{fig:typScale} entnommen werden.
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{images/typographic-scale.png}
+    \caption{Die Typographic Scale nach \cite{Bringhurst201301}}
+    \label{fig:typScale}
+\end{figure}
 
 Die Typographic Scale könnte im ersten Schritt genutzt werden, um die mit dem goldenen Schnitt errechnete Zahl an einen Wert aus der Skala anzunähern.
 Die im obigen Beispiel errechnete Größe lautet 22.68px, auf der Typographic Scale liegt sie zwischen den Werten 21 und 24. Da sie näher an der 24 liegt wird 24px als Schriftgröße für die Überschrift gewählt. Das Ergebnis ist zunächst befriedigend und kann Abb. \ref{fig:basicHeadline} auf Seite \pageref{fig:basicHeadline} entnommen werden.
@@ -152,12 +160,12 @@ Ein Absatz beschreibt einen neuen Sinnabschnitt im Text, der auch visuell erkenn
 
 Auch die Abstände der Überschriften lassen sich auf Grundlage der Zeilenhöhe berechnen. Als Grundsatz gilt dabei, dass eine Überschrift näher an dem Absatz platziert sein sollte, den sie betitelt und dass Überschriften höherer Ordnung im Vergleich zu denen niedrigerer Ordnung mehr Abstand zum Text besitzen sollten.
 
-Aufbauend auf der obigen Rechnung können für die Abstände der Überschriften Vielfache der Zeilenhöhe verwendet werden, also beispielsweise 40px, 60px und 80px. Diese Werte können nun als Ober- und Unterabstände der jeweiligen Überschriften verwendet werden.
+Aufbauend auf der obigen Rechnung können für die Abstände der Überschriften Vielfache der Zeilenhöhe verwendet werden, also beispielsweise 40px, 60px und 80px. Diese Werte können nun als Ober- und Unterabstände der jeweiligen Überschriften verwendet werden, ähnlich wie \cite{charchar2008scale} dies in seinem Artikel schildert.
 
 \begin{itemize}
-	\item H1: 24px, Top 50px, Bottom 30px (Zeilenhöhe * 4)
-	\item H2: 21px, Top 40px, Bottom 20px (Zeilenhöhe * 3)
-	\item H3: 18px Bold, Top 30px, Bottom 10px (Zeilenhöhe * 2)
+	\item H1: 24px, Top 50px (250\% Zeilenhöhe), Bottom 30px (150\% Zeilenhöhe)
+	\item H2: 21px, Top 40px (200\% Zeilenhöhe), Bottom 20px (100\% Zeilenhöhe)
+	\item H3: 18px Bold, Top 30px (150\% Zeilenhöhe), Bottom 10px (50\% Zeilenhöhe)
 \end{itemize}
 
 An dieser Stelle ist erwähnenswert, dass der Großteil aller Programme diese Abstände auch automatisch setzen, wenn die entsprechenden Elemente auch korrekt ausgezeichnet werden. In der Fehleranalyse wurde jedoch deutlich, dass diese korrekte Auszeichnung häufig versäumt wird.

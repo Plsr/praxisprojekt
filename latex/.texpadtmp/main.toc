@@ -20,47 +20,47 @@
 \contentsline {subsection}{\numberline {3.3.1}\IeC {\"U}berschriften}{10}{subsection.20}
 \contentsline {subsubsection}{\numberline {3.3.1.1}Der goldene Schnitt}{11}{subsubsection.21}
 \contentsline {subsubsection}{\numberline {3.3.1.2}Typographic Scale}{11}{subsubsection.22}
-\contentsline {section}{\numberline {3.4}Abst\IeC {\"a}nde im Text}{14}{section.27}
-\contentsline {subsection}{\numberline {3.4.1}Zeilenh\IeC {\"o}he und -l\IeC {\"a}nge}{14}{subsection.28}
-\contentsline {subsection}{\numberline {3.4.2}Abs\IeC {\"a}tze und \IeC {\"U}berschriften}{15}{subsection.29}
-\contentsline {section}{\numberline {3.5}Kontrast}{15}{section.30}
-\contentsline {section}{\numberline {3.6}Proof of Concept}{17}{section.78}
-\contentsline {chapter}{\numberline {4}Layout und Struktur}{20}{chapter.101}
-\contentsline {section}{\numberline {4.1}Grid Systems im Web}{20}{section.102}
-\contentsline {subsection}{\numberline {4.1.1}Abbildung im Tool}{21}{subsection.103}
-\contentsline {section}{\numberline {4.2}Grid Systems auf nativen Plattformen}{22}{section.104}
-\contentsline {section}{\numberline {4.3}Grid Systems in einfachen Texten}{23}{section.106}
-\contentsline {subsection}{\numberline {4.3.1}Berechnung}{23}{subsection.107}
-\contentsline {subsection}{\numberline {4.3.2}Abbildung im Tool}{24}{subsection.110}
-\contentsline {chapter}{\numberline {5}Whitespace}{26}{chapter.111}
-\contentsline {section}{\numberline {5.1}Was ist Whitespace?}{26}{section.112}
-\contentsline {chapter}{\numberline {6}Farben}{28}{chapter.113}
-\contentsline {section}{\numberline {6.1}Farbwirkung}{28}{section.114}
-\contentsline {section}{\numberline {6.2}Beliebtheit von Farben}{29}{section.115}
-\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{29}{section.116}
-\contentsline {section}{\numberline {6.4}Kontraste und Farbschemata}{30}{section.117}
-\contentsline {subsection}{\numberline {6.4.1}Bestehende L\IeC {\"o}sungen zur Farbfindung}{31}{subsection.118}
-\contentsline {section}{\numberline {6.5}Einsatz von Farben}{32}{section.119}
-\contentsline {section}{\numberline {6.6}Farbfindung}{33}{section.120}
-\contentsline {subsection}{\numberline {6.6.1}Finden einer Grundfarbe}{33}{subsection.121}
-\contentsline {subsection}{\numberline {6.6.2}Finden einer Akzentfarbe}{35}{subsection.123}
-\contentsline {subsection}{\numberline {6.6.3}Komplettieren der Farbpalette}{35}{subsection.125}
-\contentsline {section}{\numberline {6.7}Android \& iOS}{37}{section.126}
-\contentsline {chapter}{\numberline {7}Bilder}{38}{chapter.127}
-\contentsline {section}{\numberline {7.1}Strecken \& Stauchen}{38}{section.128}
-\contentsline {section}{\numberline {7.2}Verpixelte Bilder}{40}{section.137}
-\contentsline {chapter}{\numberline {8}Interaktive Elemente}{42}{chapter.138}
-\contentsline {section}{\numberline {8.1}Generell zu beachten}{42}{section.139}
-\contentsline {section}{\numberline {8.2}Elemente}{43}{section.140}
-\contentsline {subsection}{\numberline {8.2.1}Buttons}{43}{subsection.141}
-\contentsline {subsubsection}{\numberline {8.2.1.1}Web}{44}{subsubsection.142}
-\contentsline {subsubsection}{\numberline {8.2.1.2}Android}{44}{subsubsection.143}
-\contentsline {subsubsection}{\numberline {8.2.1.3}iOS}{46}{subsubsection.148}
-\contentsline {subsection}{\numberline {8.2.2}Input Fields}{46}{subsection.149}
-\contentsline {subsubsection}{\numberline {8.2.2.1}Web}{46}{subsubsection.150}
-\contentsline {subsubsection}{\numberline {8.2.2.2}Android \& iOS}{47}{subsubsection.156}
-\contentsline {subsection}{\numberline {8.2.3}Select \& Radio Buttons}{47}{subsection.157}
-\contentsline {subsection}{\numberline {8.2.4}Links}{48}{subsection.158}
-\contentsline {chapter}{\numberline {9}Fazit}{49}{chapter.159}
-\contentsline {chapter}{Erkl\IeC {\"a}rung \IeC {\"u}ber die selbst\IeC {\"a}ndige Abfassung der Arbeit}{53}{dummy.161}
+\contentsline {section}{\numberline {3.4}Abst\IeC {\"a}nde im Text}{14}{section.28}
+\contentsline {subsection}{\numberline {3.4.1}Zeilenh\IeC {\"o}he und -l\IeC {\"a}nge}{15}{subsection.29}
+\contentsline {subsection}{\numberline {3.4.2}Abs\IeC {\"a}tze und \IeC {\"U}berschriften}{15}{subsection.30}
+\contentsline {section}{\numberline {3.5}Kontrast}{16}{section.31}
+\contentsline {section}{\numberline {3.6}Proof of Concept}{17}{section.79}
+\contentsline {chapter}{\numberline {4}Layout und Struktur}{20}{chapter.102}
+\contentsline {section}{\numberline {4.1}Grid Systems im Web}{20}{section.103}
+\contentsline {subsection}{\numberline {4.1.1}Abbildung im Tool}{21}{subsection.104}
+\contentsline {section}{\numberline {4.2}Grid Systems auf nativen Plattformen}{22}{section.105}
+\contentsline {section}{\numberline {4.3}Grid Systems in einfachen Texten}{23}{section.107}
+\contentsline {subsection}{\numberline {4.3.1}Berechnung}{23}{subsection.108}
+\contentsline {subsection}{\numberline {4.3.2}Abbildung im Tool}{24}{subsection.111}
+\contentsline {chapter}{\numberline {5}Whitespace}{26}{chapter.112}
+\contentsline {section}{\numberline {5.1}Was ist Whitespace?}{26}{section.113}
+\contentsline {chapter}{\numberline {6}Farben}{28}{chapter.114}
+\contentsline {section}{\numberline {6.1}Farbwirkung}{28}{section.115}
+\contentsline {section}{\numberline {6.2}Beliebtheit von Farben}{29}{section.116}
+\contentsline {section}{\numberline {6.3}Psychologische Wirkung von Farben}{29}{section.117}
+\contentsline {section}{\numberline {6.4}Kontraste und Farbschemata}{30}{section.118}
+\contentsline {subsection}{\numberline {6.4.1}Bestehende L\IeC {\"o}sungen zur Farbfindung}{31}{subsection.119}
+\contentsline {section}{\numberline {6.5}Einsatz von Farben}{32}{section.120}
+\contentsline {section}{\numberline {6.6}Farbfindung}{33}{section.121}
+\contentsline {subsection}{\numberline {6.6.1}Finden einer Grundfarbe}{33}{subsection.122}
+\contentsline {subsection}{\numberline {6.6.2}Finden einer Akzentfarbe}{35}{subsection.124}
+\contentsline {subsection}{\numberline {6.6.3}Komplettieren der Farbpalette}{35}{subsection.126}
+\contentsline {section}{\numberline {6.7}Android \& iOS}{37}{section.127}
+\contentsline {chapter}{\numberline {7}Bilder}{38}{chapter.128}
+\contentsline {section}{\numberline {7.1}Strecken \& Stauchen}{38}{section.129}
+\contentsline {section}{\numberline {7.2}Verpixelte Bilder}{40}{section.138}
+\contentsline {chapter}{\numberline {8}Interaktive Elemente}{42}{chapter.139}
+\contentsline {section}{\numberline {8.1}Generell zu beachten}{42}{section.140}
+\contentsline {section}{\numberline {8.2}Elemente}{43}{section.141}
+\contentsline {subsection}{\numberline {8.2.1}Buttons}{43}{subsection.142}
+\contentsline {subsubsection}{\numberline {8.2.1.1}Web}{44}{subsubsection.143}
+\contentsline {subsubsection}{\numberline {8.2.1.2}Android}{44}{subsubsection.144}
+\contentsline {subsubsection}{\numberline {8.2.1.3}iOS}{46}{subsubsection.149}
+\contentsline {subsection}{\numberline {8.2.2}Input Fields}{46}{subsection.150}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Web}{46}{subsubsection.151}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Android \& iOS}{47}{subsubsection.157}
+\contentsline {subsection}{\numberline {8.2.3}Select \& Radio Buttons}{47}{subsection.158}
+\contentsline {subsection}{\numberline {8.2.4}Links}{48}{subsection.159}
+\contentsline {chapter}{\numberline {9}Fazit}{49}{chapter.160}
+\contentsline {chapter}{Erkl\IeC {\"a}rung \IeC {\"u}ber die selbst\IeC {\"a}ndige Abfassung der Arbeit}{53}{dummy.162}
 \vspace {1em}

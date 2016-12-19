@@ -1,4 +1,4 @@
-\begin{thebibliography}{33}
+\begin{thebibliography}{35}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -39,12 +39,26 @@ Michael Bernard, Marissa Fernandez, and Spring Hull.
   performance.
 \newblock \emph{Usability News}, 4\penalty0 (2), 2002.
 
+\bibitem[Bringhurst(2013)]{Bringhurst201301}
+Robert Bringhurst.
+\newblock \emph{The Elements of Typographic Style: Version 4.0: 20th
+  Anniversary Edition}.
+\newblock Hartley and Marks Publishers, 4th -20th anniversary ed. edition, 1
+  2013.
+\newblock ISBN 9780881792126.
+
 \bibitem[Campbell and Pisterman(1996)]{campbell1996fitting}
 Arnold Campbell and Susan Pisterman.
 \newblock A fitting approach to interactive service design: The importance of
   emotional needs.
 \newblock \emph{Design Management Journal (Former Series)}, 7\penalty0
   (4):\penalty0 10--14, 1996.
+
+\bibitem[Charchar(2008)]{charchar2008scale}
+Alexander Charchar.
+\newblock The typographic scale, 2008.
+\newblock URL \url{http://retinart.net/typography/typographicscale/}.
+\newblock Accessed 18.12.2016.
 
 \bibitem[Crozier(1999)]{crozier1999meanings}
 W~Ray Crozier.
